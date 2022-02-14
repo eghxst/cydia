@@ -3,12 +3,12 @@ Name: Sodapop Theme
 Version: 1.0
 Architecture: iphone-os-arm
 Description: Themed icons to match the Soda HS 17 XenHTML widget
-Maintainer: eghxstdev@gmail.com
-Author: eghxstdev@gmail.com
-Section: Theme
+Maintainer: eghxst
+Author: eghxst
+Section: Themes
 Depends: com.spark.snowboard
-Filename: debs/sodapop.deb
-Size: 676790
-MD5sum: a0b2aa4c76dfe47b337cb013545a71e7
-SHA1: 6171d460af0d08ed0fe4aae602ac3dcc446914d8
-SHA256: 72eba8452b20bb09ed4bc07bfc005950699343003115c3f82dc1ff720559efe7
+Filename: debs/SodaPop.deb
+Size:
+MD5sum:
+SHA1:
+SHA256:
