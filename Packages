@@ -23,7 +23,7 @@ Author: eghxst
 Section: XenHTML
 Depends: com.spark.snowboard
 Filename: debs/HSBottom1.deb
-Size:20528
-MD5sum:5330dd28f547cb9c99d15ff0ddc6f6fd
-SHA1:ef275a5f639887f7b77d25cf0fb93ff780a35d7c
-SHA256:7bd715a4454907c5cf3d4aa6a8bbda1b9def3109340852627fc95d6fb62ff2a9
+Size:118754
+MD5sum:78d18f8203c982400d1a3c0a3146ce4b
+SHA1:1cfb6871ee2163313fcef34bf17afd41409a7153
+SHA256:278ab69ebbc941537cc623e5654fc09965f248a145e71419ad6539e011b131fd
