@@ -12,3 +12,18 @@ Size:889638
 MD5sum:73582999f2bc6853a37db386373cd81d
 SHA1:1a969fc55c23cd60387a9b25c082e9ecf9746fce
 SHA256:a0be74ae160b8a308de91464edef1108017994889fc09f3b8d811ade5fc30eb6
+
+Package: com.ghxstdev.hsbottom1
+Name: HS Bottom 1
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Testing xenhtml
+Maintainer: eghxst
+Author: eghxst
+Section: XenHTML
+Depends: com.spark.snowboard
+Filename: debs/HSBottom1.deb
+Size:2880
+MD5sum:68f850ba089e65b21f66ce9c9e8afdea
+SHA1:40529030842ec0a7885bf4cfe80d43b856977d46
+SHA256:233daef0e0479f26d2261ba1ec591f13a6f8ab7ce97e9bccc73c649a9a8e4e29
