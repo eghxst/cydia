@@ -1,114 +1,11 @@
 <!DOCTYPE html>
 <html>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-/*
-  black: #2b2c28
-  white: #fafaff
-  red: #ff1053
-*/
-body {
-  margin: 0;
-  background-color: #2b2c28;
-  padding-bottom: 150px;
-}
-.phonewrap {
-  background-color: #2b2c28;
-  color: #fafaff;
-  font-family: 'Raleway', sans-serif;
-  width: 100%;
-  margin: auto;
-}
-.block {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-h2 {
-  font-size: 32px;
-  text-align: center;
-}
-.header {
-  width: 75%;
-  height: 500px;
-  background-color: #ff1053;
-  margin: auto;
-  background-image: url("CydiaIcon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.link-list {
-  width: 100%;
-  height: 500px;
-  padding: 20px 50px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-
-}
-.link-list a {
-  width: 75%;
-  height: 75px;
-  border-radius: 10px;
-  background-color: #53554E;
-  box-shadow: 5px 7px 10px #000;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 5px 10px;
-  box-sizing: border-box;
-  text-align: center;
-  font-size: 48px;
-  color: #ff1053;
-  text-decoration: none;
-}
-.link-list a img{
-  width: 50px;
-  height: 50px;
-  margin: 0 20px;
-}
-h3 {
-  font-size: 22px;
-  border-bottom: solid #fafaff 2px;
-  padding-bottom: 5px;
-  color: #fafaff;
-  text-align: center;
-  padding: 10px 40px;
-}
-a.emphasis {
-  color: #ff1053;
-  font-size: 32px;
-}
-
-.footer {
-  width: 100%;
-  height: 75px;
-  background-color: #fafaff;
-  box-shadow: 0 -10px 7px #000;
-  position: fixed;
-  bottom: 0;
-  font-size: 32px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.footer a {
-  color: #2b2c28;
-  text-decoration: none;
-}
-</style>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <body>
   <div class='phonewrap'>
-    <div class='block'>
-      <div class='header'></div>
+    <header>
+      <h1>eghxst's repo</h1>
       <h2>Add This Repo</h2>
       <div class='link-list'>
         <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://eghxst.github.io/cydia/"><img src='imgs/cydia.png'>Cydia</a>
@@ -116,11 +13,15 @@ a.emphasis {
         <a href="sileo://source/https://eghxst.github.io/cydia/"><img src='imgs/sileo.png'>Sileo</a>
         <a href="installer://add/repo=https://eghxst.github.io/cydia/"><img src='imgs/installer.png'>Installer</a>
       </div>
-      <h3>Add the source: <a class='emphasis'>https://eghxst.github.io/cydia/</a> to your favorite package manager.</h3>
+      <h3 id='repolink'>https://eghxst.github.io/cydia/</h3>
+    </header>
+    <div class='block'>
+      <div class='header' id='works'></div>
+      <h2>My released themes/tweaks</h2>
     </div>
     <div class='block'>
-      <div class='header'></div>
-      <h2>My Works</h2>
+
+      <h2>SodaPop Icons</h2>
     </div>
     <div class='footer'>
       <a href="">Twitch</a>
@@ -128,4 +29,11 @@ a.emphasis {
     </div>
 </div>
 </body>
+<script>
+$(function(){
+    $('#repolink').click(function(){
+        $(this).select();
+    });
+});
+</script>
 </html>
