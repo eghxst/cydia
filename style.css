@@ -3,14 +3,22 @@
   black: #2b2c28
   white: #fafaff
   red: #ff1053
+
+
+
+  darkgray: #503D3F
+  lightgray: #615756
+  white: #fafaff
+  orange: #F0544F
+  lightorange: #F25F5C
 */
 body {
   margin: 0;
-  background-color: #2b2c28;
+  background-color: #503D3F;
   padding-bottom: 150px;
 }
 .phonewrap {
-  background-color: #2b2c28;
+  background-color: #503D3F;
   color: #fafaff;
   font-family: 'Raleway', sans-serif;
   width: 100%;
@@ -22,46 +30,57 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #ff1053;
+  background-color: #615756;
   padding: 20px 10px;
   box-sizing: border-box;
   margin-bottom: 30px;
   box-shadow: 0px 10px 10px #000;
 }
 h1 {
-  font-size: 64px;
-  color: #2b2c28;
+  font-size: 120px;
+  color: #F0544F;
+  margin: 0;
+}
+h2 {
+  font-size: 48px;
+  text-align: center;
 }
 .block {
   width: 98%;
   margin: 50px auto;
-  height: 500px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   color: #fafaff;
 }
-h2 {
-  font-size: 32px;
-  text-align: center;
+.block h2 {
+  width: 100%;
+  height: 15%;
 }
+.sampleimgs img.sample {
+  width: 400px;
+}
+
+
 .header#add { background-image: url("imgs/add.png"); }
 .header#works { background-image: url("imgs/works.png"); }
 .header {
   width: 75%;
-  height: 500px;
-  background-color: #ff1053;
+  height: 700px;
+  background-color: #F0544F;
   border-radius: 30px;
   margin: auto;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: solid #F25F5C 25px;
 }
 
 .link-list {
   width: 100%;
-  height: 500px;
+  height: 700px;
   padding: 20px 50px;
   box-sizing: border-box;
   display: flex;
@@ -72,9 +91,9 @@ h2 {
 }
 .link-list a {
   width: 75%;
-  height: 75px;
+  height: 125px;
   border-radius: 10px;
-  background-color: #53554E;
+  background-color: #503D3F;
   box-shadow: 5px 7px 10px #000;
   display: flex;
   flex-wrap: wrap;
@@ -85,13 +104,15 @@ h2 {
   box-sizing: border-box;
   text-align: center;
   font-size: 48px;
-  color: #ff1053;
+  color: #F25F5C;
   text-decoration: none;
 }
 .link-list a img{
   width: 50px;
   height: 50px;
-  margin: 0 20px;
+  margin: 0 100px 0 25px;
+  border: solid #F0544F 6px;
+  border-radius: 20px;
 }
 h3 {
   font-size: 48px;
@@ -105,7 +126,7 @@ h3 {
 .footer {
   width: 100%;
   height: 75px;
-  background-color: #fafaff;
+  background-color: #615756;
   box-shadow: 0 -10px 7px #000;
   position: fixed;
   bottom: 0;
@@ -117,6 +138,6 @@ h3 {
   justify-content: space-evenly;
 }
 .footer a {
-  color: #2b2c28;
+  color: #fafaff;
   text-decoration: none;
 }
