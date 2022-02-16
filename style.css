@@ -1,81 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Raleway:wght@400;700&display=swap');
 /*
-  black: #2b2c28
+  darkgray: #031927
+  seconddarkshade: #052435
+  lightgray: #72727E
   white: #fafaff
-  red: #ff1053
+  purple: #797A9E
 
-
-
-  darkgray: #503D3F
-  lightgray: #615756
-  white: #fafaff
-  orange: #F0544F
-  lightorange: #F25F5C
+  font-family: 'Inter', sans-serif;
+font-family: 'Raleway', sans-serif;
 */
+::-webkit-scrollbar {
+  display: none;
+}
 body {
   margin: 0;
-  background-color: #503D3F;
+  background-color: #031927;
   padding-bottom: 250px;
-}
-.phonewrap {
-  background-color: #503D3F;
-  color: #fafaff;
-  font-family: 'Raleway', sans-serif;
-  width: 100%;
-  margin: auto;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 15px;
 }
 header {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #615756;
-  padding: 20px 10px;
+  padding: 20px;
   box-sizing: border-box;
-  margin-bottom: 30px;
-  box-shadow: 0px 10px 10px #000;
 }
-h1 {
-  font-size: 120px;
-  color: #F0544F;
+header h1 {
+  width: auto;
+  border-bottom: solid #797A9E 6px;
+  padding-bottom: 10px;
+  font-size: 64px;
+  font-family: 'Raleway', sans-serif;
+  color: #797A9E;
+  text-transform: uppercase;
+}
+.card-scroll {
+  overflow: auto;
+  white-space: nowrap;
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
-h2 {
-  font-size: 48px;
+.card-scroll li {
+  background: #fafaff;
+  color: #fff;
+  display: inline-block;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  width: 414px;
+  height: 896px;
+  line-height: 200px;
   text-align: center;
+  border-radius: 50px;
+  border: solid #fafaff 5px;
 }
-.block {
-  width: 98%;
-  margin: 50px auto;
-  height: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  color: #fafaff;
-}
-.block h2 {
-  width: 100%;
-  height: 15%;
-}
-.sampleimgs img.sample {
-  width: 400px;
-}
-
-
-.header#add { background-image: url("imgs/add.png"); }
-.header#works { background-image: url("imgs/works.png"); }
-.header {
-  width: 75%;
-  height: 700px;
-  background-color: #F0544F;
-  border-radius: 30px;
-  margin: auto;
+.card-scroll li#sodapopLink {
+  background-image: url('imgs/sodapop_icons.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  border: solid #F25F5C 25px;
+  background-position: bottom;
+}
+.block {
+  width: 90%;
+  margin: 20px auto;
+  box-shadow: 5px 7px 10px #000;
+  border-radius: 40px;
+  background-color: #052435;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.block h2 {
+  font-size: 64px;
+  font-family: 'Raleway', sans-serif;
+  color: #797A9E;
+  width: 100%;
+}
+.block h3 {
+  width: 100%;
+  padding-left: 75px;
+  font-size: 32px;
+  letter-spacing: 5px;
+  color: #fafaff;
 }
 
 .link-list {
@@ -90,10 +98,10 @@ h2 {
 
 }
 .link-list a {
-  width: 75%;
+  width: 95%;
   height: 125px;
-  border-radius: 10px;
-  background-color: #503D3F;
+  border-radius: 30px;
+  background-color: #031927;
   box-shadow: 5px 7px 10px #000;
   display: flex;
   flex-wrap: wrap;
@@ -104,30 +112,49 @@ h2 {
   box-sizing: border-box;
   text-align: center;
   font-size: 48px;
-  color: #F25F5C;
+  color: #797A9E;
   text-decoration: none;
+  letter-spacing: 2px;
 }
 .link-list a img{
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   margin: 0 100px 0 25px;
-  border: solid #F0544F 6px;
+  border: solid #797A9E 6px;
   border-radius: 20px;
 }
-h3 {
-  font-size: 48px;
-  border-bottom: solid #fafaff 2px;
-  padding-bottom: 5px;
-  color: #fafaff;
-  text-align: center;
-  padding: 10px 40px;
-}
 
+.works {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.imgwrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.imgwrap img {
+  width: 400px;
+  margin: 0 5px;
+  border-radius: 50px;
+}
+.desc {
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: #fafaff;
+  letter-spacing: 10px;
+}
+.works .desc {width: 100%;}
 .footer {
   width: 100%;
   height: 175px;
-  background-color: #615756;
-  box-shadow: 0 -10px 7px #000;
+  background-color: #797A9E;
+  box-shadow: 0 -15px 15px #121418;
   position: fixed;
   bottom: 0;
   font-size: 32px;

@@ -17,7 +17,7 @@ Package: com.ghxstdev.hsbottom1
 Name: HS Bottom 1
 Version: 1.0
 Architecture: iphone-os-arm
-Description: Testing xenhtml
+Description: Display information at the bottom of your homescreen
 Maintainer: eghxst
 Author: eghxst
 Section: XenHTML

@@ -3,42 +3,44 @@
 <link rel="stylesheet" href="style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <body>
-  <div class='phonewrap'>
-    <header>
-      <h1>eghxst's repo</h1>
-      <h2>Add This Repo</h2>
-      <div class='link-list'>
-        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://eghxst.github.io/cydia/"><img src='imgs/cydia.png'>Cydia</a>
-        <a href="zbra://sources/add/https://eghxst.github.io/cydia/"><img src='imgs/zebra.svg'>Zebra</a>
-        <a href="sileo://source/https://eghxst.github.io/cydia/"><img src='imgs/sileo.png'>Sileo</a>
-        <a href="installer://add/repo=https://eghxst.github.io/cydia/"><img src='imgs/installer.png'>Installer</a>
+  <header>
+    <h1>eghxst's Repo</h1>
+      <ul class='card-scroll'>
+        <a href='#sodapop'><li id='sodapopLink'>SodaPop Theme</li></a>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+      </ul>
+  </header>
+  <div class='block'>
+    <h2>Add This Repo</h2>
+    <h3 id='repolink'>https://eghxst.github.io/cydia/</h3>
+    <div class='link-list'>
+      <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://eghxst.github.io/cydia/"><img src='imgs/cydia.png'>Cydia</a>
+      <a href="zbra://sources/add/https://eghxst.github.io/cydia/"><img src='imgs/zebra.svg'>Zebra</a>
+      <a href="sileo://source/https://eghxst.github.io/cydia/"><img src='imgs/sileo.png'>Sileo</a>
+      <a href="installer://add/repo=https://eghxst.github.io/cydia/"><img src='imgs/installer.png'>Installer</a>
+    </div>
+  </div>
+  <div class='block'>
+    <h2>My Works</h2>
+    <h3>View all of my themes and widgets</h3>
+  </div>
+  <div class='works'>
+    <div id='sodapop'>
+      <p class='desc'>SodaPop - Custom Icons</p>
+      <div class='imgwrap'>
+        <img src='imgs/sodapop_sample.jpg'>
+        <img src='imgs/sodapop_icons.png'>
       </div>
-      <h3 id='repolink'>https://eghxst.github.io/cydia/</h3>
-    </header>
-    <div class='block'>
-      <div class='header' id='works'></div>
-      <h2>My released themes/tweaks</h2>
     </div>
-    <div class='block'>
-
-      <h2>SodaPop Icons</h2>
-      <div class='sampleimgs'>
-        <img class='sample' src='imgs/sodapop_sample.jpg'>
-        <img class='sample' src='imgs/sodapop_icons.png'>
-      </div>
-    </div>
-    <div class='footer'>
-      <a href="">Contact</a>
-      <a href="">Twitch</a>
-      <a href="">Reddit</a>
-    </div>
-</div>
+  </div>
+  <div class='footer'>
+    <a href="">Contact</a>
+    <a href="">Twitch</a>
+    <a href="">Reddit</a>
+  </div>
 </body>
 <script>
-$(function(){
-    $('#repolink').click(function(){
-        $(this).select();
-    });
-});
 </script>
 </html>
