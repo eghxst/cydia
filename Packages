@@ -23,7 +23,7 @@ Author: eghxst
 Section: XenHTML
 Depends: com.spark.snowboard
 Filename: debs/HSDiagonal.deb
-Size:40138
-MD5sum:a4bb8a04a78926dc4fa5eb5c931b8399
-SHA1:4a6007b89f9203fd14e97d412f20fd30901243d7
-SHA256:215bd3ef193da0104f95964c3dc7dfa105c4e55fcff1b4336c12e2f92820a219
+Size:40112
+MD5sum:50dd03b1e7d8503a32f9aadbe2042ece
+SHA1:514ee01e4647e72327f706d49461df007ba011e0
+SHA256:5fcbc0eef954324aff2daa2e40d625e4e95e7a1eb32212835b38d3c24411da65
