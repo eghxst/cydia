@@ -1,0 +1,29 @@
+Package: com.ghxstdev.sodapop
+Name: Sodapop Theme
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Themed icons to match the Soda HS 17 XenHTML widget
+Maintainer: eghxst
+Author: eghxst
+Section: Themes
+Depends: com.spark.snowboard
+Filename: debs/SodaPop.deb
+Size:889638
+MD5sum:73582999f2bc6853a37db386373cd81d
+SHA1:1a969fc55c23cd60387a9b25c082e9ecf9746fce
+SHA256:a0be74ae160b8a308de91464edef1108017994889fc09f3b8d811ade5fc30eb6
+
+Package: com.ghxstdev.HSDiagonal
+Name: HS Diagonal
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Battery, Weather, and Time on the Homescreen
+Maintainer: eghxst
+Author: eghxst
+Section: XenHTML
+Depends: com.spark.snowboard
+Filename: debs/HSDiagonal.deb
+Size:40138
+MD5sum:a4bb8a04a78926dc4fa5eb5c931b8399
+SHA1:4a6007b89f9203fd14e97d412f20fd30901243d7
+SHA256:215bd3ef193da0104f95964c3dc7dfa105c4e55fcff1b4336c12e2f92820a219
