@@ -62,8 +62,8 @@ header h1 {
   background-repeat: no-repeat;
   background-position: bottom;
 }
-.card-scroll li#sodapopLink { background-image: url('imgs/sodapop_icons.png'); }
-.card-scroll li#HSDiagonalLink { background-image: url('imgs/HSDiagonal.jpeg'); }
+.card-scroll li#sodapopLink { background-image: url('imgs/samples/sodapop_icons.png'); }
+.card-scroll li#HSDiagonalLink { background-image: url('imgs/samples/HSDiagonal.jpeg'); }
 .block {
   width: 90%;
   margin: 20px auto;

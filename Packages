@@ -4,7 +4,7 @@ Version: 1.0
 Architecture: iphone-os-arm
 Description: Repo Icons for eghxst's repo
 Maintainer: eghxst
-Author: eghxst
+Author: ghxstdev Repo
 Section: eghxstThemes
 Filename: debs/eghxstRepoIcons.deb
 Size:41292
@@ -19,7 +19,7 @@ Version: 1.0
 Architecture: iphone-os-arm
 Description: Themed icons to match the Soda HS 17 XenHTML widget
 Maintainer: eghxst
-Author: eghxst
+Author: ghxstdev Repo
 Section: eghxstThemes
 Depends: com.spark.snowboard, com.ghxstdev.eghxstrepoicons
 Filename: debs/SodaPop.deb
@@ -35,7 +35,7 @@ Version: 1.0
 Architecture: iphone-os-arm
 Description: Battery, Weather, and Time on the Homescreen
 Maintainer: eghxst
-Author: eghxst
+Author: ghxstdev Repo
 Section: eghxstXenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal.deb
@@ -51,7 +51,7 @@ Version: 1.0
 Architecture: iphone-os-arm
 Description: Battery and Date on a sidebar on the Home Screen
 Maintainer: eghxst
-Author: eghxst
+Author: ghxstdev Repo
 Section: eghxstXenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar.deb
@@ -59,4 +59,20 @@ Size:38650
 MD5sum:f26bd7d683440d7bfd125b6f6467251c
 SHA1:3c5f3da03725686df1c43f65cc42bc8e47cdfa36
 SHA256:102ae97c5adfe2cf895576d1b8b75dff87e5132cbc7a748b928824a5c6fa1576
+Icon: file:///Applications/Cydia.app/eghxstXenHTML.png
+
+Package: com.ghxstdev.hsborder
+Name: HS Border
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date and Time with an icon on the HomeScreen
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: eghxstXenHTML
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSBorder.deb
+Size:81918
+MD5sum:7cb8c906e8abfd3ef6ad615d3f3d864b
+SHA1:54a4f317935539b2532a9c96b8752a39c2c29070
+SHA256:784f80e9744090eaf481af084f212bee90c5d54cf0ef3729f53a42d6c33a040b
 Icon: file:///Applications/Cydia.app/eghxstXenHTML.png
