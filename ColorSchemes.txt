@@ -1,0 +1,77 @@
+Grayscale:
+BG - LightGray: 707070
+Accent - Offwhite: DCDCDC
+Shadow - DarkGray: 535353
+Text - White: FAFAFF
+
+Maroon:
+BG - Black: 07010a
+Accent - Pink: 8c0e33
+Shadow - DeepPurple: 170420
+Text - White: FFF
+
+Sunflower:
+BG - BrightYellow: ffea00
+Accent - LightOrange: ff8800
+Shadow - DarkOrange: ff6d00
+Text - Tan: 93896f
+
+Peach:
+BG - DarkPeach: f0a390
+Accent - PeachOrange: e76f51
+Shadow - LightPeach: f5c4b8
+Text - DarkTeal: 264653
+
+Aqua:
+BG - LightTeal: 77c1b7
+Accent - Teal: 2a9d8f
+Shadow - DeepBlue: 264653
+Text - BlueWhite: dbeeec
+
+Lavendar:
+BG - LavendarLightGray: 85859d
+Accent - Lavendar: bba0ca
+Shadow - LavendarDarkGray: 6e6e82
+Text - LavendarWhite: c3c3e6
+
+Pastel:
+BG - OffWhite: eff7f6
+Accent - LightBlue: b2f7ef
+Shadow - Peach: f7d6e0
+Text - Purple: 9381ff
+
+Forest:
+BG - OffWhite: cad2c5
+Accent - PaleGreen: 84a98c
+Shadow - DeepGreen: 2f3e46
+Text - MidGreen: 52796f
+
+Kiddie:
+BG - Blue: 82b6ff
+Accent - Pink: ff5994
+Shadow - Orange: ff9668
+Text - OffWhite: eaeaea
+
+Bubblegum:
+BG - LightPink: ffb6ee
+Accent - LightBlue: b6fcfe
+Shadow - DarkBlue: 51ddff
+Text - HotPink: e96083
+
+Midnight:
+BG - DarkBlue: 16324f
+Accent - MidBlue: 2a628f
+Shadow - BlackBlue: 13293d
+Text - White: fafaff
+
+Neon:
+BG - Black: 0c0f0a
+Accent - HotPink: ff206e
+Shadow - Teal: 41ead4
+Text - White: FFF
+
+Vaporwave:
+BG - Purple: 812d69
+Accent - LightBlue: 00ffff
+Shadow - Teal: 0098a4
+Text - White: FFF

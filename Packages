@@ -30,19 +30,19 @@ SHA256: b46170626b684970aa5c262321c73244c4d80e30b7233a00eddf66da2a2dc6dd
 Icon: file:///Applications/Cydia.app/eghxstThemes.png
 
 Package: com.ghxstdev.hsborder
-Name: HS Sidebar
+Name: HS Border Color Pack
 Version: 1.0
 Architecture: iphone-os-arm
-Description: Date and Time with an icon on the HomeScreen
+Description: Date and Time with an icon on the HomeScreen - All Color Pack
 Maintainer: eghxst
 Author: ghxstdev Repo
 Section: XenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder.deb
-Size: 81908
-MD5sum: de5b7041b325272731cfa8377d4ec6ac
-SHA1: fbf1ca2f25d55e4ff1387f6ca016adeec64ffa70
-SHA256: 2288b54870c8fd931b096a4e75f7adc6a7b621a6079d08b3cad5396903d2482a
+Size: 1069964
+MD5sum: 0f636459a596858d415c8faf042dbb74
+SHA1: 48797ccbe918df6cc68bf4e813a21f1a6bdaa6a1
+SHA256: c8489471f8cd2b1b1f9a2b9085e14c7506d4da7a3428d05cfbc8f6daf809c79b
 Icon: file:///Applications/Cydia.app/eghxstThemes.png
 
 Package: com.ghxstdev.hsdiagonal
