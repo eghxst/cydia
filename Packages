@@ -45,7 +45,6 @@ SHA1: fbf1ca2f25d55e4ff1387f6ca016adeec64ffa70
 SHA256: 2288b54870c8fd931b096a4e75f7adc6a7b621a6079d08b3cad5396903d2482a
 Icon: file:///Applications/Cydia.app/eghxstThemes.png
 
-D:\WebsitesApps\Repos\cydia>node shasums.js HSDiagonal
 Package: com.ghxstdev.hsdiagonal
 Name: HS Diagonal
 Version: 1.0
@@ -56,10 +55,10 @@ Author: ghxstdev Repo
 Section: XenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal.deb
-Size: 40120
-MD5sum: 2b0a282fae68b74492b8639c8a85f008
-SHA1: 74ea33d945e7e38e6ad5d00727225a87e3f460b3
-SHA256: bd46ffa8201c63bb8081f49263b7a8e2cf7e7d4663c6c2d4db0a57cf5744963d
+Size: 40136
+MD5sum: 012c2e1177c231bcc018b478975af998
+SHA1: fc57bb336949c749fc8b7791f51efe83badc7f4c
+SHA256: fa108488f6d79ba3a50bced5afea2eb8658228ee67b4e2b751b992f9467d8142
 Icon: file:///Applications/Cydia.app/eghxstThemes.png
 
 Package: com.ghxstdev.hssidebar
