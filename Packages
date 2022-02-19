@@ -1,0 +1,62 @@
+Package: com.ghxstdev.eghxstrepoicons
+Name: eghxst Repo Icons
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Repo Icons for eghxst's repo
+Maintainer: eghxst
+Author: eghxst
+Section: eghxstThemes
+Filename: debs/eghxstRepoIcons.deb
+Size:41292
+MD5sum:90043ad12a963ec88845b72f7d9a93ba
+SHA1:fa603c0e4f8619fcca372cc53913a73f910553a6
+SHA256:e0c2480b646e40fc0b51430273e0940c69ca8c8eb4b34bcd2e08d2dd9dfaa3be
+Icon:file:///Applications/Cydia.app/eghxstThemes.png
+
+Package: com.ghxstdev.sodapop
+Name: Sodapop Theme
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Themed icons to match the Soda HS 17 XenHTML widget
+Maintainer: eghxst
+Author: eghxst
+Section: eghxstThemes
+Depends: com.spark.snowboard, com.ghxstdev.eghxstrepoicons
+Filename: debs/SodaPop.deb
+Size:889638
+MD5sum:73582999f2bc6853a37db386373cd81d
+SHA1:1a969fc55c23cd60387a9b25c082e9ecf9746fce
+SHA256:a0be74ae160b8a308de91464edef1108017994889fc09f3b8d811ade5fc30eb6
+Icon:file:///Applications/Cydia.app/eghxstThemes.png
+
+Package: com.ghxstdev.hsdiagonal
+Name: HS Diagonal
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Battery, Weather, and Time on the Homescreen
+Maintainer: eghxst
+Author: eghxst
+Section: eghxstXenHTML
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSDiagonal.deb
+Size:40066
+MD5sum:c9ee94f0bbc54c92947c1bd71be77451
+SHA1:2db6c77d1e1dcb3bfe322c369984d68b46289c07
+SHA256:d32ee49955637d6dbbf95ee8081056c05ed236042d71c5f3a972eaa978b1d82d
+Icon:file:///Applications/Cydia.app/eghxstXenHTML.png
+
+Package: com.ghxstdev.hssidebar
+Name: HS Sidebar
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Battery and Date on a sidebar on the Home Screen
+Maintainer: eghxst
+Author: eghxst
+Section: eghxstXenHTML
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSSidebar.deb
+Size:38650
+MD5sum:f26bd7d683440d7bfd125b6f6467251c
+SHA1:3c5f3da03725686df1c43f65cc42bc8e47cdfa36
+SHA256:102ae97c5adfe2cf895576d1b8b75dff87e5132cbc7a748b928824a5c6fa1576
+Icon: file:///Applications/Cydia.app/eghxstXenHTML.png
