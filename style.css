@@ -64,8 +64,8 @@ header h1 {
 }
 .card-scroll li#sodapopLink { background-image: url('imgs/samples/sodapop_icons.png'); }
 .card-scroll li#HSDiagonalLink { background-image: url('imgs/samples/HSDiagonal.jpeg'); }
-.card-scroll li#HSSidebarLink { background-image: url('imgs/samples/HSDiagonal.jpeg'); }
-.card-scroll li#HSBorderLink { background-image: url('imgs/samples/HSDiagonal.jpeg'); }
+.card-scroll li#HSSidebarLink { background-image: url('imgs/samples/HSSidebar.jpeg'); }
+.card-scroll li#HSBorderLink { background-image: url('imgs/samples/HSBorder.jpeg'); }
 .block {
   width: 90%;
   margin: 20px auto;
@@ -89,7 +89,21 @@ header h1 {
   letter-spacing: 2px;
   color: #fafaff;
 }
-
+.block p {
+  letter-spacing: 1px;
+  color: #fafaff;
+}
+.block p a {
+  text-decoration: none;
+  color: #797A9E;
+  text-transform: uppercase;
+  border-bottom: solid white 2px;
+}
+.small {
+  font-size: 12px;
+  margin: 0;
+  padding-left: 20px;
+}
 .link-list {
   width: 100%;
   height: 400px;
@@ -133,6 +147,17 @@ header h1 {
   display: flex;
   flex-direction: column;
 
+}
+.works .small {
+  color: white;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+.works .small a {
+  text-decoration: none;
+  border-bottom: solid white 2px;
+  font-size: 14px;
+  color: white;
 }
 .imgwrap {
   width: 100%;
