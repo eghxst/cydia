@@ -57,12 +57,13 @@ header h1 {
   border-radius: 20px;
   border: solid #fafaff 3px;
 }
-.card-scroll li#sodapopLink {
-  background-image: url('imgs/sodapop_icons.png');
+.card-scroll li {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
 }
+.card-scroll li#sodapopLink { background-image: url('imgs/sodapop_icons.png'); }
+.card-scroll li#HSDiagonalLink { background-image: url('imgs/HSDiagonal.jpeg'); }
 .block {
   width: 90%;
   margin: 20px auto;
