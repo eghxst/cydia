@@ -7,28 +7,45 @@ Maintainer: eghxst
 Author: ghxstdev Repo
 Section: eghxstThemes
 Filename: debs/eghxstRepoIcons.deb
-Size:41292
-MD5sum:90043ad12a963ec88845b72f7d9a93ba
-SHA1:fa603c0e4f8619fcca372cc53913a73f910553a6
-SHA256:e0c2480b646e40fc0b51430273e0940c69ca8c8eb4b34bcd2e08d2dd9dfaa3be
-Icon:file:///Applications/Cydia.app/eghxstThemes.png
+Size: 41286
+MD5sum: 26140f521bb5222392908028c4804e8d
+SHA1: 93d04f02369a99f8f78e2fcab0073ba3f4a0e0bb
+SHA256: f6a356a5afbd2818bf6728098b6c9a9cfacffb851db41e86be04ca5248f8b083
+Icon: file:///Applications/Cydia.app/eghxstThemes.png
 
 Package: com.ghxstdev.sodapop
-Name: Sodapop Theme
+Name: Soda Pop
 Version: 1.0
 Architecture: iphone-os-arm
 Description: Themed icons to match the Soda HS 17 XenHTML widget
 Maintainer: eghxst
 Author: ghxstdev Repo
 Section: eghxstThemes
-Depends: com.spark.snowboard, com.ghxstdev.eghxstrepoicons
+Depends: com.anemonetheming.anemone | com.spark.snowboard, com.ghxstdev.eghxstrepoicons
 Filename: debs/SodaPop.deb
-Size:889638
-MD5sum:73582999f2bc6853a37db386373cd81d
-SHA1:1a969fc55c23cd60387a9b25c082e9ecf9746fce
-SHA256:a0be74ae160b8a308de91464edef1108017994889fc09f3b8d811ade5fc30eb6
-Icon:file:///Applications/Cydia.app/eghxstThemes.png
+Size: 889640
+MD5sum: f1c7b63f8fbf81c3edec1624fc4c79ee
+SHA1: 2697f1789d2f82dcc15b4a9df982eb5dcbe22688
+SHA256: b46170626b684970aa5c262321c73244c4d80e30b7233a00eddf66da2a2dc6dd
+Icon: file:///Applications/Cydia.app/eghxstThemes.png
 
+Package: com.ghxstdev.hsborder
+Name: HS Sidebar
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date and Time with an icon on the HomeScreen
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: XenHTML
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSBorder.deb
+Size: 81908
+MD5sum: de5b7041b325272731cfa8377d4ec6ac
+SHA1: fbf1ca2f25d55e4ff1387f6ca016adeec64ffa70
+SHA256: 2288b54870c8fd931b096a4e75f7adc6a7b621a6079d08b3cad5396903d2482a
+Icon: file:///Applications/Cydia.app/eghxstThemes.png
+
+D:\WebsitesApps\Repos\cydia>node shasums.js HSDiagonal
 Package: com.ghxstdev.hsdiagonal
 Name: HS Diagonal
 Version: 1.0
@@ -36,14 +53,14 @@ Architecture: iphone-os-arm
 Description: Battery, Weather, and Time on the Homescreen
 Maintainer: eghxst
 Author: ghxstdev Repo
-Section: eghxstXenHTML
+Section: XenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal.deb
-Size:40066
-MD5sum:c9ee94f0bbc54c92947c1bd71be77451
-SHA1:2db6c77d1e1dcb3bfe322c369984d68b46289c07
-SHA256:d32ee49955637d6dbbf95ee8081056c05ed236042d71c5f3a972eaa978b1d82d
-Icon:file:///Applications/Cydia.app/eghxstXenHTML.png
+Size: 40120
+MD5sum: 2b0a282fae68b74492b8639c8a85f008
+SHA1: 74ea33d945e7e38e6ad5d00727225a87e3f460b3
+SHA256: bd46ffa8201c63bb8081f49263b7a8e2cf7e7d4663c6c2d4db0a57cf5744963d
+Icon: file:///Applications/Cydia.app/eghxstThemes.png
 
 Package: com.ghxstdev.hssidebar
 Name: HS Sidebar
@@ -52,27 +69,11 @@ Architecture: iphone-os-arm
 Description: Battery and Date on a sidebar on the Home Screen
 Maintainer: eghxst
 Author: ghxstdev Repo
-Section: eghxstXenHTML
+Section: XenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar.deb
-Size:38650
-MD5sum:f26bd7d683440d7bfd125b6f6467251c
-SHA1:3c5f3da03725686df1c43f65cc42bc8e47cdfa36
-SHA256:102ae97c5adfe2cf895576d1b8b75dff87e5132cbc7a748b928824a5c6fa1576
-Icon: file:///Applications/Cydia.app/eghxstXenHTML.png
-
-Package: com.ghxstdev.hsborder
-Name: HS Border
-Version: 1.0
-Architecture: iphone-os-arm
-Description: Date and Time with an icon on the HomeScreen
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: eghxstXenHTML
-Depends: com.ghxstdev.eghxstrepoicons
-Filename: debs/HSBorder.deb
-Size:81918
-MD5sum:7cb8c906e8abfd3ef6ad615d3f3d864b
-SHA1:54a4f317935539b2532a9c96b8752a39c2c29070
-SHA256:784f80e9744090eaf481af084f212bee90c5d54cf0ef3729f53a42d6c33a040b
-Icon: file:///Applications/Cydia.app/eghxstXenHTML.png
+Size: 38642
+MD5sum: 492e7a06a238282730ed3e60de8f5eb6
+SHA1: 467846186b69a08fcb135f91b16b461e746db433
+SHA256: 5c43b5a307460010fc6e8fefce423dd5eef5a8ccc92d51f2ffb786fb0879d5e4
+Icon: file:///Applications/Cydia.app/eghxstThemes.png
