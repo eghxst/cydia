@@ -11,7 +11,7 @@ Size: 41286
 MD5sum: 26140f521bb5222392908028c4804e8d
 SHA1: 93d04f02369a99f8f78e2fcab0073ba3f4a0e0bb
 SHA256: f6a356a5afbd2818bf6728098b6c9a9cfacffb851db41e86be04ca5248f8b083
-Icon: file:///Applications/Cydia.app/eghxstThemes.png
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/RepoIcons.png
 
 Package: com.ghxstdev.sodapop
 Name: Soda Pop
@@ -27,7 +27,7 @@ Size: 889640
 MD5sum: f1c7b63f8fbf81c3edec1624fc4c79ee
 SHA1: 2697f1789d2f82dcc15b4a9df982eb5dcbe22688
 SHA256: b46170626b684970aa5c262321c73244c4d80e30b7233a00eddf66da2a2dc6dd
-Icon: file:///Applications/Cydia.app/eghxstThemes.png
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/SodaPop.png
 
 Package: com.ghxstdev.hsborderpack
 Name: HS Border Color Pack
@@ -43,7 +43,7 @@ Size: 1069602
 MD5sum: b0be7ca371385f60591ee759d1f053ca
 SHA1: 2380fc0c698d361d8ea9bd64c4e9694b81e22d08
 SHA256: 3aa9c227ea7655664f1afb0f9abb61395a18a1df06de9961ba3ca7b86501aea2
-Icon: file:///Applications/Cydia.app/eghxstXenHTML.png
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPack.png
 
 Package: com.ghxstdev.hsdiagonalpack
 Name: HS Diagonal Color Pack
@@ -59,7 +59,7 @@ Size: 521616
 MD5sum: 93ff7b0e7076cb0ed08e9efb1c470372
 SHA1: 0e8bff2641d92526549daea879fff1c6ea99e60b
 SHA256: 783b8d4b614764fa457bc43e6ed6fc8dd0d85881bc52bef929a49e914a4de075
-Icon: file:///Applications/Cydia.app/eghxstXenHTML.png
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPack.png
 
 Package: com.ghxstdev.hssidebarpack
 Name: HS Sidebar Color Pack
@@ -75,4 +75,4 @@ Size: 505574
 MD5sum: 4513f6b35798fedb99733acd0c5b18a3
 SHA1: 3dbdf694078eeb671af744585a58cf08db71675e
 SHA256: 5bbf2f72c588e9a2abbb074228a6d1dd50ef3a864ff57a6330f24fd95f263601
-Icon: file:///Applications/Cydia.app/eghxstXenHTML.png
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPack.png
