@@ -55,10 +55,10 @@ Author: ghxstdev Repo
 Section: eghxstXenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal.deb
-Size: 521748
-MD5sum: 986569000bfb3a031c3b6301d4221d3c
-SHA1: 54c132c236357d49948a342e414eb1fe94916684
-SHA256: b8313a0d26da78977dec31c0b2b420e85502a4b750472cf913585b3bb71682ff
+Size: 521616
+MD5sum: 93ff7b0e7076cb0ed08e9efb1c470372
+SHA1: 0e8bff2641d92526549daea879fff1c6ea99e60b
+SHA256: 783b8d4b614764fa457bc43e6ed6fc8dd0d85881bc52bef929a49e914a4de075
 Icon: file:///Applications/Cydia.app/eghxstXenHTML.png
 
 Package: com.ghxstdev.hssidebarpack
