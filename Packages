@@ -29,7 +29,7 @@ SHA1: 2697f1789d2f82dcc15b4a9df982eb5dcbe22688
 SHA256: b46170626b684970aa5c262321c73244c4d80e30b7233a00eddf66da2a2dc6dd
 Icon: file:///Applications/Cydia.app/eghxstThemes.png
 
-Package: com.ghxstdev.hsborder
+Package: com.ghxstdev.hsborderpack
 Name: HS Border Color Pack
 Version: 1.0
 Architecture: iphone-os-arm
