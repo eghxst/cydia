@@ -56,8 +56,6 @@ header h1 {
   text-align: center;
   border-radius: 20px;
   border: solid #fafaff 3px;
-}
-.card-scroll li {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;

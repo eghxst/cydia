@@ -1,0 +1,12 @@
+[
+  {"package":"com.ghxstdev.sodapop",
+    "name":"Soda Pop",
+    "description":"soda pop description goes here",
+    "screenshots":"sodapop.png sodapop2.png"
+  },
+  {"package":"com.ghxstdev.hsborderpack",
+    "name":"HS Border Full Color Pack",
+    "description":"hs border full color pack description goes here",
+    "screenshots":"hsborder.png"
+  }
+]

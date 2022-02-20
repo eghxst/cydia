@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PackageName</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript">
+
+	let bundleid = window.location.search.substr(1).split("=")[1];
+    // $( document ).ready(function() {
+		// //return;
+		// populateContentBlocks(
+		// 	(bundleid+"/info.xml"),
+		// 	contentBlocks,
+		// 	() => {
+		// 		$("#packageInformation").hide();
+		// 	},
+		// 	(xml) => {
+		// 		document.title = $(xml).find("package>name").text();
+		// 	}
+		// )
+    //
+    // }); // ready
+  </script>
+</head>
+<body>
+<h1 id='name'>pkg name</h1>
+<div class='block'>
+  <ul class='card-scroll' id='screenshots'>
+  </ul>
+</div>
+<div class='block' id='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+<div class='block'>
+  <h2>Previous Versions</h2>
+  <div id='previous'>
+    <div class='version'>
+      <p class='number'>1.0</p>
+      <p class='vdesc'>Initial Release</p>
+    </div>
+  </div>
+</div>
+<div class='block' id='links'>
+  <h2>Links</h2>
+  <a href="">Reddit</a>
+  <a href="">Twitch</a>
+  <a href="">Email</a>
+</div><div id='test'></div>
+
+</body>
+
+<script>
+function loadFile(filePath) {
+  var result = null;
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.open("GET", filePath, false);
+  xmlhttp.send();
+  if (xmlhttp.status==200) {
+    result = xmlhttp.responseText;
+  }
+  return result;
+}
+  let str = loadFile('info.txt');
+  let jsonObj = JSON.parse(str);
+  let packageData = jsonObj.filter(obj => { return obj.package === bundleid })[0]
+
+  //fill fields with package data
+  document.getElementById('name').innerHTML = packageData.name;
+  document.getElementById('desc').innerHTML = packageData.description;
+  let screenshots = packageData.screenshots.split(' ');
+  for(let i = 0; i < screenshots.length; i++) {
+    document.getElementById('screenshots').innerHTML += "<li style=\"background-image:url('screenshots/"+screenshots[i]+"')\">"+i+"</li>\n"
+  }
+
+</script>
+</html>
