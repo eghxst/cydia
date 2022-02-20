@@ -89,7 +89,7 @@ h2 {
   text-align: center;
   border-radius: 20px;
   border: solid #fafaff 3px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
 }
