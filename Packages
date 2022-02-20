@@ -7,91 +7,12 @@ Maintainer: eghxst
 Author: ghxstdev Repo
 Section: System
 Filename: debs/eghxstRepoIcons.deb
-Size: 41320
-MD5sum: 547d9848790b917a583b70426b2cbb91
-SHA1: f898f68429b23a62fe014e278b7e37ef2291f516
-SHA256: 04f0088835f8b96878ca4c0dc3ee537e27ac2e2662076f3bade30c02a56ea309
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/RepoIcons.png
-
-Package: com.ghxstdev.sodapop
-Name: Soda Pop
-Version: 1.0
-Architecture: iphone-os-arm
-Description: Themed icons to match the Soda HS 17 XenHTML widget
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: Themes
-Depends: com.anemonetheming.anemone | com.spark.snowboard, com.ghxstdev.eghxstrepoicons
-Filename: debs/SodaPop.deb
-Size: 890028
-MD5sum: 9f7bc77b5dfdcbc09ad6290b06cbb01e
-SHA1: be7b223aaf3f01f0ed680364f2297b5c78d20521
-SHA256: 6e3487783b222e5d45d1f5e05f612d4c5d9c518481620579ac633b557f6c9e84
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/SodaPop.png
-
-Package: com.ghxstdev.hsborderpack
-Name: HS Border Color Pack
-Version: 1.0
-Architecture: iphone-os-arm
-Description: Date and Time with an icon on the HomeScreen - All Color Pack
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: XenHTML
-Depends: com.ghxstdev.eghxstrepoicons
-Filename: debs/HSBorder.deb
-Size: 1069574
-MD5sum: 6020b40a58d834290af7a4a6711e3183
-SHA1: 66156847e78f52eca07fc5c3b341b109516ab206
-SHA256: 143b8e22a31eaf9bb26156cb87a094c492c8df216cfcbe207c2260b957a119d7
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPack.png
-
-Package: com.ghxstdev.hsdiagonalpack
-Name: HS Diagonal Color Pack
-Version: 1.0
-Architecture: iphone-os-arm
-Description: Battery, Weather, and Time on the Homescreen - All Color Pack
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: XenHTML
-Depends: com.ghxstdev.eghxstrepoicons
-Filename: debs/HSDiagonal.deb
-Size: 521644
-MD5sum: 9cf5800f4952ecdab547246dfb92721c
-SHA1: 139ff01b2a4080dfe92598c103f1a06b0567a97a
-SHA256: e991d0850547bb42f98905ab4c76ad78dae43016cdacf38ff16f3a850098a967
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPack.png
-
-Package: com.ghxstdev.hssidebarpack
-Name: HS Sidebar Color Pack
-Version: 1.0
-Architecture: iphone-os-arm
-Description: Battery and Date on a sidebar on the Home Screen - All Color Pack
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: XenHTML
-Depends: com.ghxstdev.eghxstrepoicons
-Filename: debs/HSSidebar.deb
-Size: 505648
-MD5sum: a65b19443669aa1bf0dfe9b7dbd2bd7b
-SHA1: 9fd9805f0872cf7c3c6431f4005f2ef7403f6cf2
-SHA256: 0175b0d063bfe8c27cb8504efec7ceb0ee7243722b9be48f9c7a66440cfc64ed
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPack.png
-
-Package: com.ghxstdev.hsborderaqua
-Name: HS Border Aqua
-Version: 1.0
-Architecture: iphone-os-arm
-Description: Date and Time with an icon on the HomeScreen - Aqua Color Scheme
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: HSBorder ColorSchemes
-Depends: com.ghxstdev.eghxstrepoicons
-Filename: debs/HSBorder-Aqua.deb
-Size: 82860
-MD5sum: ec9fc6e5d40e861a5b1a9e0c8dd795d9
-SHA1: 57344ebadb2513c0aff116aa3f3c684e3d083eeb
-SHA256: d083c36047bd988e1d310fd9c8c2479815d6559e2ee7ac8352f06eb363cdf657
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackAqua.png
+Size: 41340
+MD5sum: 94a89c15e875a2e97e0340b10ddc58fb
+SHA1: 486e8371be6432f74059f6dd95e5ecda8f3f5746
+SHA256: fea6e30917d493a5a8a0c79f7a64e78c9e4e8ce5d7344b519de3c4684cd4984d
+Icon: Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.eghxstrepoicons
+Depiction:
 
 Package: com.ghxstdev.hsborderbubblegum
 Name: HS Border Bubblegum
@@ -103,91 +24,29 @@ Author: ghxstdev Repo
 Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Bubblegum.deb
-Size: 82878
-MD5sum: c92126df0fb15576a93a957f17cab068
-SHA1: a8c4e5b82aa1491f0f25220ebb3fe22298ace000
-SHA256: 42a1dffbcd36bdc0d598e00026937646f36055670bbcd3e5ca9a151f98bf75d3
+Size: 82938
+MD5sum: 59ed5a2eca57f5fd28079456728d03ec
+SHA1: 47247d8b40e2b89d1471f3914ac1f735eb3bace7
+SHA256: 766c479d4e47559b7cb5eb56241d3ccb62e4cbf4db5bd92553665f847afe5341
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackBubblegum.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderbubblegum
 
-Package: com.ghxstdev.hsborderforest
-Name: HS Border Forest
+Package: com.ghxstdev.hsborderaqua
+Name: HS Border Aqua
 Version: 1.0
 Architecture: iphone-os-arm
-Description: Date and Time with an icon on the HomeScreen - Forest Color Scheme
+Description: Date and Time with an icon on the HomeScreen - Aqua Color Scheme
 Maintainer: eghxst
 Author: ghxstdev Repo
 Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
-Filename: debs/HSBorder-Forest.deb
-Size: 82868
-MD5sum: cf31b58ab93f64410dd7d89baf0fb10f
-SHA1: 692ce26123fe15142451777f83f808909daa069c
-SHA256: 3176087b5ad5d95ddbdb862ec4d3066428e8dea6f9c9758144a5029baf561b2b
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackForest.png
-
-Package: com.ghxstdev.hsbordergrayscale
-Name: HS Border GrayScale
-Version: 1.0
-Architecture: iphone-os-arm
-Description: Date and Time with an icon on the HomeScreen - GrayScale Color Scheme
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: HSBorder ColorSchemes
-Depends: com.ghxstdev.eghxstrepoicons
-Filename: debs/HSBorder-GrayScale.deb
-Size: 82892
-MD5sum: 4d9c58f4787bf3ff9ce2040912539868
-SHA1: b013fa55de44af54244804c623a235b318b99b59
-SHA256: 225d4dbf97cdb89c4b9a6ce6830d0294e6273cf62daa9b56c0c08cffa337651e
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackGrayScale.png
-
-Package: com.ghxstdev.hsborderkiddie
-Name: HS Border Kiddie
-Version: 1.0
-Architecture: iphone-os-arm
-Description: Date and Time with an icon on the HomeScreen - Kiddie Color Scheme
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: HSBorder ColorSchemes
-Depends: com.ghxstdev.eghxstrepoicons
-Filename: debs/HSBorder-Kiddie.deb
-Size: 82868
-MD5sum: de8e25c871d953c8f6b0788b7c3fe497
-SHA1: 1ccd39ee1680cd441a816ab010db2bc7b09f8ee3
-SHA256: 1ce6ae2bc9946b7feca5df18d6e1c0971eb51f2c3a349ec1730ea73a94457a5e
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackKiddie.png
-
-Package: com.ghxstdev.hsborderlavendar
-Name: HS Border Lavendar
-Version: 1.0
-Architecture: iphone-os-arm
-Description: Date and Time with an icon on the HomeScreen - Lavendar Color Scheme
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: HSBorder ColorSchemes
-Depends: com.ghxstdev.eghxstrepoicons
-Filename: debs/HSBorder-Lavendar.deb
-Size: 82872
-MD5sum: c9b076c483997a7c0503c5b4c366aebc
-SHA1: 05befd6e53c9ab3e9635db4d0b63ace4f4088a20
-SHA256: 81751dadf09cb28be4aa1010c6644963c2b72ea17634b26c983f4f0c12c00215
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackLavendar.png
-
-Package: com.ghxstdev.hsbordermaroon
-Name: HS Border Maroon
-Version: 1.0
-Architecture: iphone-os-arm
-Description: Date and Time with an icon on the HomeScreen - Maroon Color Scheme
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: HSBorder ColorSchemes
-Depends: com.ghxstdev.eghxstrepoicons
-Filename: debs/HSBorder-Maroon.deb
-Size: 82866
-MD5sum: 4a338be3672d5edf59fee73c93fb703a
-SHA1: e5698263366492ecfcbcdf45264fcbee3142981c
-SHA256: dad4a546914fc42504962a7e218012c2622635cbe02680a1fa0777bd2434cbab
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackMaroon.png
+Filename: debs/HSBorder-Aqua.deb
+Size: 82936
+MD5sum: fb567997e35e6b0864b468e4eaa513d2
+SHA1: 9a8f82c848430bdb83f71aad492a0eedd1db7bee
+SHA256: f6bed9cf2d7ed69c8ab71b2ac80741e0bd035537d92bbff29ea45eec5cf9d84a
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackAqua.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderaqua
 
 Package: com.ghxstdev.hsbordermidnight
 Name: HS Border Midnight
@@ -199,11 +58,46 @@ Author: ghxstdev Repo
 Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Midnight.deb
-Size: 82872
-MD5sum: eb85e4309ce2087eb08c625ade0969e1
-SHA1: d8c2996d5566da9ae83d9d1bf9022967ee073de7
-SHA256: 61f5decdf3745cad60e686b8ab69a4d85139a80adeb59c77d0b391d4c7a0eb0e
+Size: 82934
+MD5sum: 272a701d3df66905ce23340bb703e974
+SHA1: a21aaa466301f30f55817c84bb052c584a28eb32
+SHA256: fd1068e5b51a7e37c43dbdc9558b7675ab05e351f0fd814fb161f2da9eeffaad
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackMidnight.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsbordermidnight
+
+Package: com.ghxstdev.hsborderforest
+Name: HS Border Forest
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date and Time with an icon on the HomeScreen - Forest Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSBorder ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSBorder-Forest.deb
+Size: 82934
+MD5sum: ef5c91c3309c3bc3ed182a85e2472121
+SHA1: f2b07264ec549610d73b485ebb92456c28af37b3
+SHA256: 697dca62beca0b97d43ac48f57703a8ca1016b2c24a37552ef7a555257a9b15a
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackForest.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderforest
+
+Package: com.ghxstdev.hsborderkiddie
+Name: HS Border Kiddie
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date and Time with an icon on the HomeScreen - Kiddie Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSBorder ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSBorder-Kiddie.deb
+Size: 82942
+MD5sum: 0bdf8d83892f7356c2c381f992e558f8
+SHA1: 2cc55c09864efd9411478f35596285c37b7651a1
+SHA256: 718a5c17cee6720c4665c45d8d0ede602fe094f7b09cc9d28b0bacd53e9f7885
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackKiddie.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderkiddie
 
 Package: com.ghxstdev.hsborderneon
 Name: HS Border Neon
@@ -215,11 +109,46 @@ Author: ghxstdev Repo
 Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Neon.deb
-Size: 82866
-MD5sum: 48fb86dc730e8a870dc391dc82dbd3b5
-SHA1: 063ce2391c63bb3c512971136b113ec9dc56e9a1
-SHA256: f6554ab15f5678a9fc6cdd467103f8c9fc3053e1a37a28075f78c3e8f8832348
+Size: 82922
+MD5sum: 13aa3db11f84b78ebf4615855b13e3b4
+SHA1: 1f7cd972bc1d2a14829d97e710b3ffb03385e7c9
+SHA256: d97f4b6b487c89f00cee0f49f73aec267fe8636a52278b9e3b4c222f1e2113f5
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackNeon.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderneon
+
+Package: com.ghxstdev.hsbordergrayscale
+Name: HS Border GrayScale
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date and Time with an icon on the HomeScreen - GrayScale Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSBorder ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSBorder-GrayScale.deb
+Size: 82948
+MD5sum: 05d7a2288e27c0a1496f7674d1efb9a8
+SHA1: e170a9983bae9432b7443acc1349a7a945ed33ce
+SHA256: ec61762b220eced1e7d770e042a4b2cf561fa5f11c8f95b43e1c68351696be13
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackGrayScale.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsbordergrayscale
+
+Package: com.ghxstdev.hsborderlavendar
+Name: HS Border Lavendar
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date and Time with an icon on the HomeScreen - Lavendar Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSBorder ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSBorder-Lavendar.deb
+Size: 82944
+MD5sum: 949bc09d144e0fe24fe6f5c6b8081cb3
+SHA1: 6a1481069f91e80e787b67872abd95ad97af9371
+SHA256: 3bf812aafe4a441818fa9dfa4fa401c50e006684ab92e42c7149d294a44bbae9
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackLavendar.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderlavendar
 
 Package: com.ghxstdev.hsborderpastel
 Name: HS Border Pastel
@@ -231,27 +160,29 @@ Author: ghxstdev Repo
 Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Pastel.deb
-Size: 82874
-MD5sum: 440c9cca2aa7744a0c71b0f2e91cd8b7
-SHA1: dd1d496c040825fd860d8913408f0fbf30502e4d
-SHA256: 4ce313e0b8b65f54f380433221b29a3add11f278ff14caec6c0b75374a634dc4
+Size: 82934
+MD5sum: 6bf19555f1c304aa356b56200da097ae
+SHA1: 5c08637818762c390f4ab06823bc0c77cc6c3883
+SHA256: 8590279dbd34a9df862a4f1fe8364be7f84fe46d838ebc4852fa3efdc905fa95
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackPastel.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderpastel
 
-Package: com.ghxstdev.hsborderpeach
-Name: HS Border Peach
+Package: com.ghxstdev.hsbordermaroon
+Name: HS Border Maroon
 Version: 1.0
 Architecture: iphone-os-arm
-Description: Date and Time with an icon on the HomeScreen - Peach Color Scheme
+Description: Date and Time with an icon on the HomeScreen - Maroon Color Scheme
 Maintainer: eghxst
 Author: ghxstdev Repo
 Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
-Filename: debs/HSBorder-Peach.deb
-Size: 82866
-MD5sum: f18361f2a6aeb7af898a50b96b9a2e80
-SHA1: 3df07309ddd5b328a20f43f617701f5c12450dec
-SHA256: 1883fbe87ca1d0dcc4126a4a2ee1d2f89bb8a868e0a9f7c75cef68677ec3697b
-Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackPeach.png
+Filename: debs/HSBorder-Maroon.deb
+Size: 82936
+MD5sum: b94dccb042a642a0031430799c121a7a
+SHA1: 1eefd861d56e9727eda4861e1fc04efaeb0fe1e4
+SHA256: 0229c502527305d0f8e9afb03590eab6841a651d0566a453e7d2d3eea1c3a223
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackMaroon.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsbordermaroon
 
 Package: com.ghxstdev.hsbordersunflower
 Name: HS Border Sunflower
@@ -263,11 +194,29 @@ Author: ghxstdev Repo
 Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Sunflower.deb
-Size: 82882
-MD5sum: 65247edb1e9226f673f366d9bd95ec87
-SHA1: 8e9f2c6262e7a2c4cc7e9471e2de35647e4ca890
-SHA256: 3d7e01132f2722468f4ca5f70202958e3c495fbb924c0ac2757d06242ad6ea7d
+Size: 82934
+MD5sum: 6ff186542d45c6f7781b8eba0bba2059
+SHA1: f181ac8bef5c9ca39db30b75b73d653823889243
+SHA256: bec7972a2e74190ac7ba81dad419c839596fe342d8761cb6326ab0208e3592cb
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackSunflower.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsbordersunflower
+
+Package: com.ghxstdev.hsborderpeach
+Name: HS Border Peach
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date and Time with an icon on the HomeScreen - Peach Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSBorder ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSBorder-Peach.deb
+Size: 82930
+MD5sum: c732106303469f5c693747fb8c30b447
+SHA1: 8ed698f4fcd90b9efd964eb7cddfd7cc9e1aa423
+SHA256: 05111c88707f83f6c1d1c5b6eea49fdc0dfb5a3f8e8c34ef01051e5ae8f4d396
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackPeach.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderpeach
 
 Package: com.ghxstdev.hsbordervaporwave
 Name: HS Border Vaporwave
@@ -279,8 +228,77 @@ Author: ghxstdev Repo
 Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Vaporwave.deb
-Size: 82880
-MD5sum: 7477929bc8f7b9425a1b3dbffd663423
-SHA1: efd7149f1434ca5ef12e22f11271d7675a8aef04
-SHA256: bab7499362f13677188bf91e6f970f4c5ad1e50d03ad6dafc1b0829e33e12af8
+Size: 82940
+MD5sum: ad3ae9896108d57dd7721e0bbcbee414
+SHA1: 8fabffc6b8f49596cd272a0aa1beafc5b884e9bf
+SHA256: 6560fa79dc6f8c1d0ef60dec4a2385778032b7b2a4d8224004d12f5f0d3816e5
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackVaporwave.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsbordervaporwave
+
+Package: com.ghxstdev.hsborderpack
+Name: HS Border Color Pack
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date and Time with an icon on the HomeScreen - All Color Pack
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: XenHTML
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSBorder.deb
+Size: 1069968
+MD5sum: 08d6545ae89be1e301adeb82fc25d795
+SHA1: efd6c409d71334e8048ecf41305dc344bbb369d5
+SHA256: 29d0e839c9af5e8e1f2f6e25adf6e971add6acc5aea664a69d959854d8aaed2e
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPack.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderpack
+
+Package: com.ghxstdev.hsdiagonalpack
+Name: HS Diagonal Color Pack
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Battery, Weather, and Time on the Homescreen - All Color Pack
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: XenHTML
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSDiagonal.deb
+Size: 522256
+MD5sum: 9c7eb459a22683f4dc4cec7d0a42f249
+SHA1: bae5e846d0b916eafc91574b44e43f80c7e0c27f
+SHA256: 5be77d8aeb48f4800e6529d54daeaecf0b07c2ec1586a560e5b186580a2d6d27
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPack.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalpack
+
+Package: com.ghxstdev.sodapop
+Name: Soda Pop
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Themed icons to match the Soda HS 17 XenHTML widget
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: Themes
+Depends: com.anemonetheming.anemone | com.spark.snowboard, com.ghxstdev.eghxstrepoicons
+Filename: debs/SodaPop.deb
+Size: 889718
+MD5sum: 01821386c2079ec9efba2594a164c719
+SHA1: f75922ef7e664cf4ba24ed61be2bef74d766b6f7
+SHA256: 4c6fbdf368a10e1970ba0444d629e71a859185a3fbe65e7555a5705f19b66523
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/SodaPop.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.sodapop
+
+Package: com.ghxstdev.hssidebarpack
+Name: HS Sidebar Color Pack
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Battery and Date on a sidebar on the Home Screen - All Color Pack
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: XenHTML
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSSidebar.deb
+Size: 505966
+MD5sum: 51cf546ce167e6fc1ded4ebae4d68483
+SHA1: 7e27c350366ab9cd814f0dcf02f905b0baef71f9
+SHA256: 7362c53c5b911ff497780a2445991e42392eb81a9b59c2f7486a7a9923e9085c
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPack.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarpack
