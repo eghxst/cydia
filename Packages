@@ -45,20 +45,20 @@ SHA1: 48797ccbe918df6cc68bf4e813a21f1a6bdaa6a1
 SHA256: c8489471f8cd2b1b1f9a2b9085e14c7506d4da7a3428d05cfbc8f6daf809c79b
 Icon: file:///Applications/Cydia.app/eghxstThemes.png
 
-Package: com.ghxstdev.hsdiagonal
-Name: HS Diagonal
+Package: com.ghxstdev.hsdiagonalpack
+Name: HS Diagonal Color Pack
 Version: 1.0
 Architecture: iphone-os-arm
-Description: Battery, Weather, and Time on the Homescreen
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: XenHTML
-Depends: com.ghxstdev.eghxstrepoicons
+Description: Version: 1.0
+Maintainer: Description: Battery, Weather, and Time on the Homescreen - All Color Pack
+Author: Architecture: iphoneos-arm
+Section: Author: ghxstdev Repo
+Depends: Maintainer: eghxst
 Filename: debs/HSDiagonal.deb
-Size: 40136
-MD5sum: 012c2e1177c231bcc018b478975af998
-SHA1: fc57bb336949c749fc8b7791f51efe83badc7f4c
-SHA256: fa108488f6d79ba3a50bced5afea2eb8658228ee67b4e2b751b992f9467d8142
+Size: 521690
+MD5sum: 4ad5b37e39adb113f36b102eebb3bbac
+SHA1: 884611ff51cda08a02c490da34fa237be598a703
+SHA256: db9ab386e91f05f3bf3840aca562bb795988996ad8e2cb1faf3d2fd0a553d879
 Icon: file:///Applications/Cydia.app/eghxstThemes.png
 
 Package: com.ghxstdev.hssidebar
