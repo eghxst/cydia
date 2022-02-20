@@ -10,7 +10,17 @@ fs.writeFile('depictions/data.txt', getData(), error => {
     return;
   }
 });
-
+function extraDesc(package) {
+  let str = "";
+  switch(package) {
+    case "com.ghxstdev.hsborderpack":
+      str = "<br>Includes All color schemes for the HS Border XenHTML Widget.<br><br>Included in this pack is the following:<ul><li>HS Border GrayScale Color Scheme</li><li>HS Border Maroon Color Scheme</li><li>HS Border Sunflower Color Scheme</li><li>HS Border Peach Color Scheme</li><li>HS Border Aqua Color Scheme</li><li>HS Border Lavendar Color Scheme</li><li>HS Border Pastel Color Scheme</li><li>HS Border Forest Color Scheme</li><li>HS Border Forest Color Scheme</li><li>HS Border Kiddie Color Scheme</li><li>HS Border Bubblegum Color Scheme</li><li>HS Border Midnight Color Scheme</li><li>HS Border Neon Color Scheme</li><li>HS Border Vaporwave Color Scheme</li></ul>";
+      break;
+    default:
+      str = "";
+  }
+  return str;
+}
 function getData() {
   let jsonObj = [];
   for(var i = 0; i < allFiles.length; i++) {
@@ -20,6 +30,7 @@ function getData() {
     let package = getInfo(data, "Package"),
         name = getInfo(data, "Name"),
         description = getInfo(data, "Description");
+    description += extraDesc(package)
     let screenshotFiles = fs.readdirSync('depictions/screenshots/'+package);
     jsonObj.push({"name": name, "package": package, "description": description, "screenshots": screenshotFiles.join(' ')})
   }
