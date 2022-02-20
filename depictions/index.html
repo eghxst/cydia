@@ -10,20 +10,6 @@
   <script type="text/javascript">
 
 	let bundleid = window.location.search.substr(1).split("=")[1];
-    // $( document ).ready(function() {
-		// //return;
-		// populateContentBlocks(
-		// 	(bundleid+"/info.xml"),
-		// 	contentBlocks,
-		// 	() => {
-		// 		$("#packageInformation").hide();
-		// 	},
-		// 	(xml) => {
-		// 		document.title = $(xml).find("package>name").text();
-		// 	}
-		// )
-    //
-    // }); // ready
   </script>
 </head>
 <body>
@@ -62,7 +48,7 @@ function loadFile(filePath) {
   }
   return result;
 }
-  let str = loadFile('info.txt');
+  let str = loadFile('data.txt');
   let jsonObj = JSON.parse(str);
   let packageData = jsonObj.filter(obj => { return obj.package === bundleid })[0]
 
