@@ -15,11 +15,12 @@ function getData() {
   let jsonObj = [];
   for(var i = 0; i < allFiles.length; i++) {
     let filename = allFiles[i];
-    let screenshotFiles = fs.readdirSync('depictions/screenshots/'+package);
+
     let data = fs.readFileSync('../working/FinalFolders/'+filename+"/DEBIAN/control", "utf8");
     let package = getInfo(data, "Package"),
         name = getInfo(data, "Name"),
         description = getInfo(data, "Description");
+    let screenshotFiles = fs.readdirSync('depictions/screenshots/'+package);
     jsonObj.push({"name": name, "package": package, "description": description, "screenshots": screenshotFiles.join(' ')})
   }
   return JSON.stringify(jsonObj);
