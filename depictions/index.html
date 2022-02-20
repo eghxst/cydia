@@ -57,7 +57,7 @@ function loadFile(filePath) {
   document.getElementById('desc').innerHTML = packageData.description;
   let screenshots = packageData.screenshots.split(' ');
   for(let i = 0; i < screenshots.length; i++) {
-    document.getElementById('screenshots').innerHTML += "<li style=\"background-image:url('screenshots/"+screenshots[i]+"')\">"+i+"</li>\n"
+    document.getElementById('screenshots').innerHTML += "<li style=\"background-image:url('screenshots/com.ghxstdev."+bundleid+"/"+screenshots[i]+"')\">"+i+"</li>\n"
   }
 
 </script>
