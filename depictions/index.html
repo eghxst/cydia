@@ -59,6 +59,7 @@ function loadFile(filePath) {
   for(let i = 0; i < screenshots.length; i++) {
     document.getElementById('screenshots').innerHTML += "<li style=\"background-image:url('screenshots/"+bundleid+"/"+screenshots[i]+"')\">"+i+"</li>\n"
   }
+  document.title = packageData.name;
 
 </script>
 </html>
