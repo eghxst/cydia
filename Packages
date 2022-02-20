@@ -61,18 +61,18 @@ SHA1: 884611ff51cda08a02c490da34fa237be598a703
 SHA256: db9ab386e91f05f3bf3840aca562bb795988996ad8e2cb1faf3d2fd0a553d879
 Icon: file:///Applications/Cydia.app/eghxstThemes.png
 
-Package: com.ghxstdev.hssidebar
-Name: HS Sidebar
+Package: com.ghxstdev.hssidebarpack
+Name: HS Sidebar Color Pack
 Version: 1.0
 Architecture: iphone-os-arm
-Description: Battery and Date on a sidebar on the Home Screen
-Maintainer: eghxst
-Author: ghxstdev Repo
-Section: XenHTML
-Depends: com.ghxstdev.eghxstrepoicons
+Description: Version: 1.0
+Maintainer: Description: Battery and Date on a sidebar on the Home Screen - All Color Pack
+Author: Architecture: iphoneos-arm
+Section: Author: ghxstdev Repo
+Depends: Maintainer: eghxst
 Filename: debs/HSSidebar.deb
-Size: 38642
-MD5sum: 492e7a06a238282730ed3e60de8f5eb6
-SHA1: 467846186b69a08fcb135f91b16b461e746db433
-SHA256: 5c43b5a307460010fc6e8fefce423dd5eef5a8ccc92d51f2ffb786fb0879d5e4
+Size: 505594
+MD5sum: f4cf3385c8f675a6736e719b2fbf882b
+SHA1: 50b99b86cd2e00857c3fd10222db24fc4192c8c8
+SHA256: 7b1e0137041207dfca3872ad37ee43688f244ea2c73edea3316960cf2491241d
 Icon: file:///Applications/Cydia.app/eghxstThemes.png
