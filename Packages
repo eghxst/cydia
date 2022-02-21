@@ -296,9 +296,9 @@ Author: ghxstdev Repo
 Section: XenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar.deb
-Size: 505664
-MD5sum: 6b4d4569c6eb06d1058e4d0e91c8cdd6
-SHA1: 10ff6ca547c56cc2d02bbc01d8997ef43aa61df5
-SHA256: f42fb84c0501a19b3497a70e91ca677c6e1633be64e71dcc8e4957cacf1f09d3
+Size: 40562
+MD5sum: f2fea575242547ddf96a02aab3ad6925
+SHA1: 375d8477640da6c86c2d6fd5fe3aa5f2d6ad1e49
+SHA256: 60fc2cd6964728ec04a0e350bc6b6565c5498dc1f288c7968952c93d0a92396b
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarpack
