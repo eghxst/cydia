@@ -1,8 +1,7 @@
 const crypto = require('crypto');
 const fs = require('fs');
 
-const testFolder = 'debs/';
-fs.readdir(testFolder, (err, files) => {
+fs.readdir('debs/', (err, files) => {
   let allFiles = files.map(e => e.replace('.deb',''));
   for(var i = 0; i < allFiles.length; i++) {
     let filename = allFiles[i];
