@@ -1,8 +1,10 @@
 const crypto = require('crypto');
 const fs = require('fs');
+let fileText = "";
 
-fs.readdir('debs/', (err, files) => {
+let files = fs.readdirSync('debs/');
   let allFiles = files.map(e => e.replace('.deb',''));
+
   for(var i = 0; i < allFiles.length; i++) {
     let filename = allFiles[i];
     let version = "1.0";
@@ -21,8 +23,7 @@ fs.readdir('debs/', (err, files) => {
     const sha1Res = sha1.digest('hex');
     const sha256Res = sha256.digest('hex');
 
-    fs.readFile('../working/FinalFolders/'+filename+"/DEBIAN/control", "utf8", function (err, data) {
-      if (err) throw err;
+    let data = fs.readFileSync('../working/FinalFolders/'+filename+"/DEBIAN/control", "utf8");
       let package = getInfo(data, "Package"),
           name = getInfo(data, "Name"),
           description = getInfo(data, "Description"),
@@ -32,11 +33,17 @@ fs.readdir('debs/', (err, files) => {
           depends = getInfo(data, "Depends"),
           icon = getInfo(data, "Icon"),
           depiction = getInfo(data, "Depiction");
-      printData(filename, version, md5Res, sha1Res, sha256Res, size, package, name, description, author, maintainer, section, depends, icon, depiction);
-    });
+      fileText += printData(filename, version, md5Res, sha1Res, sha256Res, size, package, name, description, author, maintainer, section, depends, icon, depiction) + "\n";
+  }
+fs.writeFile('Packages', fileText, error => {
+  if (error) {
+    console.error(error);
+    return;
+  } else {
+    console.log("Success");
+    return;
   }
 });
-
 
 
 function getInfo(data, type) {
@@ -64,5 +71,5 @@ function printData(filename, version, md5Res, sha1Res, sha256Res, size, package,
   +"SHA256: "+ sha256Res + "\n"
   +"Icon: " + icon + "\n"
   +"Depiction: "+depiction + "\n";
-  console.log(response);
+  return response;
 }
