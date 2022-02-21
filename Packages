@@ -279,10 +279,10 @@ Author: ghxstdev Repo
 Section: XenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder.deb
-Size: 1551106
-MD5sum: a3e961aa3c4af032418b3ba17846ff6e
-SHA1: c4449ae48bf91121c09199e16b149ddaa9c79296
-SHA256: 8cbc089089935c19d6aa65a4fbe2ecad97ee4bf53ee00b809f263f4956725287
+Size: 1078298
+MD5sum: f471a4e8081506770575cc9ea48d28d0
+SHA1: 6d2b41018eb14a340af9930218c9f21eac453545
+SHA256: 4e1bc14efcf659447867d96328926c21b8a5d294f8bdfd45958f151eb22710a0
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderpack
 
