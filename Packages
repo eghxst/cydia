@@ -262,10 +262,10 @@ Author: ghxstdev Repo
 Section: XenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal.deb
-Size: 522256
-MD5sum: 9c7eb459a22683f4dc4cec7d0a42f249
-SHA1: bae5e846d0b916eafc91574b44e43f80c7e0c27f
-SHA256: 5be77d8aeb48f4800e6529d54daeaecf0b07c2ec1586a560e5b186580a2d6d27
+Size: 42002
+MD5sum: 70935736356d7c633ed70957e9ce3dde
+SHA1: db59c8f6db5aeef60f15dda87cf9a16933b54172
+SHA256: a550281ee101e4fe64ec7ccb92f09e66e2b2b7cb5e47bf0a360187c309b6f2cf
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalpack
 
