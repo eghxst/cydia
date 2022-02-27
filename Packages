@@ -5,13 +5,13 @@ Architecture: iphone-os-arm
 Description: Date and Time with an icon on the HomeScreen
 Maintainer: eghxst
 Author: ghxstdev Repo
-Section: XenHTML
+Section: eghxstXenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder.deb
-Size: 1063880
-MD5sum: 050343c7b05eedcd1eeb8c2ef045663e
-SHA1: be5b5cfb42d014e6ceb04e37267228e09b150f6b
-SHA256: c1da6674176a4c5b2d32b9716631f16c71e1b8fc541196de0223312bfc09c7ef
+Size: 1063884
+MD5sum: b3aa020800630e00ed2fbcda74d8d6e8
+SHA1: 39d74f6695065ba8e3c41a4983370c4e1417e654
+SHA256: a71461f2bd6eed98f87867644a9e84eb81bd3d0e2341f9e0208790fd3189c105
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderpack
 
@@ -22,13 +22,13 @@ Architecture: iphone-os-arm
 Description: Battery, Weather, and Time on the HomeScreen
 Maintainer: eghxst
 Author: ghxstdev Repo
-Section: XenHTML
+Section: eghxstXenHTML
 Depends: com.ghxstdev.eghxstrepoicons, com.junesiphone.xeninfo
 Filename: debs/HSDiagonal.deb
-Size: 37652
-MD5sum: fce38d388da6c717dc72341d0cd908a8
-SHA1: 3284b8b3b02ad4a05190b3d540391b49083fb414
-SHA256: 142cb4580e77bbe13aa77807356e53bc64cd57083c4fa3f5b79b4450426d3fe1
+Size: 37660
+MD5sum: 9cacbde07f0668e96052d6da37d5080b
+SHA1: 5df5291ea3c799516db0f95fd3b0a2ab9f657386
+SHA256: c408151c1071f4299f2b0f218cc15edc03a26485022b934a5ade0951f0612f05
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalpack
 
@@ -39,13 +39,13 @@ Architecture: iphone-os-arm
 Description: Time, Date and Weather on HomeScreen
 Maintainer: eghxst
 Author: ghxstdev Repo
-Section: XenHTML
+Section: eghxstXenHTML
 Depends: com.ghxstdev.eghxstrepoicons, com.junesiphone.xeninfo
 Filename: debs/HSGradient.deb
-Size: 37112
-MD5sum: c5be566c2fbf6fbee2451ec4c43cc234
-SHA1: d7a48b29a2cde228362c6a2c053e8802a4086403
-SHA256: 464aaf74d594ff5737dde3c3c106b3f75cdc7c71d38269c64505ed9ef63e5aba
+Size: 37120
+MD5sum: 6c9fcd3601605ba956ba0382404e5c4e
+SHA1: 4b84cbd25bbed4715beb26bfbd02ea7ead5ff505
+SHA256: 650c6cfc47f90c697a343bc662d3db68f41cdf1699c4ad63e5b01446fcc984ae
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientpack
 
@@ -56,13 +56,13 @@ Architecture: iphone-os-arm
 Description: Date, Time, Battery and Weather HomeScreen
 Maintainer: eghxst
 Author: ghxstdev Repo
-Section: XenHTML
+Section: eghxstXenHTML
 Depends: com.ghxstdev.eghxstrepoicons, com.junesiphone.xeninfo
 Filename: debs/HSPill.deb
-Size: 1013024
-MD5sum: 21609866cff467be94f8ab73be87bed6
-SHA1: 650c1f47596ef47dde0d930030322c57bf806841
-SHA256: 652311498b0dbe8bf5278c993f0ce414dda0b1d96bb5ee651637d730e34f8a3a
+Size: 1013032
+MD5sum: f92a20f929c521a77ea74e38d08dbc54
+SHA1: 03266729069e4927a76e65b47c307c4906449444
+SHA256: 9847f5126bf890799c0255a3bf6663d1fa96f8d15162c652f61c9ea7344a3e4b
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillpack
 
@@ -73,13 +73,13 @@ Architecture: iphone-os-arm
 Description: Battery and Date on a sidebar on the HomeScreen
 Maintainer: eghxst
 Author: ghxstdev Repo
-Section: XenHTML
+Section: eghxstXenHTML
 Depends: com.ghxstdev.eghxstrepoicons, com.junesiphone.xeninfo
 Filename: debs/HSSidebar.deb
-Size: 36552
-MD5sum: 9a11b090da81fc976f80b11058efb8f0
-SHA1: d28915dd837db10d44473dc2b2210a79e5cbcc0e
-SHA256: 9391830592f324d923d25afc67878266630ef531b431c7e43405650a93843c6b
+Size: 36556
+MD5sum: a95c83d0be94b0871ed80b0f23b96947
+SHA1: 1398568254d9bf0e2d291dea0d20c3e24abd647a
+SHA256: 2a7b5f927e2446b2d06f75165ed9a93f1690399b4fafcf33f385e5abe727729f
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarpack
 
@@ -90,13 +90,13 @@ Architecture: iphone-os-arm
 Description: Split your HomeScreen in two with your apps on one half and info on the other
 Maintainer: eghxst
 Author: ghxstdev Repo
-Section: XenHTML
+Section: eghxstXenHTML
 Depends: com.ghxstdev.eghxstrepoicons, com.junesiphone.xeninfo
 Filename: debs/HSSplit.deb
-Size: 37932
-MD5sum: 0e16aef209f14ded823b5102a980232e
-SHA1: 1e64f660c3cad725cdfb26253420d4e02c70d62f
-SHA256: 8a29ee4e61e1e5e3f4f6b3fdae0bb350b150cd0f9fe6502a24d3ecad9fefac3e
+Size: 37936
+MD5sum: 6d7e5f9582516d4a07aa3c09da79ced4
+SHA1: fc501a79d115406eb6b60e593e777f13b7aa518d
+SHA256: f82f82b51af270712a9ec7c3fcfbafda26d9d0d717f15d1eafdf20ee8f799281
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitpack
 
@@ -107,13 +107,13 @@ Architecture: iphone-os-arm
 Description: Themed icons to match the Soda HS 17 XenHTML widget
 Maintainer: eghxst
 Author: ghxstdev Repo
-Section: Themes
+Section: eghxstThemes
 Depends: com.anemonetheming.anemone | com.spark.snowboard, com.ghxstdev.eghxstrepoicons
 Filename: debs/SodaPop.deb
-Size: 890924
-MD5sum: af1be85f8f07897bc6806f1ff4ad6272
-SHA1: 10f5dcb3abb5d919d11ab21c76f55b36632990e4
-SHA256: d506486d26c7972b63d4ede05e8f6dbee0af6a27c61fa120ba80f2b51a5794ec
+Size: 890936
+MD5sum: 43ae56461bb75f08d0b4af3d11b197ec
+SHA1: 0c5592bedf1b5aac8c39f3a0718a28048efb1744
+SHA256: acc1fbc416cc044f12a4f574f6bee2eeb1c358c3eed66f2fffb2fd918c46344b
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/SodaPop.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.sodapop
 
@@ -126,10 +126,10 @@ Maintainer: eghxst
 Author: ghxstdev Repo
 Section: System
 Filename: debs/eghxstRepoIcons.deb
-Size: 41264
-MD5sum: 3875ff99194e1f78d7498ad58106136f
-SHA1: 55fac52f49964f9fa1a82e927d7217881808d3ad
-SHA256: efec77d38e7863935589692e205c9d41064415fd6ca68d810ebabbfd1d8ea716
+Size: 41284
+MD5sum: a2e23bb5253603075dcfecbe2b62357c
+SHA1: be614958ace44bf04bc10f5df303aa1bd2191af3
+SHA256: 2171be8293735dfd193ed1e674784c593d8c74fa6084b77a9a75a47c3b0fe425
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/RepoIcons.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.eghxstrepoicons
 
