@@ -14,10 +14,12 @@ body {
 }
 h1 {
   border-bottom: solid #fafaff 2px;
-  margin: 0 25px;
-  letter-spacing: 10px;
+  margin: 10px 60px;
+  letter-spacing: 5px;
+  font-size: 26px;
   text-transform: uppercase;
   margin-bottom: 40px;
+  text-align: center;
 }
 #desc {
   font-size: 22px;
@@ -38,6 +40,12 @@ h2 {
   align-items: center;
   font-weight: 200;
   text-transform: uppercase;
+}
+#icon {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border: solid white 2px;
 }
 #links {
   display: flex;

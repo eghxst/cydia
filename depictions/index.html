@@ -13,6 +13,7 @@
   </script>
 </head>
 <body>
+<div id='icon'></div>
 <h1 id='name'>pkg name</h1>
 <div class='block'>
   <ul class='card-scroll' id='screenshots'>
@@ -56,6 +57,7 @@ function loadFile(filePath) {
   //fill fields with package data
   document.getElementById('name').innerHTML = packageData.name;
   document.getElementById('desc').innerHTML = packageData.description;
+  $('#icon').css("background-image","url('../imgs/repoicons/"+packageData.name.replace("Color Pack", "Pack").replace(" ", "")+"')");
   let screenshots = packageData.screenshots.split(' ');
   for(let i = 0; i < screenshots.length; i++) {
     document.getElementById('screenshots').innerHTML += "<li style=\"background-image:url('screenshots/"+bundleid+"/"+screenshots[i]+"')\">"+i+"</li>\n"
