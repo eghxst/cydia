@@ -55,6 +55,8 @@ function getInfo(data, type) {
 }
 function printData(filename, version, md5Res, sha1Res, sha256Res, size, package, name, description, author, maintainer, section, depends, icon, depiction) {
   let dependsLine = (filename === "eghxstRepoIcons") ? "" : "Depends: "+depends+"\n";
+  icon = (filename === "eghxstRepoIcons") ? "https://eghxst.github.io/cydia/imgs/repoicons/RepoIcons.png" : icon;
+  depiction = (filename === "eghxstRepoIcons") ? "https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.eghxstrepoicons" : depiction;
   let response = "Package: "+package+"\n"
   +"Name: "+name+"\n"
   +"Version: "+version+"\n"
