@@ -17,7 +17,7 @@ function extraDesc(name) {
   for(let i = 0; i < schemes.length; i++) {
     desc += "<li>"+name.replace("Color Pack", "")+" "+schemes[i]+" Color Scheme</li>";
   }
-  desc += "</ul>";
+  desc += "</ul><br>The default theme is GrayScale. Edit the config settings through the widget when placing in XenHTML to enact any of these themes.";
   return desc;
 }
 function getData() {
