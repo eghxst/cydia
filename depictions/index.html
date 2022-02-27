@@ -60,7 +60,6 @@ function loadFile(filePath) {
   let img = packageData.name.replace("Color Pack", "Pack");
       img = img.replace(" ", "");
       img += ".png";
-  console.log(img);
   $('#icon').css("background-image","url('../imgs/repoicons/"+img+".png')");
   let screenshots = packageData.screenshots.split(' ');
   for(let i = 0; i < screenshots.length; i++) {
