@@ -10,20 +10,23 @@ fs.writeFile('depictions/data.txt', getData(), error => {
     return;
   }
 });
-function extraDesc(package) {
-  switch(package) {
-    case "com.ghxstdev.hsborderpack":
-      return "<br>Includes All color schemes for the HS Border XenHTML Widget.<br><br>Included in this pack is the following:<ul><li>HS Border GrayScale Color Scheme</li><li>HS Border Maroon Color Scheme</li><li>HS Border Sunflower Color Scheme</li><li>HS Border Peach Color Scheme</li><li>HS Border Aqua Color Scheme</li><li>HS Border Lavendar Color Scheme</li><li>HS Border Pastel Color Scheme</li><li>HS Border Forest Color Scheme</li><li>HS Border Kiddie Color Scheme</li><li>HS Border Bubblegum Color Scheme</li><li>HS Border Midnight Color Scheme</li><li>HS Border Neon Color Scheme</li><li>HS Border Vaporwave Color Scheme</li></ul>";
-      break;
-    case "com.ghxstdev.hsdiagonalpack":
-      return "<br>Includes All color schemes for the HS Diagonal XenHTML Widget.<br><br>Included in this pack is the following:<ul><li>HS Diagonal GrayScale Color Scheme</li><li>HS Diagonal Maroon Color Scheme</li><li>HS Diagonal Sunflower Color Scheme</li><li>HS Diagonal Peach Color Scheme</li><li>HS Diagonal Aqua Color Scheme</li><li>HS Diagonal Lavendar Color Scheme</li><li>HS Diagonal Pastel Color Scheme</li><li>HS Diagonal Forest Color Scheme</li><li>HS Diagonal Kiddie Color Scheme</li><li>HS Diagonal Bubblegum Color Scheme</li><li>HS Diagonal Midnight Color Scheme</li><li>HS Diagonal Neon Color Scheme</li><li>HS Diagonal Vaporwave Color Scheme</li></ul>";
-      break;
-    case "com.ghxstdev.hssidebarpack":
-      return "<br>Includes All color schemes for the HS Diagonal XenHTML Widget.<br><br>Included in this pack is the following:<ul><li>HS Sidebar GrayScale Color Scheme</li><li>HS Sidebar Maroon Color Scheme</li><li>HS Sidebar Sunflower Color Scheme</li><li>HS Sidebar Peach Color Scheme</li><li>HS Sidebar Aqua Color Scheme</li><li>HS Sidebar Lavendar Color Scheme</li><li>HS Sidebar Pastel Color Scheme</li><li>HS Sidebar Forest Color Scheme</li><li>HS Sidebar Kiddie Color Scheme</li><li>HS Sidebar Bubblegum Color Scheme</li><li>HS Sidebar Midnight Color Scheme</li><li>HS Sidebar Neon Color Scheme</li><li>HS Sidebar Vaporwave Color Scheme</li></ul>";
-      break;
-    default:
-      return "";
+function extraDesc(package, name) {
+  let desc = "";
+  if(package == "com.ghxstdev.hsborderpack" ||
+    package == "com.ghxstdev.hsdiagonalpack" ||
+    package == "com.ghxstdev.hssidebarpack" ||
+    package == "com.ghxstdev.hssplitpack" ||
+    package == "com.ghxstdev.hsgradientpack" ||
+    package == "com.ghxstdev.hspillpack"
+  ) {
+    desc =  "<br>Includes All color schemes for the "+name+" XenHTML Widget.<br><br>Included in this pack is the following:<ul>";
+    const schemes = ["GrayScale", "Maroon", "Sunflower", "Peach", "Aqua", "Lavendar", "Pastel", "Forest", "Kiddie", "Bubblegum", "Midnight", "Neon", "Vaporwave"];
+    for(let i = 0; i < schemes.length; i++) {
+      desc += "<li>"+name+" "+schemes[i]+" Color Scheme</li>";
+    }
+    desc += "</ul>";
   }
+  return desc;
 }
 function getData() {
   let jsonObj = [];
@@ -34,7 +37,7 @@ function getData() {
     let package = getInfo(data, "Package"),
         name = getInfo(data, "Name"),
         description = getInfo(data, "Description");
-    description += extraDesc(package)
+    description += extraDesc(package, name)
     let screenshotFiles;
     if (fs.existsSync('depictions/screenshots/'+package)){
         screenshotFiles = fs.readdirSync('depictions/screenshots/'+package);
