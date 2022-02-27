@@ -9,9 +9,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Aqua.deb
 Size: 150196
-MD5sum: e44bafe99c23fc56f6e971351499b89f
-SHA1: 635012ffd719491879b7d112a49aa3cfcacbd8eb
-SHA256: 0b6350cdf5cb50b62f1baedd229249a4332155c1bf13b0c17bcc95fa4c5428e2
+MD5sum: c2bf172d3e8d6f44b1c1f05d1bbb4fd0
+SHA1: 258bfb8ef951d85803c35e8b6826776763e8e354
+SHA256: d6695a69b21ff3edb84d323f3b155f2b939207e4cdb7b55c32a86467b2a18fd7
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackAqua.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderaqua
 
@@ -26,9 +26,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Bubblegum.deb
 Size: 259380
-MD5sum: ed9b7309aa10dcd952180062d67be62d
-SHA1: f7cc104b828f2530ddd0497cfee37e84eabbc358
-SHA256: 07d0b7267534e1f7626993e5d902c4b358f250160af7baaec2cb4b0739623aac
+MD5sum: d2d8d876e21516edb25d7ef611866b26
+SHA1: 0680feccb9d7e724746313efbb42bacd085c53d3
+SHA256: 0b173425b853ad54b419d4307ef4e6671160d31d89754cd7561edbea225e92e4
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackBubblegum.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderbubblegum
 
@@ -43,9 +43,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Forest.deb
 Size: 124400
-MD5sum: 65fd6a428c35ea3563eeb1e7d96cb711
-SHA1: 5b2c401097bf087729e4b991c6f9144e2067da7f
-SHA256: 1c5c5f866c861437dad2824b2ed990ae95595df1009911e233b4826574647c73
+MD5sum: 79936a423657228ac8d4c7e4656bdfef
+SHA1: 28d5e45f1f00cbefa89ea968efd17d7277540b4e
+SHA256: e14ef7a1ccb9fd6b85743c0332079f478846153b6c846b95c33bb187d2659c2f
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackForest.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderforest
 
@@ -60,9 +60,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-GrayScale.deb
 Size: 55512
-MD5sum: 6ce8866376fc2e462954aa30bfc1e871
-SHA1: ab74dac5f73de9ba0a9294de404bffbff83d5ddb
-SHA256: 69cfa1d4a384c9ca069b1b68ce25ac9de7681fad693ac2c9f7e10a8da39d57d3
+MD5sum: 43ac82dc452a05c6db740de1ce8c3309
+SHA1: f5e2e38dcdfcb6b081b6caf74473cb82f31514b3
+SHA256: dd9b2fbe698458b2a7864ef8a31062e42cdec6b3aa6756794f336e5e3003f472
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackGrayScale.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsbordergrayscale
 
@@ -77,9 +77,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Kiddie.deb
 Size: 138168
-MD5sum: 05b91af784d713a04890b3f6035bac54
-SHA1: 7a20e900fd7228634ffba8386e6a0ca208549b59
-SHA256: 4a51ff2a78ef3051e093c9e9357e3c9887534f9868f3c78217e26d477af73814
+MD5sum: cdf04049bb6756f5882020813366e9d5
+SHA1: b0facd17d509cc1c4e1ddeece2b9bbdb9c281c34
+SHA256: 507cc7661cfd26825edff37479303b95548131d33d08d629fe7071e1b14ae4ec
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackKiddie.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderkiddie
 
@@ -94,9 +94,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Lavendar.deb
 Size: 149052
-MD5sum: 2031e29a1c43bed4f07f66e817931c61
-SHA1: 04633812807d5759e42e970c31946c4b5150a4fc
-SHA256: 886706a516c7d349d3f9e0ba2b05dd9ccd33b44be3be5ebf1253d12ad658c085
+MD5sum: 3eca99c07224bdc9a15f4731ff839c8a
+SHA1: dbf4766663b9b37d36416e828492c335ead44c23
+SHA256: 118d8b81fee873ab4266758c14154476077daca0fc25e00f7792270d84f97918
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackLavendar.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderlavendar
 
@@ -111,9 +111,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Maroon.deb
 Size: 78576
-MD5sum: 98767ad2ac593628aec2080d3393737b
-SHA1: 712e86becc0ebd05192a4e024626014347b2818a
-SHA256: 61cbe648558306fddbc2c828b7d9c527cefa560a3e9e52fd5bf6ba24db11f7b7
+MD5sum: 153f8a80f5d8ef0971f631c11ff9d0b0
+SHA1: 8875aa7a8a6e0cfbf19a377d3422b2a30a051e52
+SHA256: b3d180dc44cad3e4bf647d8eb2a219467c6eb196654e6458c6aca353ce7469df
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackMaroon.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsbordermaroon
 
@@ -128,9 +128,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Midnight.deb
 Size: 157596
-MD5sum: bc85b3135426495abf8e2a656a002098
-SHA1: fe614c9a5aba870a00614e5f28385b7a963e7c39
-SHA256: 1c3b24403f3a6b29bb7d54e506deb900528a86d7f315345704289ac45dc9433a
+MD5sum: 7848113f81977b043f5ae5346525be3f
+SHA1: b47a72fb9093a55b1182f9f70061c0c209bcf658
+SHA256: 598bd1fcf1714fb6b42f6a74ad8ceae1c11b74e51123f4408f9ae9845857dcbd
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackMidnight.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsbordermidnight
 
@@ -145,9 +145,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Neon.deb
 Size: 89932
-MD5sum: d492f2337d65bc0e2d56aa0681121ef6
-SHA1: 4e6cdfce5e6b015ff26fdc74938acb20c0d3e481
-SHA256: 41b2f9c2c29f9e5e380258df9c3b32a483119f83353ac20be92954140bd7d57a
+MD5sum: c262cc9a581091966ef35711db679882
+SHA1: ce95825dce27bf5c7a3707f14880268966c3ef9c
+SHA256: 0fab7d02faa3c37a1070359ebba12020bfa022f2faa0681c6da5f7b9c7ac7a0e
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackNeon.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderneon
 
@@ -162,9 +162,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Pastel.deb
 Size: 45544
-MD5sum: 6fce12e0da5e3d7578c3a28b2b95a9fe
-SHA1: d9b147bc6e8046e622fb5153f0b5560573988a26
-SHA256: 06997972cf444c450f1185b87489ca1f545c92e081363bffcb4746ed97f20190
+MD5sum: 0c50ff8ff26d3bc5d3dd10ab37217cf3
+SHA1: 422824aad52506b4d970ab44988ef00cd9245250
+SHA256: ab6ccb1f992065feb86be4aedf2fe0ef8a14b17c6f881fb4e57f0d48f7dccab9
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackPastel.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderpastel
 
@@ -179,9 +179,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Peach.deb
 Size: 66536
-MD5sum: 69cb750011044679ed67198f431f7c33
-SHA1: 38e518112af476d1b8d9059881822ac528bf5987
-SHA256: 5868ec088cdb598451643701d2323f92fc05e78fbe7446fe579a543262990bb3
+MD5sum: 98b5f115dcfc04d40bddb9b80fbcb234
+SHA1: 702009a68e15a5a6bfd6b40e9bfe38f9a36e836e
+SHA256: 7035a833deb1fbcca063e36e14d8d01f71c96676c38b516ddbc0034d284e0f26
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackPeach.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderpeach
 
@@ -196,9 +196,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Sunflower.deb
 Size: 79780
-MD5sum: 40d69034e80d8c8baeea2971a47f6de8
-SHA1: 55fb03cfa01cdd43f6ae12bd856a1f0940759265
-SHA256: 7a0ee50de039216c0eea22a59931831a696218261048520897899b1f515775a0
+MD5sum: 4b502e5f0ede4c9993038835f6958f4d
+SHA1: 3cf85c61801c22d75b9b6238ffb8561a73fdd008
+SHA256: 5498da0c87c6fe95921fae02a1bdf1ad6c0be6b957584fb4f42837dae7aa5525
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackSunflower.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsbordersunflower
 
@@ -213,9 +213,9 @@ Section: HSBorder ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder-Vaporwave.deb
 Size: 108880
-MD5sum: 0092b34a200cf7a98c94b803398ca702
-SHA1: 6d625d8b4e61733a0e0c4a8271996b3a2b826ef9
-SHA256: 5119e08962803a14eb6b90b913f535315622f49f83d97ad672a9cf2db360e2d6
+MD5sum: b335c203d111088ca2b06ffa042b6f9d
+SHA1: 818fcebfd077912adeda3e0a6ebec8f5526cb443
+SHA256: 57e3ebcb7373869841b4c445a0746ebfe7a4f65581bd8416de7d1273bff67b42
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPackVaporwave.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsbordervaporwave
 
@@ -230,9 +230,9 @@ Section: XenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSBorder.deb
 Size: 1063780
-MD5sum: ebf14bbc48a5e4517fe55189018b9ef7
-SHA1: 0086504cbcd1928f3af5e8b3491b49c7b6040185
-SHA256: 4fe78adc726b0e501bd81a2d149c2e05dec29129cccc6f4fbecf1580a35add29
+MD5sum: 39b3937920585d26cda6a562fc20cc96
+SHA1: 07ccf45c363216be16d3225bd6aba8ae41b494c3
+SHA256: 9504ba87773245bc10b62effa23c6f3021e369201b6b1a8fd711cc7c46e7917c
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderpack
 
@@ -246,10 +246,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Aqua.deb
-Size: 37732
-MD5sum: 476772484014692a5ce4490f167aa831
-SHA1: a2bad1ac7767ba30a61d628e4e76c0b4daa1ee1e
-SHA256: 38855c60289f5438ccfb634d0fdbf484a59dd13f6b73a4671f8fc19f9dd0a0a2
+Size: 37724
+MD5sum: c38312fb73eca38084934f1085190be7
+SHA1: ccaa8d74fa8a8b20981d282c0638e76a2046ff89
+SHA256: f448fc7d381ef3fd13003419a8fb8193ba590393ecc8324ace6e66471048b327
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackAqua.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalaqua
 
@@ -263,10 +263,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Bubblegum.deb
-Size: 37744
-MD5sum: a804771ba80f7eb0c95436975859f843
-SHA1: d15fac487901bfc4fb393a33b02e21392f754c1a
-SHA256: 18e4a39bf9abdbdfc4701b338b6ceb4a4476997e73dfa531a11c60e170f289d3
+Size: 37716
+MD5sum: 84623f0cf3aceebc04ef7bd59e55b03e
+SHA1: ee2e149f055eff8a69ba595a5b618ab8faf7ec00
+SHA256: d791d09beda77c708b974fb9476e971ec1e5c2ae5f261e54cf023922f0d2be0d
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackBubblegum.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalbubblegum
 
@@ -280,10 +280,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Forest.deb
-Size: 37724
-MD5sum: 851fa605e67007fa2b297d9bb81f5ec7
-SHA1: c310dd456eba47d8e105cfe43201c09629549f53
-SHA256: 01ae9b66157e54a070d1abcf8f9342f42882b616a97a9be183ced2a9f89a88cd
+Size: 37704
+MD5sum: beead48a7f4eac485ad7127fd37faa02
+SHA1: 51d27f98268da423932792e7b4065dc3fc3afaed
+SHA256: 8d3a7e681b181e77537a8bef841d6cc1568df83767942802333ffd6d9a15ea95
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackForest.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalforest
 
@@ -297,10 +297,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-GrayScale.deb
-Size: 37740
-MD5sum: 8cab1202230282671420e5712e9bce27
-SHA1: 3b52dc87665e6df38641bc7e26c3ec2037701a06
-SHA256: efc65e021fee8f62b2fbc47076edd4c944e84233bb8b6317ef51aba2906f31ba
+Size: 37728
+MD5sum: b5b54ba331d77dcb9483c6a190bd9e21
+SHA1: 2258adaf1e662c551adaaf278f0a5ef8786b90aa
+SHA256: e0874fea76603748a8201eccf96f35f40dc0c36e909acaf55778bf5acd2ba8d9
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackGrayScale.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalgrayscale
 
@@ -314,10 +314,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Kiddie.deb
-Size: 37728
-MD5sum: 86e95b033ef0dd0bea071a413a8e7c9f
-SHA1: e5701c02ed0129b46cf4c09703eff6dc5e37da2b
-SHA256: 7879b5732867908d6716fb7a8d5eaf4954a5df7966cfc2d19ea8283f08f2ad48
+Size: 37708
+MD5sum: 73de2eb08f9183e1210dc370a9ab0726
+SHA1: b17fc145958fec31b8a2140e99c1cc8aaa1509af
+SHA256: 85357a17d2153bbc346279b7d67e4b1319220fcbc95dd5cef320fe6ec8fb7805
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackKiddie.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalkiddie
 
@@ -331,10 +331,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Lavendar.deb
-Size: 37732
-MD5sum: 2dd14a9cd98664f20a690839f402c0f9
-SHA1: 0c729dc8cf20d76f9ef78d9e7711c364ffe13528
-SHA256: 5979541a2621bc28cd33fe25947a44da005f194fa18b2536f058c59e98dc21a3
+Size: 37696
+MD5sum: 38f47dad1cde7a0032673c1902d3c79f
+SHA1: 887b951c44258e7404caa5957d180d2588523303
+SHA256: 0da4fc41db0e55d092a214d78a8384ca9b49ec7898bf9cdecc4de84936972028
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackLavendar.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonallavendar
 
@@ -348,10 +348,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Maroon.deb
-Size: 37736
-MD5sum: 8dc05fc9a12ab10daa6ea6f62a34214e
-SHA1: cd114cf5eefc55fc7d0b20695bbad4f3c822d0ca
-SHA256: 6a1516a06a2e52fe6b70f4edc54b935d2c3f999aaa2b79f45389c30927c989ff
+Size: 37708
+MD5sum: 1b1d0919a4a974592c48ea0aef669364
+SHA1: 3708f2ca6da967672be7501be165ab9feb48dea4
+SHA256: f98c6552d6a0b2da8cb3eb22f8d0658422b836e08f0fd309a000c238b85b5b9f
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackMaroon.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalmaroon
 
@@ -365,10 +365,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Midnight.deb
-Size: 37728
-MD5sum: af0e2c347526017314748e733a19d322
-SHA1: 6624c2cb2f19f77cf390b3a9874f393786923de0
-SHA256: 2f7a71b4339f574afc0ee1a35d5a59e14bd738790209c12bd5525ef8b18473a0
+Size: 37704
+MD5sum: 70bc4b569e86350033df124face52b98
+SHA1: a4b958d8b441199db50bc1cdb2be71d21befea62
+SHA256: 65399ee6fba7b55ab56e5f43d8229a1093a0c8a468103ab88f6725b0ba686f02
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackMidnight.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalmidnight
 
@@ -382,10 +382,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Neon.deb
-Size: 37720
-MD5sum: 6046d73bdb98d8fd76e4b8ea613e292b
-SHA1: ac38cf3cfd6ff5f4e51b518c521bf53f3f3ef468
-SHA256: 673150f9f5e9b54d24d6dfab27b7b8b039ed51948bc7f80515295f96c248ed32
+Size: 37712
+MD5sum: 9044673de5e48e7b490c8dfee3f55072
+SHA1: 72e9fea58e6b20f21dbbd347641991464a32a419
+SHA256: a305f99e6869dbbfed3c2d4f49692f45c9a59fee20a0ceeb46fc0f3517b7d810
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackNeon.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalneon
 
@@ -399,10 +399,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Pastel.deb
-Size: 37732
-MD5sum: 229095f0c14eca5c55ee4e4a44570293
-SHA1: 73af201642d8d982edbb9b3ffe2d75244392a50d
-SHA256: 7581fe3e833d51ac261957e704e71c1d7a4d11fe247a12f5859237cb7b611ff4
+Size: 37708
+MD5sum: 587763c7926ac49e454c4b95d6602dee
+SHA1: 7738b2daeecbaddeeecfd0d284fffe85b696f5c2
+SHA256: 9f7ae4a4be10c00fea5a08a7b3dac7d36d29d39d033e784be15d9addc83de0bf
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackPastel.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalpastel
 
@@ -416,10 +416,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Peach.deb
-Size: 37720
-MD5sum: 431c3208c2e3fe59997832fea20ea83d
-SHA1: 493efbbe25e52d694e650c14c3936d3f92410096
-SHA256: 4c9b14da1355f65f16296ff2e534a65f7997d1ea7cfb4b10f25ed1aa14dfc743
+Size: 37708
+MD5sum: 816fdc49df99b8a68d23911f8b984051
+SHA1: febf67032ffe7167367657f47e827040bd15ad03
+SHA256: a658975f14509d0afe62cdfbf20559f411b26adac5d0170172dd1ac30279e456
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackPeach.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalpeach
 
@@ -433,10 +433,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Sunflower.deb
-Size: 37724
-MD5sum: 710d4ffdb540c749762dc2906609db0c
-SHA1: c1b36b01d00d3ae2943ee672d400a1d7cf7141cf
-SHA256: c3686bce50dbc98ce771633517f476709ad2e2eb50aa08fcb09d6f32aae240c7
+Size: 37712
+MD5sum: 6317e1895e67d225c00e7219b6bdfc83
+SHA1: e05349983661f28a59a8f4401c006d4b350559b6
+SHA256: fa11f08621507b59fa9730ab25737eb7c0da69061fe6095490ee7ff83f2a57a2
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackSunflower.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalsunflower
 
@@ -450,10 +450,10 @@ Author: ghxstdev Repo
 Section: HSDiagonal ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal-Vaporwave.deb
-Size: 37728
-MD5sum: 9eb5351f79e35a6d468d728ffa4b5ce6
-SHA1: 987100edc4e720b155ad5dc99e45e5a8be410157
-SHA256: 070e90859580e55d884c7f92dd0083d6f16e9d3626b0f074470969f2c56fa4ad
+Size: 37720
+MD5sum: 5d141b4b89f883a8e8664c7b9afd4a2a
+SHA1: b5a99629902510c319a25c04708b9b730f446e59
+SHA256: f1989d3037cf3fc8e2449700ec6613ab768c8a636d25a0618b3fd47f0cb3ad37
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPackVaporwave.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalvaporwave
 
@@ -467,12 +467,488 @@ Author: ghxstdev Repo
 Section: XenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSDiagonal.deb
-Size: 38300
-MD5sum: d57fa90df285c2c5b89d7ccb0c0f1b5a
-SHA1: 35252d633423a5649883715934e9f0801ac4f9c3
-SHA256: 7caa10c36ef68901556fe92a0e40e20b376f28ee29f1d7a313f43811a48518a5
+Size: 38272
+MD5sum: 4d36b22cc3db817cd10a29a8a258000d
+SHA1: a02157c0acfb4736d20c3d2c76b63596ed9b760a
+SHA256: 6dcf14088e4dfa5b13dcdaac757f47e6bb1f38ba747aaacb29c4e11319b1ecdc
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalpack
+
+Package: com.ghxstdev.hsgradientaqua
+Name: HS Gradient Color Pack Aqua
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Aqua Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Aqua.deb
+Size: 37048
+MD5sum: 31c6670924bc9fca3f6ca40c9135c44b
+SHA1: 47ad4ebb33701132673adfdb234313b90001df70
+SHA256: 5f98e3b8a5c1eea530782ce557d5cc0ce6680e81188892763e3ff4e65dbaa94e
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackAqua.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientaqua
+
+Package: com.ghxstdev.hsgradientbubblegum
+Name: HS Gradient Color Pack Bubblegum
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Bubblegum Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Bubblegum.deb
+Size: 37052
+MD5sum: 13c91f00cf675ad326de8223d3045eda
+SHA1: 74f7df1c4e80c508371dbeadc5659640d25d5550
+SHA256: 6bc41c92c029171bd5eacf9a7b05536d98f414559eafa18aa2a8b57381d2cf55
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackBubblegum.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientbubblegum
+
+Package: com.ghxstdev.hsgradientforest
+Name: HS Gradient Color Pack Forest
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Forest Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Forest.deb
+Size: 37048
+MD5sum: 111e2eb6d3703ee3ce295a6476b68640
+SHA1: f38d3fe375cb702615205466f370ac069cb37b5f
+SHA256: 305cb1925eb9f1b2e63dd7bac6344ab1206bb82223991b7550c3fd6b937c1c3b
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackForest.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientforest
+
+Package: com.ghxstdev.hsgradientgrayscale
+Name: HS Gradient Color Pack GrayScale
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - GrayScale Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-GrayScale.deb
+Size: 37044
+MD5sum: 568fdf098215bb96d5198c767d5c5fed
+SHA1: d905267b6d456d2a7406fdd12909d66e5040a34d
+SHA256: f6ddcb26bf1510da83a00966eb9e8fe73195fbd375516d1b22eec935f32627be
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackGrayScale.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientgrayscale
+
+Package: com.ghxstdev.hsgradientkiddie
+Name: HS Gradient Color Pack Kiddie
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Kiddie Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Kiddie.deb
+Size: 37044
+MD5sum: 05529ad78d48e8eea688399ff1901b58
+SHA1: 697f03fb2b49a439372c5845011f2bf07ed17d77
+SHA256: d03a0ac5f805c752a02c614f87cfdad28247787afd094766a373a60db13e05fe
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackKiddie.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientkiddie
+
+Package: com.ghxstdev.hsgradientlavendar
+Name: HS Gradient Color Pack Lavendar
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Lavendar Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Lavendar.deb
+Size: 37056
+MD5sum: 7d46dc600f1f34b4204422c00816b731
+SHA1: 41a77d09fbf36b153f7f0be5df3531a8cf4a777f
+SHA256: 3431e9d6f3389305bf5a8d88207608fd1d382164f9c0a6410c337fff6f987b22
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackLavendar.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientlavendar
+
+Package: com.ghxstdev.hsgradientmaroon
+Name: HS Gradient Color Pack Maroon
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Maroon Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Maroon.deb
+Size: 37048
+MD5sum: c24e5f07c8ba9bfe3ad8150ecaa156a0
+SHA1: d5a056ec284ed76e7d613decb291fc3877b82f87
+SHA256: 63e3bac0f782c923b9055084d88e11a0d09a9fdc63ff468133e665656dffe924
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackMaroon.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientmaroon
+
+Package: com.ghxstdev.hsgradientmidnight
+Name: HS Gradient Color Pack Midnight
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Midnight Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Midnight.deb
+Size: 37056
+MD5sum: b8ad8fbd57ad2d737cb18959dd2b6ceb
+SHA1: 18b01180a2da0758fdbe65a30a9570e98998b073
+SHA256: 0c37b959ba482312b8480a4586a92aa3f84d213de8a3adf8f9b86ff45e22852e
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackMidnight.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientmidnight
+
+Package: com.ghxstdev.hsgradientneon
+Name: HS Gradient Color Pack Neon
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Neon Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Neon.deb
+Size: 37052
+MD5sum: 8646fa55ebd299dad31b6dafeb2092db
+SHA1: b43333230762a762bb98be1a17695f8dd458e6aa
+SHA256: 52b99061806166630164f6fd5fc0e31b730f70a710f323fc30cc3c4b45364537
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackNeon.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientneon
+
+Package: com.ghxstdev.hsgradientpastel
+Name: HS Gradient Color Pack Pastel
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Pastel Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Pastel.deb
+Size: 37056
+MD5sum: 56b46142251227d38bd0c4661daae474
+SHA1: 6017a7082cdcef4eb72b0c316ded422c91148a9e
+SHA256: 1a1957238aaf85ce5a8bb7b5db560e3056a3c8ef5c476b9ac6a96ec4d9da735c
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackPastel.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientpastel
+
+Package: com.ghxstdev.hsgradientpeach
+Name: HS Gradient Color Pack Peach
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Peach Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Peach.deb
+Size: 37056
+MD5sum: 15b078e6d9c1f33a1bfd592aa5b2bfce
+SHA1: b795c02e99f9be4dec54aa0cda69efe69b0a3d69
+SHA256: a54b78d8336c0d225d3f41fd5452c2e034e3d38b523e79660a7c597aaf4e354e
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackPeach.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientpeach
+
+Package: com.ghxstdev.hsgradientsunflower
+Name: HS Gradient Color Pack Sunflower
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Sunflower Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Sunflower.deb
+Size: 37056
+MD5sum: 703845abf14accd61733660f726da445
+SHA1: bfd055e182e9525b85da6836993f8ae7a4910cbb
+SHA256: bda0f3d2b9e0ab0713c3d295da91ca35ce963dea2ba5f69b410e309e1764d8c7
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackSunflower.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientsunflower
+
+Package: com.ghxstdev.hsgradientvaporwave
+Name: HS Gradient Color Pack Vaporwave
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - Vaporwave Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSGradient ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient-Vaporwave.deb
+Size: 37052
+MD5sum: f6902765c0b56a02f555f8ee032563dd
+SHA1: bba64f5919fa29c0fb9e77d06a7b55639a223d64
+SHA256: 6fafbfbaadd6566324b027ebff2f0e60eefea6e9ce270a7d6547c38f464eafec
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPackVaporwave.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientvaporwave
+
+Package: com.ghxstdev.hsgradientpack
+Name: HS Gradient Color Pack
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Time, Date and Weather on HS - All Color Pack
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: XenHTML
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSGradient.deb
+Size: 37528
+MD5sum: 318937c4f556d199433c7a50c2669148
+SHA1: 115252d6a01374932a7555dee76737104d21eb16
+SHA256: eff14423d00261d1f38bb5373bdb603e3df553dd6cd2848dd8e6edac58ea96ef
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPack.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientpack
+
+Package: com.ghxstdev.hspillaqua
+Name: HS Pill Color Pack Aqua
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Aqua Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Aqua.deb
+Size: 517364
+MD5sum: b26bf0ddf18d555b749b95322d0bc0cc
+SHA1: 6b16e45aa9f9b32e30a8dc5f1efc796a32993741
+SHA256: 56300c78efdd15247c4a60fa2a1110ba706119e917dcc4ee929aefcb2135fcae
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackAqua.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillaqua
+
+Package: com.ghxstdev.hspillbubblegum
+Name: HS Pill Color Pack Bubblegum
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Bubblegum Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Bubblegum.deb
+Size: 45396
+MD5sum: 397d93ffe0c143a44e19c76cf6b337ac
+SHA1: 325089b5e02f2d61f13f79b950bc321a500209a5
+SHA256: e0c33632d89f61aeaa6db8b73b6a40bca698a9a17640174b791d5220aa987ff8
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackBubblegum.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillbubblegum
+
+Package: com.ghxstdev.hspillforest
+Name: HS Pill Color Pack Forest
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Forest Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Forest.deb
+Size: 111312
+MD5sum: 4b999fb37efd4dc49fd293a65220774b
+SHA1: 31802e9e8e8c2c8fd44ff7fcb150505b5b29aa28
+SHA256: 5d9edad30583fed06d3ec17b5fe42195b87e4ce8fb68377f09687224292095b3
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackForest.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillforest
+
+Package: com.ghxstdev.hspillgrayscale
+Name: HS Pill Color Pack GrayScale
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - GrayScale Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-GrayScale.deb
+Size: 42608
+MD5sum: b0b9944dc9de1eccf61877723e4529a4
+SHA1: 4c3d963a80cab4b2e0403f8a8bc75d0b4f20ce89
+SHA256: 276319faffe2e8cd33042670c652ba3ab93545d396fed2b36e8bf8f7445b30d0
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackGrayScale.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillgrayscale
+
+Package: com.ghxstdev.hspillkiddie
+Name: HS Pill Color Pack Kiddie
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Kiddie Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Kiddie.deb
+Size: 69356
+MD5sum: 217f65037882a730a85208da5376da35
+SHA1: 1c35e5065728314b737ce8d643f0c639f7abf731
+SHA256: 38b66fb1e17ab2424dd40a358ca76c367abcde08bd9d5b6b37996fcda3ebdf54
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackKiddie.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillkiddie
+
+Package: com.ghxstdev.hspilllavendar
+Name: HS Pill Color Pack Lavendar
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Lavendar Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Lavendar.deb
+Size: 39052
+MD5sum: 79d8f9ae88792e3488bb8b8b3e142fda
+SHA1: a8814ba84215c3f8fe835df94ca1a1336979d9a4
+SHA256: 1098040ba1ba4ae66f34d8236e83edffa505764b6df65596d0bc4e1bada83bfd
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackLavendar.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspilllavendar
+
+Package: com.ghxstdev.hspillmaroon
+Name: HS Pill Color Pack Maroon
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Maroon Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Maroon.deb
+Size: 69808
+MD5sum: 18d72676c3e0e24d18c390b3ef7e3e07
+SHA1: 7166e397a157e0a8ad3c069ce9bb3031e90e1d28
+SHA256: 6ab1db712d0f7525a47826ee505313def77c6d38dca02fc083ba28f73496da42
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackMaroon.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillmaroon
+
+Package: com.ghxstdev.hspillmidnight
+Name: HS Pill Color Pack Midnight
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Midnight Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Midnight.deb
+Size: 166532
+MD5sum: 32bd4749d058bb7bf866d2d772af5571
+SHA1: d21edcc6d90cf8d9d14f56661b6ebdd80f67c199
+SHA256: 8deaff26e8cba9071352ba4212eb35982a69d7f9cdbb01db5614ebd44cd23923
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackMidnight.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillmidnight
+
+Package: com.ghxstdev.hspillneon
+Name: HS Pill Color Pack Neon
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Neon Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Neon.deb
+Size: 43376
+MD5sum: e35f9d88c3309fe88b55673372909c6c
+SHA1: 853edabac97469a4674a0bb791732bbd031ae913
+SHA256: 40434d165a5a44043c6eb3f98f89e8484eb6fb0f08bb8f95e9eda8535da137fb
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackNeon.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillneon
+
+Package: com.ghxstdev.hspillpastel
+Name: HS Pill Color Pack Pastel
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Pastel Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Pastel.deb
+Size: 87508
+MD5sum: d49a4a838c25bcf275a275a4fa2eda2c
+SHA1: da903c2bfa7e911aea3ca5c63686e2875063f2d5
+SHA256: 916fb9fa529b100469465d7e26e2bb901ec095ba9f8269e70d77dba640941d51
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackPastel.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillpastel
+
+Package: com.ghxstdev.hspillpeach
+Name: HS Pill Color Pack Peach
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Peach Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Peach.deb
+Size: 62144
+MD5sum: eea8e7c25e51a110c2c3e3e5d533ae93
+SHA1: 0f3afaa4f39e28046463d8488e792a3758dcbb9f
+SHA256: fd953f903f3eb410d2ea9e6af34cf1b9006755c60a724bc9e6b9c5c84bc4d328
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackPeach.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillpeach
+
+Package: com.ghxstdev.hspillsunflower
+Name: HS Pill Color Pack Sunflower
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Sunflower Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Sunflower.deb
+Size: 94796
+MD5sum: 401630bf09210d00ee6f0cf337aa75d6
+SHA1: 4b3dee5923e7802e555c71eee5f16e9a0c5874ec
+SHA256: 0e95cec67770f94872293fe1ae3e66f8461d8fb24fa50d04a216bb871e1bd747
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackSunflower.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillsunflower
+
+Package: com.ghxstdev.hspillvaporwave
+Name: HS Pill Color Pack Vaporwave
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - Vaporwave Color Scheme
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: HSPill ColorSchemes
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill-Vaporwave.deb
+Size: 102228
+MD5sum: 21fba3393e610ae7610e6f82da5b409e
+SHA1: 0022b4e6edf4a3252fca4ee196dc4c135a3642d0
+SHA256: 204f2914b77c83a27c40d81b95500de2f90e680f9baa709c22c32ffc034117c1
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPackVaporwave.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillvaporwave
+
+Package: com.ghxstdev.hspillpack
+Name: HS Pill Color Pack
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Date, Time, Battery and Weather HomeScreen - All Color Pack
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: XenHTML
+Depends: com.ghxstdev.eghxstrepoicons
+Filename: debs/HSPill.deb
+Size: 1013488
+MD5sum: 791b53e0951b34f65ce64673140367e6
+SHA1: afef97470e784c7c68ffcebb018ad91d563de88b
+SHA256: bea23ff49d935d40f8e20f8d9dcded0fe50b179c859a1f3dcb1dc127e6ca3da9
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPack.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillpack
 
 Package: com.ghxstdev.hssidebaraqua
 Name: HS Sidebar Color Pack Aqua
@@ -485,9 +961,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Aqua.deb
 Size: 36488
-MD5sum: 7744770c0492bff98702c005beacf67e
-SHA1: ac86bba83d8232090c131e647c2d8a8b2ceb779f
-SHA256: 30127cc1cdbc913a47d82d20661dbd55bc90ac766521be0f0d0d2b22ded1cf90
+MD5sum: 84d4977d26eda2e3194a3d406b2bd646
+SHA1: bf856bf6efcacbd2010958bfa2bfba48a4089f82
+SHA256: 3cf86298aa584cdebb7776792ba021085e574ced0085616122f5419d748fe753
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackAqua.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebaraqua
 
@@ -502,9 +978,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Bubblegum.deb
 Size: 36472
-MD5sum: c644e779620f0120459b1ba730c2b58e
-SHA1: d88d74c9361190dfcc9061261c290336c7a548a4
-SHA256: 910dddf23ccc5b0f9d277f7336b8af98f3143933be203292ee73f72f1aafcb1e
+MD5sum: cbebb826e477bd343097a6f7d32db351
+SHA1: 3107b1a9d8f075675b20b485659dc3106b3c3997
+SHA256: 595e275b758bd7f71a177569b1bc8fb87931b5f407e0c58669cb6c46fe0d158e
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackBubblegum.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarbubblegum
 
@@ -519,9 +995,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Forest.deb
 Size: 36484
-MD5sum: f4682ae02a1f15ccdf813a9d2134ea31
-SHA1: 295929516d1ae5fa6a5ac5d432c95775f2bfac80
-SHA256: 1c463973724617b9e83ced4cf4b7152cbcdd98657b4890a60d4fd835886b3a62
+MD5sum: 1e6fab4eb6cfa78e5e05a57ce7d1a4c7
+SHA1: 94eda8279d4a0e305d6e0c6631d05460163f5ce0
+SHA256: 3b2979bcb030531bb1b72d2827f6e3655961cb2fb1e18d2e5082679ee49ad84b
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackForest.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarforest
 
@@ -536,9 +1012,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-GrayScale.deb
 Size: 36484
-MD5sum: a7ebb2ef14648803ec123dd450be99e0
-SHA1: b2ee6aea1cb1c2ff2493f45f6ff36f6287ad07db
-SHA256: e77f50fe356d3f6e1ae4704cb21dde2ac0f0713aab4d22b57ba27e125fe305f5
+MD5sum: 4ca9c114b2f492626244cf6596c4b6ac
+SHA1: f9da82ed3b676122b9c5dd8d11e0e0d39152bed0
+SHA256: bd324d8fa4162ae83c42a70ea08a26cde50cf5184e3f329e2d94da723f7561a7
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackGrayScale.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebargrayscale
 
@@ -553,9 +1029,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Kiddie.deb
 Size: 36488
-MD5sum: 27d0d6ab0e72cac3fccbda61607ee2ae
-SHA1: fdd88a76225ed8be6186b56cfa3be1f864e54210
-SHA256: dfdc1124f88e071539eb9b3eff538a742c8d524d5ed834a47def40259cbca1ba
+MD5sum: c1dab61ab0c4ac86eba99121e5540d96
+SHA1: 386de0565b05c200607cffcec28b8797efc37764
+SHA256: 730b63c62e2f2c9f0d57c156e704dd51cf093b18faf5ede60521c0774de003f5
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackKiddie.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarkiddie
 
@@ -570,9 +1046,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Lavendar.deb
 Size: 36472
-MD5sum: 168c7446bff85eb3f2a82ac27ab96973
-SHA1: b92cb862c7e26c14bbf02663b58df66d8cdfcda8
-SHA256: 1c00b51ff3ddbe30ef419d318f2b419e77ffb18b1663a3cde93a29a317944b61
+MD5sum: dc02c80fd9e4fb0c0360d72af6e0d503
+SHA1: 9db67eb0d1cebec6bbd82c59bcaea3ee06b3a6dd
+SHA256: 3c84e178149e664aa85e2ce903d48cc172ab4fb8f59dfbc5b34a4805f64da737
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackLavendar.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarlavendar
 
@@ -587,9 +1063,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Maroon.deb
 Size: 36484
-MD5sum: 9fefcd7a3f6a5490f932f3f59deb925a
-SHA1: 0cf1f243bd04bbfb1cfafa584580309add3c1171
-SHA256: eea26f81d21a3e26169fd17b645ea8aa4e0ac5887d61507847bd03034d0d3539
+MD5sum: f3d29af281f2622fc1e18f66e31747b4
+SHA1: 04a6ad9910c9b9f13dc07fc55756f39439f6e33b
+SHA256: ce8cd31c4d1e5904c3f4c8acd9dfb24cbeba0b157a7a146f312d132cfecb7bbb
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackMaroon.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarmaroon
 
@@ -604,9 +1080,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Midnight.deb
 Size: 36480
-MD5sum: 05760ea176c9a2531ab1595c0625261d
-SHA1: e42b6fe9cc776b168c94a48a27718da31a8d8d26
-SHA256: d1333908d928328412bf233d44105adb09716c066d67ae4afc07fd00b1790a31
+MD5sum: a77d612f5cbd4a519d2bb81c18ed261c
+SHA1: 6db7545e6c9a29222e2e9c8cd3acd87c66c41f67
+SHA256: 610db4b8ef5629a6104522902e76db4065f22eb406811babdb2868943e3e82ba
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackMidnight.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarmidnight
 
@@ -621,9 +1097,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Neon.deb
 Size: 36068
-MD5sum: db99272c67c1c41994019860419a6087
-SHA1: 36b3d055caf1fe9710539f0cb3eb17bafaae67c6
-SHA256: 323f73b7bd0e61d390ad3f8713a0c2729ae4b2c47bf45717cbe8df9ef4a9b304
+MD5sum: 5dd338591c42ceb8111b5404d1372288
+SHA1: 10a19e7d0bcabb70beb94dcd63aecdc0220c478c
+SHA256: 3be1d96f25d81f659aacd41cec4033950349db4d4b6f9798ef10b719e22a797d
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackNeon.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarneon
 
@@ -638,9 +1114,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Pastel.deb
 Size: 36484
-MD5sum: 193796b2be9453cb0f87a5f431065d46
-SHA1: fd5f76bc15a542424b25ba45ecfe27a0329ccd9c
-SHA256: 1e6e89d1f528af96c9671eede091accd88ff81b8db6c5e43d3c35c6e04c39fd0
+MD5sum: ed51d5b257bb502539d2f57c92e31120
+SHA1: e526f35cf3ecdea7fa33f076e08b1cb145f6f002
+SHA256: 68b202b4676e4746345969656d6eed3580af6b84665686c6a7f0debfa3142402
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackPastel.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarpastel
 
@@ -655,9 +1131,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Peach.deb
 Size: 36480
-MD5sum: 5f0486fc7dbf5a30c58039a5d1725ecd
-SHA1: 360289fc01ad7a6c6b608897c63ccc6d7c5b25ee
-SHA256: f599e8ff88fdcf7a7ad6f3d468dd9e7625a9d5e34836dee61beda2850cc4008c
+MD5sum: 8aee4e73e1977a46d3c14061d7286fa2
+SHA1: 5301a154802d1640183f0be78f45629cd0cc167e
+SHA256: c7e8d74b995221118cdf36feaf608059e328244a82b3360a5ebda93702e8b030
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackPeach.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarpeach
 
@@ -672,9 +1148,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Sunflower.deb
 Size: 36472
-MD5sum: 5a56999b8a1b169bcfb1e0e26bd5c685
-SHA1: f19ceab86e10228dba61f60e583be48f6354f17d
-SHA256: 0fa6ba85881d8cc5284a4967f9abb5572cb74efbba8747af43bfb9184ffd998e
+MD5sum: 5f7cae84d8405bb95924f9e202c288a3
+SHA1: eed75c83b8491331cf1dc76ee8a9f2b7b4f2de67
+SHA256: 61a8b8502ba2d0b0a461770aef56dbce78f6dac8889aa753dcaca6febe2d1116
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackSunflower.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarsunflower
 
@@ -689,9 +1165,9 @@ Section: HSSidebar ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar-Vaporwave.deb
 Size: 36476
-MD5sum: 3ad06d780afd0f273bff96f1dddd1a1d
-SHA1: 5a1fddfb46c31dcad3071d0a32e62851712fb6ff
-SHA256: d948be8878c2d2315d68f203c930c27628768b2140aabbea945ddcec75064fea
+MD5sum: 753a62ff5329b3389392b38bd4cf5066
+SHA1: 9c877e0549042c977b8a5da049fec75ae246c538
+SHA256: 8a8c74383c50f01a1a109740218776f032efb7e3e81067425866f7d5de71e02e
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPackVaporwave.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarvaporwave
 
@@ -706,9 +1182,9 @@ Section: XenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSidebar.deb
 Size: 36976
-MD5sum: 6bed3ecc8b05997cd4e4e474d08a3750
-SHA1: 7613e5a840cd67f634195bcca57e800a98ff2633
-SHA256: 56d440a6a911d07fdb2bbd11cd90c3176d9a96fe85e7614d353c1cfc7a3b3cbe
+MD5sum: 2aae18e9bc83f0970970a80e2ca6aada
+SHA1: e142933a86abe586709f85d29b19bf79bd8534b7
+SHA256: f9bb635feb12bb9b12764c99291bf07adc9c5d0fe5df028ca7dbba2090c4c466
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarpack
 
@@ -722,10 +1198,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Aqua.deb
-Size: 37868
-MD5sum: 064f85ec79deaff6ffcdee35a1a2cdbb
-SHA1: e1b2c2eb04e08dee2564183557d94e3dbb1704d4
-SHA256: 1b6b470df79cc8ce61556215e8c69f955b4c9d766ae6988a7a691c9b5bd2d6c1
+Size: 37892
+MD5sum: 51939311ab2db84f8ebb94d3105be732
+SHA1: fe1fc41798f8ab77b11dce0d6dfa2bf20aef04d8
+SHA256: 4ef646418856a43379ff12cda82c8debca9d709bdf9006d4117340bb73cc44fe
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackAqua.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitaqua
 
@@ -739,10 +1215,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Bubblegum.deb
-Size: 37872
-MD5sum: 7a266c4af3bc459e5bbedc51d659eb99
-SHA1: 633c0b8571e1d9c33b8069419fe9f84ff31a3bad
-SHA256: 277955c0ba64b1cb4e5cc26e2a374d51e29ee19e63b4054350d099128bfb84b5
+Size: 37884
+MD5sum: 43e6ff671d0da6c76c1f7e7cb7adbb4b
+SHA1: 33c6e220aeaa9a0324a27d6074326b8fe3053490
+SHA256: 7cec786ee6d410f5a8b24269301e479a0bb091251602a47f138b23568d646978
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackBubblegum.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitbubblegum
 
@@ -756,10 +1232,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Forest.deb
-Size: 37872
-MD5sum: ff37ac3d4984ccc775ebeaeb71f4c444
-SHA1: 8d2766deaa75796c872703aa5fc21c34e761371c
-SHA256: e9a818597cb9f8898db03364ef308a44238f63ecdedbf50bd397cb0ffde23aa4
+Size: 37868
+MD5sum: 841f06845ee2055cd3d1b642d7c514c2
+SHA1: 4bf8428e4fef8c1cccb828cb49960516338b7757
+SHA256: 6b1abdbb543162315c2128e9348723170f4e08d11a862a3a7ab1e30ab9fc547a
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackForest.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitforest
 
@@ -773,10 +1249,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-GrayScale.deb
-Size: 37868
-MD5sum: f8c67725606971d7df4756f22337529a
-SHA1: d6f12e8ef6f62fb42d5fb38c303d3a978ab32ad6
-SHA256: fa5ba20b0cc8c1763f305645c28aceab1a5c5707afe0f9d040ec9f82460caf09
+Size: 37884
+MD5sum: 969c7573e0936da4481cb32351cf2127
+SHA1: 59de30aa69905fe3cfa28f8ceaeb5a4827baf187
+SHA256: 97ec423ef7fee630b24d23548e65e6395e56999b411b7811c658c18c83bfe9d0
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackGrayScale.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitgrayscale
 
@@ -790,10 +1266,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Kiddie.deb
-Size: 37864
-MD5sum: fe72fad305aea848057738f2e8a33df7
-SHA1: f7e3fcae9818198b421ca0e4f3039ded28b11f9b
-SHA256: 1ec2aff39b33330634f4f75f5077f21b5ef2f8bf4a0f1b61b6b1c18898adb29c
+Size: 37900
+MD5sum: b7e837f09e9e6a11e4172f50a8a04085
+SHA1: e563b9f35aacb34a3d5d5ddd382138f40547aae9
+SHA256: 6ea376ed982d9d225e9b2174d22891aa14f1a1addf00603123da42e4a148ffc9
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackKiddie.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitkiddie
 
@@ -807,10 +1283,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Lavendar.deb
-Size: 37860
-MD5sum: 86abf8b054945b4df9c01e1d3bd2b3df
-SHA1: 4c3eb22311f860a79abc249b9f9b77476ac581c3
-SHA256: b36dfe3e996cdd3d2ca194f00ee305008e51fca774c4b96daa72511594551ae5
+Size: 37884
+MD5sum: 4f04a92c3bc0b70363dfe782f98b03b6
+SHA1: 93a6eab5223c9bdcb6cd2dd912d66a859a32dcfb
+SHA256: 6e679aab50469abede08c0684fad94d20ffde9995715f52a7644b09cd231bc98
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackLavendar.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitlavendar
 
@@ -824,10 +1300,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Maroon.deb
-Size: 37872
-MD5sum: 9b62cb9d969251d6a47d114b221a5ef8
-SHA1: a2d1ab50146782087f24c940b4a581154d2f7302
-SHA256: 92ddeb4d7ef19850cd9189a38b5c65b1fdfdeab8c8832396eee01ecb405e29b3
+Size: 37896
+MD5sum: bc5c67610bd904eedcb3efcd666389c8
+SHA1: 7df95637d460bea031d35da590b76785a1d044d7
+SHA256: 2244f61941c7c8a7371d61a7f4935b4f0da96f8809ab032c5328c1184f508759
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackMaroon.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitmaroon
 
@@ -841,10 +1317,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Midnight.deb
-Size: 37868
-MD5sum: 48d3306b5be58fe71633ffd35c802602
-SHA1: a0066aad7a391f2b3afa6f1bff36029024fca9a0
-SHA256: 609fe299052c582990449f42f602a3b5c169e21b8d9b773679b2ef30473047b6
+Size: 37900
+MD5sum: e87f6e64203c3c38980778dff9e16557
+SHA1: 03f4403b3bc8b9f7c9312be26bb79ca798ff101e
+SHA256: ad52c07228e673d5110699c49c97e2ea4b4f20e6d887768971b740ab9543fe8b
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackMidnight.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitmidnight
 
@@ -858,10 +1334,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Neon.deb
-Size: 37852
-MD5sum: 8fca975cf20fef131c542a83814dc67f
-SHA1: 17b2c57ab70c68cc51880bebc47165016863eabe
-SHA256: 075d4ba8a3083a234a5280a3c8aec5ae6c2dca7278013746374a0b631a87bab0
+Size: 37892
+MD5sum: 5df002ce61b0a3d45a709db637dbd82f
+SHA1: 9138dd7cd857455f01d0348ffedb73096f4ecbdf
+SHA256: 8c4e6cf5e2c1b09124f8e143f11cdf4bba4bcb4588a9b1e0165f59790fdc1029
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackNeon.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitneon
 
@@ -875,10 +1351,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Pastel.deb
-Size: 37864
-MD5sum: 87e07a6886fccede38728759afd4c670
-SHA1: f508aaa2303277283d54d808dcb8c48b090ebaec
-SHA256: dc542a1da6a481a2e3653bc6dc889afbcfd5d52df1c14254a885375283bad8ca
+Size: 37892
+MD5sum: 6de6bb0660c50496e90b668dae7d95ff
+SHA1: cff751b436b47dee067dc8a3b533898d19441396
+SHA256: 9c3a2b6149c0f319f3ff118e20c269dfa568504ab7642c59a6ad6fc51f809c31
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackPastel.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitpastel
 
@@ -892,10 +1368,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Peach.deb
-Size: 37868
-MD5sum: 411bc933484ca88ba4a9c4b6efb6f687
-SHA1: 0e16e2556d3f875b084693d91b4b8b9d1f79eb0a
-SHA256: 7c398307a8b98b9d4378abf60c4294a6d3ae69f6cd219d42a488b82b184769e6
+Size: 37900
+MD5sum: beea95fe8848c9465bf584a9ce8765c1
+SHA1: 73aaf279207d56d95ff26274e3339cd6ac5eaf32
+SHA256: 6fb4a6293cb1932f90e8f43243e4babebad3c844f93ee52cb3e580cdc4288380
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackPeach.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitpeach
 
@@ -909,10 +1385,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Sunflower.deb
-Size: 37876
-MD5sum: 0fe50f9c7ac841545847cef77d6d8042
-SHA1: dc548aee751815fccd46e9a40c177adaac95c1a4
-SHA256: a15eef228d9cc8dcb3fef257a6782095c33a3a957ffb1ca2e22d1639f057d535
+Size: 37888
+MD5sum: d7a2e85511eff0933367c01d206d5b3b
+SHA1: d914f486208c789dbde2b9a418b5661172e3fcfe
+SHA256: 0d601d13d0299b83a9de4213ea720a93c9ab99b47bc063808c02c172b908ac55
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackSunflower.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitsunflower
 
@@ -926,10 +1402,10 @@ Author: ghxstdev Repo
 Section: HSSplit ColorSchemes
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit-Vaporwave.deb
-Size: 37872
-MD5sum: 1f02fa2083800cf59b7f715513918424
-SHA1: 334eea7a70ce384a97440d893ceca8527118be35
-SHA256: ce5169cb881787ef6796d80c378aeb64055b930297fa3521ff733dfb0716be85
+Size: 37892
+MD5sum: 376d52d97502cec859dec3e86ee71f79
+SHA1: 6f958521db9eb7e9f19f19334084d4e4169b3496
+SHA256: dbbb1ced71a779885be80e415a351bf343d207eb36b6a2d72bfd200f3961aba0
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPackVaporwave.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitvaporwave
 
@@ -943,10 +1419,10 @@ Author: ghxstdev Repo
 Section: XenHTML
 Depends: com.ghxstdev.eghxstrepoicons
 Filename: debs/HSSplit.deb
-Size: 38400
-MD5sum: 59bcbef4194406cf16a4914178ceace3
-SHA1: 2f386ae5595be5d1d8ee4d0b5963b6c46dbb34cc
-SHA256: 1b087386100f95394673909d868bf3826a7aafe5956e379ce64636aa4f31e6de
+Size: 38396
+MD5sum: 26ec8e82ae61e75ffb351b856efdb2e5
+SHA1: 262df50c7d91fa93906b584475d62a1b77aa1ec0
+SHA256: 89a4f09948d5f537a73f807d58f38ad9c34b46ca3962a67ac1e0a5d877706b85
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitpack
 
@@ -961,9 +1437,9 @@ Section: Themes
 Depends: com.anemonetheming.anemone | com.spark.snowboard, com.ghxstdev.eghxstrepoicons
 Filename: debs/SodaPop.deb
 Size: 890924
-MD5sum: 5876b0d1b28ca03e9a48bcb0f8eb52fb
-SHA1: 11d53ad3f9030eb718707e49c07abb58054ca9bb
-SHA256: 90750bd48dd5f10e25ab3b499329c94d84154d378752c6bbd0d37daecbd345ee
+MD5sum: c68776a9560fd791c6ea7377efff7170
+SHA1: 1b919928ebefa81da92ef0c4e7b5845873864b7a
+SHA256: 689e5ad8f7b36ea1dd5e1db4ca6ac8e2b306885ec9d9fd618617c829fa190353
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/SodaPop.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.sodapop
 
@@ -977,8 +1453,8 @@ Author: ghxstdev Repo
 Section: System
 Filename: debs/eghxstRepoIcons.deb
 Size: 41264
-MD5sum: 772440b7025889334930391e0ef4a899
-SHA1: 34f91e58b0461115abc6d51a0ca3d7c879b0dda0
-SHA256: 6b06f1412574a9ba18355e683582f0a4940d3ce16907b06066efd69e7b337f2f
-Icon: Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.eghxstrepoicons
-Depiction:
+MD5sum: 7e7b8cd537f28562a4d2cbacb6ece532
+SHA1: 962be8f9ae8789637fce0a4c5b63a52d6efacfe0
+SHA256: 132caa78bb1ba26645a3d1cd80899e4adc86f746c340322244706a1885ca9ea8
+Icon: https://eghxst.github.io/cydia/imgs/repoicons/RepoIcons.png
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.eghxstrepoicons
