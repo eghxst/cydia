@@ -1,6 +1,7 @@
 const crypto = require('crypto');
 const fs = require('fs');
 let fileText = "";
+const { exec } = require('child_process');
 
 let files = fs.readdirSync('debs/');
   let allFiles = files.map(e => e.replace('.deb',''));
@@ -44,6 +45,16 @@ fs.writeFile('Packages', fileText, error => {
     return;
   }
 });
+var yourscript = exec('./zippkg.bash',
+  (error, stdout, stderr) => {
+      console.log(stdout);
+      console.log(stderr);
+      if (error !== null) {
+          console.log(`exec error: ${error}`);
+      } else {
+        console.log(`Successfully rezipped Packages`);
+      }
+  });
 
 
 function getInfo(data, type) {
