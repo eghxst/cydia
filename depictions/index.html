@@ -53,10 +53,12 @@ function loadFile(filePath) {
   let str = loadFile('data.txt');
   let jsonObj = JSON.parse(str);
   let packageData = jsonObj.filter(obj => { return obj.package === bundleid })[0]
+  let desc = loadFile('descriptions/'+packageData.package+'.txt');
+  let version = loadFile('versions/'+packageData.package+'.txt');
 
   //fill fields with package data
   document.getElementById('name').innerHTML = packageData.name;
-  document.getElementById('desc').innerHTML = packageData.description;
+  document.getElementById('desc').innerHTML = desc;
   let img = packageData.name.replace("Color Pack", "Pack")
             .replace(/\s+/g, '');
   $('#icon').css("background-image","url('../imgs/repoicons/"+img+".png')");

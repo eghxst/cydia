@@ -38,7 +38,7 @@ function getData() {
     if(screenshotFiles) screenshotFiles = screenshotFiles.join(' ');
     else screenshotFiles = "";
 
-    jsonObj.push({"name": name, "package": package, "description": description, "screenshots": screenshotFiles, "depends": depends})
+    jsonObj.push({"name": name, "package": package, "screenshots": screenshotFiles, "depends": depends})
 
     //we also want to create any versions/descriptions files if needed
     fs.writeFile('depictions/versions/'+package.replace('com.ghxstdev.', '')+'.txt', "1.0 - Initial Release\n", { flag: 'wx' }, function (err) {
@@ -46,7 +46,7 @@ function getData() {
     });
 
     //we also want to create any versions/descriptions files if needed
-    fs.writeFile('depictions/descriptions/'+package.replace('com.ghxstdev.', '')+'.txt', "1.0 - Initial Release\n", { flag: 'wx' }, function (err) {
+    fs.writeFile('depictions/descriptions/'+package.replace('com.ghxstdev.', '')+'.txt', description+"\n", { flag: 'wx' }, function (err) {
         if (!err) console.log("Descriptions file created for " + name);
     });
   }
