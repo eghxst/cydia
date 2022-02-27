@@ -12,13 +12,7 @@ fs.writeFile('depictions/data.txt', getData(), error => {
 });
 function extraDesc(package, name) {
   let desc = "";
-  if(package == "com.ghxstdev.hsborderpack" ||
-    package == "com.ghxstdev.hsdiagonalpack" ||
-    package == "com.ghxstdev.hssidebarpack" ||
-    package == "com.ghxstdev.hssplitpack" ||
-    package == "com.ghxstdev.hsgradientpack" ||
-    package == "com.ghxstdev.hspillpack"
-  ) {
+  if(package.includes("pack")) {
     desc =  "<br>Includes All color schemes for the "+name+" XenHTML Widget.<br><br>Included in this pack is the following:<ul>";
     const schemes = ["GrayScale", "Maroon", "Sunflower", "Peach", "Aqua", "Lavendar", "Pastel", "Forest", "Kiddie", "Bubblegum", "Midnight", "Neon", "Vaporwave"];
     for(let i = 0; i < schemes.length; i++) {
