@@ -58,8 +58,7 @@ function loadFile(filePath) {
   document.getElementById('name').innerHTML = packageData.name;
   document.getElementById('desc').innerHTML = packageData.description;
   let img = packageData.name.replace("Color Pack", "Pack")
-            .replace("%20", "")
-            .replace(" ", "");
+            .replace(/\s+/g, '');
   console.log(img);
   $('#icon').css("background-image","url('../imgs/repoicons/"+img+".png')");
   let screenshots = packageData.screenshots.split(' ');
