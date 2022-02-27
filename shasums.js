@@ -48,15 +48,15 @@ fs.writeFile('Packages', fileText, error => {
 
 function getInfo(data, type) {
   let arr = data.split("\n");
-  let types = ["Package", "Name", "", "", "Description", "Author", "Maintainer", "Section", "Depends", "Icon", "Depiction"];
+  let types = ["Package", "Name", "Version", "Architecture", "Description", "Author", "Maintainer", "Section", "Icon", "Depiction", "Depends"];
   let idx = types.indexOf(type);
   let infoLine = arr[idx];
   return infoLine.replace(type + ": ",'');
 }
+
+
 function printData(filename, version, md5Res, sha1Res, sha256Res, size, package, name, description, author, maintainer, section, depends, icon, depiction) {
-  let dependsLine = (filename === "eghxstRepoIcons") ? "" : "Depends: "+depends+"\n";
-  icon = (filename === "eghxstRepoIcons") ? "https://eghxst.github.io/cydia/imgs/repoicons/RepoIcons.png" : icon;
-  depiction = (filename === "eghxstRepoIcons") ? "https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.eghxstrepoicons" : depiction;
+  let dependsLine = (depends == "") ? "" : "Depends: "+depends+"\n";
   let response = "Package: "+package+"\n"
   +"Name: "+name+"\n"
   +"Version: "+version+"\n"
