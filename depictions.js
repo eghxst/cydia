@@ -18,7 +18,7 @@ function extraDesc(name) {
   for(let i = 0; i < schemes.length; i++) {
     desc += "<li>"+name.replace("Color Pack", "")+" "+schemes[i]+" Color Scheme</li>";
   }
-  desc += "</ul><br>The default theme is GrayScale. Edit the config settings through the widget when placing in XenHTML to enact any of these themes.";
+  desc += "</ul><br>The default scheme is GrayScale. Edit the config settings through the widget when placing in XenHTML to select any of these color schemes.";
   return desc;
 }
 function getData() {
@@ -45,12 +45,12 @@ function getData() {
     jsonObj.push({"name": name, "package": package, "screenshots": screenshotFiles, "depends": depends, "updated": dateFormat})
 
     //we also want to create any versions/descriptions files if needed
-    fs.writeFile('depictions/versions/'+package.replace('com.ghxstdev.', '')+'.txt', "1.0 - Initial Release\n", { flag: 'wx' }, function (err) {
+    fs.writeFile('depictions/versions/'+package.replace('com.ghxstdev.', '')+'.txt', "1.0 - Initial Release", { flag: 'wx' }, function (err) {
         if (!err) console.log("Versions file created for " + name);
     });
 
     //we also want to create any versions/descriptions files if needed
-    fs.writeFile('depictions/descriptions/'+package.replace('com.ghxstdev.', '')+'.txt', description+"\n", { flag: 'wx' }, function (err) {
+    fs.writeFile('depictions/descriptions/'+package.replace('com.ghxstdev.', '')+'.txt', description, { flag: 'wx' }, function (err) {
         if (!err) console.log("Descriptions file created for " + name);
     });
   }
