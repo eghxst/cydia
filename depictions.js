@@ -23,6 +23,8 @@ function extraDesc(name) {
 }
 function getData() {
   let jsonObj = [];
+  let str = fs.readFileSync('depictions/data.txt', "utf8");
+  let dataJson = JSON.parse(str);
   for(var i = 0; i < allFiles.length; i++) {
     let filename = allFiles[i];
 
@@ -39,8 +41,14 @@ function getData() {
     if(screenshotFiles) screenshotFiles = screenshotFiles.join(' ');
     else screenshotFiles = "";
 
-    let date = new Date();
-    let dateFormat = (date.getMonth()+1)+"/"+date.getDate()+"/"+date.getFullYear();
+    let packageData = dataJson.filter(obj => { return obj.package === package })[0]
+    let dateFormat;
+    if(packageData.name !== name || packageData.screenshots !== screenshotFiles || packageData.depends !== depends) {
+      let date = new Date();
+      dateFormat = (date.getMonth()+1)+"/"+date.getDate()+"/"+date.getFullYear();
+    } else dateFormat = packageData.updated;
+
+
 
     jsonObj.push({"name": name, "package": package, "screenshots": screenshotFiles, "depends": depends, "updated": dateFormat})
 
