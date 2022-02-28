@@ -13,13 +13,20 @@
   </script>
 </head>
 <body>
-<div id='icon'></div>
-<h1 id='name'>pkg name</h1>
+<div class='block' id='head'>
+  <div id='icon'></div>
+  <h1 id='name'>pkg name</h1>
+  <div id='infoblock'>
+    <p>Version<br><a id='versionnum'></a></p>
+    <p>Updated On<br><a id='lastupdated'></a></p>
+    <p>Dependencies<br><a id='dependencies'></a></p>
+  </div>
+</div>
 <div class='block'>
   <ul class='card-scroll' id='screenshots'>
   </ul>
 </div>
-<div class='block' id='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+<div class='block'><h2>Description</h2><a id='desc'>DESCRIPTION</a></div>
 <div class='block'>
   <h2>Previous Versions</h2>
   <div id='previous'>
@@ -53,15 +60,25 @@ function loadFile(filePath) {
   let str = loadFile('data.txt');
   let jsonObj = JSON.parse(str);
   let packageData = jsonObj.filter(obj => { return obj.package === bundleid })[0]
+
+  //get data from files
   let desc = loadFile('descriptions/'+packageData.package+'.txt');
   let version = loadFile('versions/'+packageData.package+'.txt');
+
+
+  let currentVersion = "";
+  document.getElementById('versionnum').innerHTML = currentVersion;
 
   //fill fields with package data
   document.getElementById('name').innerHTML = packageData.name;
   document.getElementById('desc').innerHTML = desc;
+  document.getElementById('lastupdated').innerHTML = packageData.updated;
+  document.getElementById('dependencies').innerHTML = packageData.depends;
   let img = packageData.name.replace("Color Pack", "Pack")
             .replace(/\s+/g, '');
   $('#icon').css("background-image","url('../imgs/repoicons/"+img+".png')");
+
+
   let screenshots = packageData.screenshots.split(' ');
   for(let i = 0; i < screenshots.length; i++) {
     document.getElementById('screenshots').innerHTML += "<li style=\"background-image:url('screenshots/"+bundleid+"/"+screenshots[i]+"')\">"+i+"</li>\n"

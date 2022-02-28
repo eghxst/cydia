@@ -39,7 +39,10 @@ function getData() {
     if(screenshotFiles) screenshotFiles = screenshotFiles.join(' ');
     else screenshotFiles = "";
 
-    jsonObj.push({"name": name, "package": package, "screenshots": screenshotFiles, "depends": depends})
+    let date = new Date();
+    let dateFormat = (date.getMonth()+1)+"/"+date.getDate()+"/"+date.getFullYear();
+
+    jsonObj.push({"name": name, "package": package, "screenshots": screenshotFiles, "depends": depends, "updated": dateFormat})
 
     //we also want to create any versions/descriptions files if needed
     fs.writeFile('depictions/versions/'+package.replace('com.ghxstdev.', '')+'.txt', "1.0 - Initial Release\n", { flag: 'wx' }, function (err) {
