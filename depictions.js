@@ -1,12 +1,13 @@
 const fs = require('fs');
 let files = fs.readdirSync('debs/');
 let allFiles = files.map(e => e.replace('.deb',''));
+console.log("Updating Depictions...");
 fs.writeFile('depictions/data.txt', getData(), error => {
   if (error) {
     console.error(error);
     return;
   } else {
-    console.log("SUCCESS updating Depictions Data");
+    console.log("=== Success updating Depictions Data ===\n\n");
     return;
   }
 });
