@@ -66,8 +66,7 @@ function loadFile(filePath) {
   let version = loadFile('versions/'+packageData.package.replace('com.ghxstdev.', '')+'.txt');
 
   let versionArr = version.split('\n');
-  console.log(versionArr);
-  let currentVersion = versionArr[versionArr.length-1];
+  let currentVersion = versionArr[0];
   document.getElementById('versionnum').innerHTML = currentVersion;
 
   //fill fields with package data
