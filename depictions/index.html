@@ -62,8 +62,8 @@ function loadFile(filePath) {
   let packageData = jsonObj.filter(obj => { return obj.package === bundleid })[0]
 
   //get data from files
-  let desc = loadFile('descriptions/'+packageData.package+'.txt');
-  let version = loadFile('versions/'+packageData.package+'.txt');
+  let desc = loadFile('descriptions/'+packageData.package.replace('com.ghxstdev.', '')+'.txt');
+  let version = loadFile('versions/'+packageData.package.replace('com.ghxstdev.', '')+'.txt');
 
 
   let currentVersion = "";
