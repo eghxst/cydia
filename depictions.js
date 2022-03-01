@@ -14,11 +14,11 @@ fs.writeFile('depictions/data.txt', getData(), error => {
 function extraDesc(name) {
   let desc = "";
   desc =  "<br>Includes All color schemes for the "+name+" XenHTML Widget.<br><br>Included in this pack is the following:<ul>";
-  const schemes = ["GrayScale", "Maroon", "Sunflower", "Peach", "Aqua", "Lavendar", "Pastel", "Forest", "Kiddie", "Bubblegum", "Midnight", "Neon", "Vaporwave"];
+  const schemes = ["Dark", "GrayScale", "Maroon", "Sunflower", "Peach", "Aqua", "Lavendar", "Pastel", "Forest", "Kiddie", "Bubblegum", "Midnight", "Neon", "Vaporwave"];
   for(let i = 0; i < schemes.length; i++) {
     desc += "<li>"+name.replace("Color Pack", "")+" "+schemes[i]+" Color Scheme</li>";
   }
-  desc += "</ul><br>The default scheme is GrayScale. Edit the config settings through the widget when placing in XenHTML to select any of these color schemes.";
+  desc += "</ul><br>The default scheme is Dark. Edit the config settings through the widget when placing in XenHTML to select any of these additional color schemes.";
   return desc;
 }
 function getData() {
