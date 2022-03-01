@@ -7,10 +7,10 @@ Maintainer: eghxst
 Author: ghxstdev Repo
 Section: XenHTML
 Filename: debs/HSBorder.deb
-Size: 1152092
-MD5sum: 8de68d83a23c7da41936e6fdd6db9a68
-SHA1: d2b34438bb515675d4f6a7ad539ea722e42eb2d2
-SHA256: a2a69e563f745ce757fe52cbf780b1ed81a975f689403564dbc5be0204bbd835
+Size: 1152080
+MD5sum: ee0a6d848666441ae20c6352422bf7bf
+SHA1: 0675344395bb4520f2276e37d20584df3a5a6cd9
+SHA256: 6af1c1736598066a9e1b2a16be3151365742c94c15018e44d042778d152e1167
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSBorderPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsborderpack
 
@@ -25,9 +25,9 @@ Section: XenHTML
 Depends: com.junesiphone.xeninfo
 Filename: debs/HSDiagonal.deb
 Size: 37800
-MD5sum: 3ca3b6fe81ae46b258426d460c3429a4
-SHA1: 6f5a523ea16e6ab325b174fda8952df09d879c37
-SHA256: 05131fb3acdba115ecc141b935021e55fc27d1d62c6256a273b7274b4e04b892
+MD5sum: 87f3f161dfc3920f115710ddc69ad478
+SHA1: 04c34a1c2744f795644f553cc8d0bc0e95ca8d86
+SHA256: 6f1b5037566f0ccad0edfc748a815c408d41e846a2aba510fdf972b875024ed4
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSDiagonalPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsdiagonalpack
 
@@ -42,9 +42,9 @@ Section: XenHTML
 Depends: com.junesiphone.xeninfo
 Filename: debs/HSGradient.deb
 Size: 37228
-MD5sum: 59f4d404f3ec2f7762263a867f794815
-SHA1: e763f392049a491c256326c12cb562f23591e79a
-SHA256: a18652a826621b48cb5f44a72667afd019853d36f5abac427e96ca544e82c03e
+MD5sum: 5edc977e8bb51e93074aceb7cd619c2d
+SHA1: b2b1b5c58ded3839493f64dc2406e38420658fc4
+SHA256: cc85992a4148b4de42f14f2d1ad67829fa12d2f493b06bb0c504d9da712105c9
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSGradientPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hsgradientpack
 
@@ -59,9 +59,9 @@ Section: XenHTML
 Depends: com.junesiphone.xeninfo
 Filename: debs/HSPill.deb
 Size: 1028508
-MD5sum: 747c2eca997dec4dbf7fd939d0b44264
-SHA1: 0e68aa14e828b3fc0c5ff692002e789a4255f539
-SHA256: 8abb9fbd24b047c96966b863350fea69cc09d4cae488b84a482545886bfdac66
+MD5sum: 20abd1b88b6d4eae25df14cbe6c1f989
+SHA1: 3b981ae0992aaecd282363022cb4bd5277df2558
+SHA256: 99c0749b37990c260937c704bb72070690860c426696fb4ea1fc495a41d53d9c
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillpack
 
@@ -75,10 +75,10 @@ Author: ghxstdev Repo
 Section: XenHTML
 Depends: com.junesiphone.xeninfo
 Filename: debs/HSSidebar.deb
-Size: 36612
-MD5sum: fe31e889ae2b863285054e1aacae1272
-SHA1: 22c3d30f87e85c5b5604fd40a36dcaaff072daf0
-SHA256: 6bcbca4d60d7582a1891f442e458d7187e21da945ebeb52157d9e67c24e61e3e
+Size: 36620
+MD5sum: 3f654454186ff2b966f8460a23dc7154
+SHA1: 956b4296ac056c69d5ed7fe1ef3af51aa9b0498a
+SHA256: 0463b3c93cb4153bde2b55e16a1e68e83f50acff42a4e2240cd51343e8e4b379
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSidebarPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssidebarpack
 
@@ -92,10 +92,10 @@ Author: ghxstdev Repo
 Section: XenHTML
 Depends: com.junesiphone.xeninfo
 Filename: debs/HSSplit.deb
-Size: 38012
-MD5sum: 588c9bf5a9ff4285b9fdbabd6fdc0db9
-SHA1: b6c1adf601a28caf5429df25c713f1f28c4b2fb4
-SHA256: 3ac4c44ac99dc6c54540b17b98a199f2491aabf59aa621ecd081b58292faf7fe
+Size: 38016
+MD5sum: 85e2464028c8a34cac53b1ee72801fee
+SHA1: 90fb56e15564b48118169495999e49c75347a1bd
+SHA256: 5a5e8f22eda4be17073c07d91e99f7c9bac88a96a0fbcf9a9edc1a8731687eb9
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitpack
 
@@ -110,9 +110,9 @@ Section: Themes
 Depends: com.anemonetheming.anemone | com.spark.snowboard
 Filename: debs/SodaPop.deb
 Size: 890924
-MD5sum: f926a331dd8467c087ad5b422ecb8dba
-SHA1: 617070678b477f057d3fc8c3a3148248565bc046
-SHA256: 5d9f510c5154b223a5ac7e77c0ffedba211a05a722613a6f23d6c94e30873d66
+MD5sum: 543a35897eae244389c564ecb29f55c7
+SHA1: da5fb5ad5ddfb6570236a14027bb7f4568b1910c
+SHA256: bddaf7a4babd2747e52f9b5c3b392cb2a9cd579af673794dd5c16f119d06f363
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/SodaPop.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.sodapop
 
