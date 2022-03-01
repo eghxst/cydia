@@ -1,1 +1,21 @@
-Battery, Weather, and Time on the HomeScreen<br>Includes All color schemes for the HS Diagonal Color Pack XenHTML Widget.<br><br>Included in this pack is the following:<ul><li>HS Diagonal  Dark Color Scheme</li><li>HS Diagonal  GrayScale Color Scheme</li><li>HS Diagonal  Maroon Color Scheme</li><li>HS Diagonal  Sunflower Color Scheme</li><li>HS Diagonal  Peach Color Scheme</li><li>HS Diagonal  Aqua Color Scheme</li><li>HS Diagonal  Lavendar Color Scheme</li><li>HS Diagonal  Pastel Color Scheme</li><li>HS Diagonal  Forest Color Scheme</li><li>HS Diagonal  Kiddie Color Scheme</li><li>HS Diagonal  Bubblegum Color Scheme</li><li>HS Diagonal  Midnight Color Scheme</li><li>HS Diagonal  Neon Color Scheme</li><li>HS Diagonal  Vaporwave Color Scheme</li></ul><br>The default scheme is Dark. Edit the config settings through the widget when placing in XenHTML to select any of these additional color schemes.
+Battery, Weather, and Time on the HomeScreen<br>
+Decorate your Home Screen with this XenHTML widget! This widget features sections for
+the current time, apps, your daily schedule, and information regarding battery/weather, with modules displayed
+in a unique split-diagonal design.<br>
+Place your apps in the designated spot using free tools such as Atria and BlankIcons!
+<br>Includes All color schemes for the HS Diagonal Color Pack XenHTML Widget.<br><br>Included in this pack is the following:<ul>
+<li>HS Diagonal Dark Color Scheme</li>
+<li>HS Diagonal GrayScale Color Scheme</li>
+<li>HS Diagonal Maroon Color Scheme</li>
+<li>HS Diagonal Sunflower Color Scheme</li>
+<li>HS Diagonal Peach Color Scheme</li>
+<li>HS Diagonal Aqua Color Scheme</li>
+<li>HS Diagonal Lavendar Color Scheme</li>
+<li>HS Diagonal Pastel Color Scheme</li>
+<li>HS Diagonal Forest Color Scheme</li>
+<li>HS Diagonal Kiddie Color Scheme</li>
+<li>HS Diagonal Bubblegum Color Scheme</li>
+<li>HS Diagonal Midnight Color Scheme</li>
+<li>HS Diagonal Neon Color Scheme</li>
+<li>HS Diagonal Vaporwave Color Scheme</li></ul>
+<br>The default scheme is Dark. Edit the config settings through the widget when placing in XenHTML to select any of these additional color schemes.
