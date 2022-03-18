@@ -1,17 +1,17 @@
 const express = require('express'),
       sqlite3 = require('sqlite3'),
+      path = require('path'),
       FilePond = require('filepond');
 //Filepond: https://github.com/pqina/filepond
 
 
 const app = express();
-const port = 3001;
+const port = 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 //Needed for style.css
-app.use(express.static(__dirname));
-
+app.use(express.static(path.join(__dirname,"public")));
 //Routes
 const upload = require('./routes/upload'),
       save = require('./routes/save'),
@@ -29,7 +29,7 @@ app.use('/zip', zip);
 app.use('/popup', popup);
 
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, '/index.html'));
+  res.sendFile(path.join(__dirname, './public/index.html'));
 })
 
 app.listen(port);

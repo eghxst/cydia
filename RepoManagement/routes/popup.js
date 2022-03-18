@@ -4,8 +4,8 @@ const express = require('express'),
 //Load the correct information in the popup
 router.post('/:id', function(req, res){
   //req.body.obj holds all the data retrieved from db
-  let packageText = fs.readFileSync("./packagePopup.html","utf-8"),
-      versionText = fs.readFileSync("./versionsPopup.html","utf-8"),
+  let packageText = fs.readFileSync("./public/assets/templates/packagePopup.html","utf-8"),
+      versionText = fs.readFileSync("./public/assets/templates/versionsPopup.html","utf-8"),
       replaceTxt = "",
       type;
 
