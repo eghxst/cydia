@@ -1,0 +1,15 @@
+<form action='/save' method='post' id='tweaksForm' enctype='multipart/form-data'>
+  <div class='title'>${TITLE}</div>
+  <div class='body'>
+    <div class='row'>
+      <p>Most Recent Version: ${MOSTRECENT}</p>${OPTIONS}
+      <input type='text' name='version' placeholder='Version Number*' id='version' required>
+    </div>
+    <div class='row'>
+      <textarea placeholder='Description*' name='description' id='description'>${DESCRIPTION}</textarea>
+    </div>
+  </div>
+  <div class='footer'>
+    <input type='submit' id='form-submit' value='Submit'>
+  </div>
+</form>

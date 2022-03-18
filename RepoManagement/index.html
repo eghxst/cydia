@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ghxstdev Repo Management</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/a062562745.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+<!-- FILEPOND FOUND HERE: https://github.com/pqina/filepond -->
+
+<link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet" />
+<script src="https://unpkg.com/filepond/dist/filepond.js"></script>
+
+</head>
+<body>
+  <div id='wrap'>
+    <div class='popupWrap'>
+      <div class='popup'>
+
+        <div id='formWrap'></div>
+        <i class="fas fa-times-circle" id='close'></i>
+      </div>
+    </div>
+    <h1>Ghxstdev Repo Management</h1>
+    <div class='section' id='newPkg'>
+      <h2>New Package</h2>
+      <div class='row'>
+        <label>Package Zip</label>
+        <input type='file' id='zip'>
+      </div>
+      <a class='button'>Next</a>
+    </div>
+    <div class='section' id='newVersion'>
+      <h2>New Version</h2>
+      <div class='row'>
+        <label>Package</label>
+        <input class='field' type='text'>
+      </div>
+      <a class='button'>Next</a>
+    </div>
+    <div class='section' id='updatePkg'>
+      <h2>Update Package</h2>
+      <div class='row'>
+        <label>Package</label>
+        <input class='field' type='text'>
+      </div>
+      <a class='button'>Next</a>
+    </div>
+    <div class='section' id='updateVersion'>
+      <h2>Update Version</h2>
+      <div class='row'>
+        <label>Package</label>
+        <input class='field' type='text'>
+      </div>
+      <a class='button'>Next</a>
+    </div>
+    <div class='section' id='deletePkg'>
+      <h2>Delete Package</h2>
+      <div class='row'>
+        <label>Package</label>
+        <input class='field' type='text'>
+      </div>
+      <a class='button'>Next</a>
+    </div>
+    <div class='section' id='deleteVersion'>
+      <h2>Delete Version</h2>
+      <div class='row'>
+        <label>Package</label>
+        <input class='field' type='text'>
+      </div>
+      <a class='button'>Next</a>
+    </div>
+    <div class='section' id='deleteAllPkg'>
+      <h2>Delete All Packages</h2>
+      <a class='button'>Next</a>
+    </div>
+    <div class='section' id='deleteAllVersion'>
+      <h2>Delete All Versions</h2>
+      <div class='row'>
+        <label>Package</label>
+        <input class='field' type='text'>
+      </div>
+      <a class='button'>Next</a>
+    </div>
+  </div>
+  <script>
+
+    //get zip from filepond upload
+    const zip = document.getElementById('zip')
+    const zippond = FilePond.create( zip );
+    zippond.setOptions({
+      server: "/zip",
+      onprocessfiles() {
+        $.get('/readControl', {}, function(data) {
+          //data is the data from readControl. JSON-parse this data
+          //so it can be passed to the popup script
+
+          //Solution found here
+          //https://stackoverflow.com/questions/1086404/string-to-object-in-js
+          var properties = data.data.split('\n');
+            var obj = {};
+            properties.forEach(function(property) {
+                var tup = property.split(': ');
+                if(obj[tup[0]] !== "" && tup[1])
+                  obj[tup[0]] = tup[1];
+          });
+          //some control files may not have a depends. It needs to be there regardless.
+          if(!'Depends' in obj)
+            obj.Depends = "";
+          $.post('/popup/newPkg', {obj}, function(text){
+              $('#formWrap').html(text);
+              const screenshots = document.getElementById('screenshots')
+              const scpond = FilePond.create( screenshots );
+              scpond.setOptions({
+                server: "/upload",
+                allowMultiple: true,
+                allowImagePreview: true
+              });
+          });
+        })
+      }
+    });
+  $('.button').click(function(e){
+    let parent = $(this).parent(),
+        id = parent.attr('id'),
+        value = parent.find('.row .field').val();
+    //for newPkg, we fill info from control file
+    if(id !== 'newPkg' && value && packageExists(value)) {
+    //Auto-fill information from database
+
+    //check if updating package or version
+    let obj;
+    if(id === 'updatePkg' || id === 'deletePkg' || id === 'deleteAllPkg') {
+      obj = {
+        Package: value,
+        Name: "NAME",
+        Author: "AUTHOR",
+        Maintainer: "MAINTAINER",
+        Description: "DESCRIPTION",
+        Section: "SECTION",
+        Depends: "DEPENDS"
+      }
+    } else if(id === 'newVersion') {
+      obj = {
+        Package: value,
+        MostRecent: "MOST RECENT VERSION",
+        Options: "OPTIONS",
+        Description: ""
+      }
+    } else if (id === 'updateVersion' || id === 'deleteVersion'
+              || id === 'deleteAllVersion') {
+      obj = {
+        Package: value,
+        MostRecent: "MOST RECENT VERSION",
+        Options: "OPTIONS",
+        Description: "DESCRIPTION"
+      }
+    }
+    $.post('/popup/'+id, {obj}, function(data){
+        $('#formWrap').html(data);
+        const screenshots = document.getElementById('screenshots')
+        const scpond = FilePond.create( screenshots );
+        scpond.setOptions({
+          server: "/upload",
+          allowMultiple: true,
+          allowImagePreview: true
+        });
+        if(id === 'updatePkg') {
+          //If updating an already-existing package, get current screenshots
+          $.get('/currentScreenshots', {package: value}, function(data) {
+            //data is the data from currentScreenshots. Pass to filepond
+            data.forEach(file => { scpond.addFile('./tmp/sc/'+file); } );
+          })
+        }
+      });
+    }
+    else if(id !== 'newPkg'){
+      $('#formWrap').html('<p>Package '+value+' Not Found</p>');
+    }
+    showPopup();
+  })
+
+  function showPopup() {
+    $('.popupWrap').show();
+    $('.field').val('')
+  }
+
+  $('#close').click(function(e) {
+    $('.popupWrap').hide();
+  })
+  function packageExists(package) {
+    return true;
+  }
+
+  </script>
+</body>
+</html>

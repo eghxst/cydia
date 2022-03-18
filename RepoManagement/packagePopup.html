@@ -1,0 +1,29 @@
+<form method='post' action='/save' id='tweaksForm' enctype='multipart/form-data'>
+  <div class='title'>${TITLE}</div>
+  <div class='body'>
+    <div class='row'>
+      <input type='text' name = 'package' id='package' placeholder='Package*' value='${PACKAGE}' required>
+      <input type='text' name = 'name' id='name' placeholder='Name*' value='${NAME}' required>
+    </div>
+    <div class='row'>
+      <input type='text' placeholder='Author*' name = 'author' id='author' value='${AUTHOR}' required>
+      <input type='text' placeholder='Maintainer*' name = 'maintainer' value='${MAINTAINER}' id='maintainer' required>
+    </div>
+    <div class='row'>
+      <input type='text' placeholder='Section*' name = 'section' id='section' value='${SECTION}' required>
+      <input type='text' placeholder='Depends*' name = 'depends' value='${DEPENDS}' id='depends' required>
+    </div>
+    <div class='row'>
+      <textarea placeholder='Description*' name = 'description' id='description'>${DESCRIPTION}</textarea>
+    </div>
+  <div class='row' id='file'><p>Upload Screenshots</p>
+      <input type='file' id='screenshots'
+      multiple
+      data-max-file-size='3MB'
+      data-max-files='3'>
+</div>
+  </div>
+  <div class='footer'>
+    <input type='submit' id='form-submit' value='Submit'>
+  </div>
+</form>
