@@ -170,7 +170,7 @@
         });
         if(id === 'updatePkg') {
           //If updating an already-existing package, get current screenshots
-          $.get('/currentScreenshots', {package: value}, function(data) {
+          $.post('/currentScreenshots', {package: value}, function(data) {
             //data is the data from currentScreenshots. Pass to filepond
             data.forEach(file => { scpond.addFile('./tmp/sc/'+file); } );
           })
