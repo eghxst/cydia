@@ -24,7 +24,7 @@
         <i class="fas fa-times-circle" id='close'></i>
       </div>
     </div>
-    <h1>Ghxstdev Repo Management</h1>
+    <h1><a class='big'>Ghxstdev</a>Repo Management</h1>
     <div class='section' id='newPkg'>
       <h2>New Package</h2>
       <div class='row'>
@@ -132,53 +132,74 @@
     //Auto-fill information from database
 
     //check if updating package or version
+
     let obj;
     if(id === 'updatePkg' || id === 'deletePkg' || id === 'deleteAllPkg') {
       obj = {
         Package: value,
-        Name: "NAME",
-        Author: "AUTHOR",
-        Maintainer: "MAINTAINER",
-        Description: "DESCRIPTION",
-        Section: "SECTION",
-        Depends: "DEPENDS"
+        Name: "Package name",
+        Author: "Author of Package",
+        Maintainer: "Maintainer of package",
+        Description: "Description of package",
+        Section: "package section",
+        Depends: "package depends"
       }
-    } else if(id === 'newVersion') {
-      obj = {
-        Package: value,
-        MostRecent: "MOST RECENT VERSION",
-        Options: "OPTIONS",
-        Description: ""
-      }
-    } else if (id === 'updateVersion' || id === 'deleteVersion'
-              || id === 'deleteAllVersion') {
-      obj = {
-        Package: value,
-        MostRecent: "MOST RECENT VERSION",
-        Options: "OPTIONS",
-        Description: "DESCRIPTION"
-      }
-    }
-    $.post('/popup/'+id, {obj}, function(data){
-        $('#formWrap').html(data);
-        const screenshots = document.getElementById('screenshots')
-        const scpond = FilePond.create( screenshots );
-        scpond.setOptions({
-          server: "/upload",
-          allowMultiple: true,
-          allowImagePreview: true
+      //temporary solution. It should be outside of this if/else stmt
+      $.post('/popup/'+id, {obj}, function(data){
+          $('#formWrap').html(data);
+          const screenshots = document.getElementById('screenshots')
+          const scpond = FilePond.create( screenshots );
+          scpond.setOptions({
+            server: "/upload",
+            allowMultiple: true,
+            allowImagePreview: true
+          });
+          if(id === 'updatePkg') {
+            //If updating an already-existing package, get current screenshots
+            $.post('/currentScreenshots', {package: value}, function(data) {
+              //data is the data from currentScreenshots. Pass to filepond
+              data.forEach(file => { scpond.addFile('./tmp/sc/'+file); } );
+            })
+          }
         });
-        if(id === 'updatePkg') {
-          //If updating an already-existing package, get current screenshots
-          $.post('/currentScreenshots', {package: value}, function(data) {
-            //data is the data from currentScreenshots. Pass to filepond
-            data.forEach(file => { scpond.addFile('./tmp/sc/'+file); } );
-          })
+    } else {
+      $.get('/versionSelect', {}, function(data) {
+        if(id === 'newVersion') {
+          obj = {
+            Package: value,
+            MostRecent: "1.0",
+            Options: "",
+            Description: "",
+            VersionInput: "<label>Version Number*<input type='text' name='version'id='version' required></label>"
+          }
+        } else if (id === 'updateVersion' || id === 'deleteVersion'
+                  || id === 'deleteAllVersion') {
+          obj = {
+            Package: value,
+            MostRecent: "1.0",
+            Options: data,
+            Description: "Description of version",
+            VersionInput: ""
+          }
         }
-      });
+
+
+        //temporary solution. This is firing before the $.get returns obj.
+        $.post('/popup/'+id, {obj}, function(data){
+            $('#formWrap').html(data);
+            const screenshots = document.getElementById('screenshots')
+            const scpond = FilePond.create( screenshots );
+            scpond.setOptions({
+              server: "/upload",
+              allowMultiple: true,
+              allowImagePreview: true
+            });
+          });
+      })
+    }
     }
     else if(id !== 'newPkg'){
-      $('#formWrap').html('<p>Package '+value+' Not Found</p>');
+      $('#formWrap').html('<p class=\"error\">Package '+value+' Not Found</p>');
     }
     showPopup();
   })
@@ -193,6 +214,12 @@
   })
   function packageExists(package) {
     return true;
+  }
+  function updateVersionDesc() {
+    let version = document.getElementById('versionNum').value;
+    //value = get from database
+    let value = "Description For Version " + version;
+    document.getElementById('description').innerHTML = value;
   }
 
   </script>

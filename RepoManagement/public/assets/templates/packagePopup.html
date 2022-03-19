@@ -2,25 +2,22 @@
   <div class='title'>${TITLE}</div>
   <div class='body'>
     <div class='row'>
-      <input type='text' name = 'package' id='package' placeholder='Package*' value='${PACKAGE}' required>
-      <input type='text' name = 'name' id='name' placeholder='Name*' value='${NAME}' required>
+      <label>Package<input type='text' name = 'package' id='package' value='${PACKAGE}' required></label>
+      <label>Name<input type='text' name = 'name' id='name' value='${NAME}' required></label>
     </div>
     <div class='row'>
-      <input type='text' placeholder='Author*' name = 'author' id='author' value='${AUTHOR}' required>
-      <input type='text' placeholder='Maintainer*' name = 'maintainer' value='${MAINTAINER}' id='maintainer' required>
+      <label>Author<input type='text' name = 'author' id='author' value='${AUTHOR}' required></label>
+      <label>Maintainer<input type='text' name = 'maintainer' value='${MAINTAINER}' id='maintainer' required></label>
     </div>
     <div class='row'>
-      <input type='text' placeholder='Section*' name = 'section' id='section' value='${SECTION}' required>
-      <input type='text' placeholder='Depends*' name = 'depends' value='${DEPENDS}' id='depends' required>
+      <label>Section<input type='text' name = 'section' id='section' value='${SECTION}' required></label>
+      <label>Depends<input type='text' name = 'depends' value='${DEPENDS}' id='depends' required></label>
     </div>
     <div class='row'>
-      <textarea placeholder='Description*' name = 'description' id='description'>${DESCRIPTION}</textarea>
+      <label for='description'>Description*<textarea name = 'description' id='description'>${DESCRIPTION}</textarea></label>
     </div>
   <div class='row' id='file'><p>Upload Screenshots</p>
-      <input type='file' id='screenshots'
-      multiple
-      data-max-file-size='3MB'
-      data-max-files='3'>
+      <input type='file' id='screenshots' multiple>
 </div>
   </div>
   <div class='footer'>

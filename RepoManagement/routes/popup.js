@@ -55,6 +55,7 @@ router.post('/:id', function(req, res){
                 .replace("${DEPENDS}", req.body.obj.Depends);
   } else if(type === 'version') {
     replaceTxt = replaceTxt.replaceAll("${PACKAGE}", req.body.obj.Package)
+                .replace("${VERSIONINPUT}", req.body.obj.VersionInput)
                 .replace("${MOSTRECENT}", req.body.obj.MostRecent)
                 .replace("${OPTIONS}", req.body.obj.Options)
                 .replace("${DESCRIPTION}", req.body.obj.Description);

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mohave:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 /*variables*/
+$purple: #32213a;
+$blue: #383b53;
+$gray: #66717e;
+$lighttan: #d4d6b9;
+$darktan: #d1caa1;
 $Mohave: 'Mohave', sans-serif;
 $Lato: 'Lato', sans-serif;
 
@@ -25,66 +30,81 @@ $green: #5DFDCB;
 
 img { max-width: 100%; }
 body {
+  background-color: $blue;
   font-family: $Lato;
   margin: 0;
-  background-color: $black;
 }
 #wrap {
-  background-color: $green;
   max-width: 1000px;
+  background-color: $purple;
   margin: auto;
   @include flexRow;
   justify-content: center;
   h1 {
-    font-size: 64px;
+    color: $darktan;
+    font-size: 72px;
     font-family: $Mohave;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     font-weight: 400;
     padding: 0 100px;
     text-align: center;
-    color: $black;
-    .big {
-      font-size: 104px;
-      width: 100%;
-      display: block;
-      font-weight: 800;
-      letter-spacing: 20px;
-      border-bottom: solid $orange 3px;
-      padding: 0 40px;
-      box-sizing: border-box;
-    }
   }
   .section {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     margin: 10px;
     padding: 30px;
-    background-color: white;
-    box-shadow: 5px 5px 15px darken(white, 60);
+    background-color: $gray;
+    box-shadow: 5px 5px 15px darken($gray, 30);
     @include flexColumn;
     justify-content: space-between;
     h2 {
       font-family: $Mohave;
-      color: $blue;
+      color: $lighttan;
+      border: solid $darktan 5px;
       width: 100%;
       margin: 0 auto;
+      text-align: center;
       padding: 15px 0;
-      font-weight: 600;
-      letter-spacing: .1em;
+      font-weight: 300;
       text-transform: uppercase;
       font-size: 32px;
+    }
+    .row {
+      width: 100%;
+      height: 115px;
+      @include flexRow;
+      label {
+        color: $lighttan;
+        font-size: 24px;
+        text-align: left;
+        margin-left: 15px;
+      }
+      input[type="text"] {
+        background-color: $lighttan;
+        border: 0;
+        outline: none;
+        font-size: 32px;
+        line-height: 64px;
+        color: $purple;
+      }
+      #zip {
+        width: 300px;
+      }
+      .filepond--drop-label { background-color: $lighttan; }
+      .filepond--drop-label label { color: $purple; font-size: 16px;}
     }
 
     .button {
       display: block;
-      width: 90%;
+      width: 250px;
       padding: 10px 0;
-      font-size: 18px;
+      font-size: 24px;
+      color: $gray;
+      background-color: $lighttan;
       font-weight: 400;
       text-align: center;
-      background-color: $gray;
-      color: white;
     }
     .button:hover { cursor: pointer; }
   }
@@ -105,36 +125,32 @@ body {
       justify-content: center;
       align-items: flex-start;
       .fa-times-circle {
+        color: $darktan;
         font-size: 56px;
         float: right;
         text-align: right;
         margin: 0 20px;
-        color: $orange;
       }
       .fa-times-circle:hover {
         cursor: pointer;
       }
       h2 {
         font-size: 32px;
-        color: $black;
+        color: $lighttan;
       }
       #formWrap {
         p {
-          font-size: 12px;
-          letter-spacing: 0.2em;
-          margin: 0 0 10px;
-          width: 100%;
-          color: $black;
-          text-transform: uppercase;
-          font-weight: 600;
+          font-size: 18px;
+          margin: 0;
+          color: $lighttan;
         }
 
 
         form{
           width: 600px;
           border-radius: 10px;
+          background-color: $gray;
           box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.6);
-          background-color: white;
         .title{
           width: 100%;
           line-height: 72px;
@@ -142,48 +158,59 @@ body {
           text-align: center;
           font-weight: 700;
           text-transform: uppercase;
+          color: $lighttan;
           font-family: $Mohave;
-          background-color: $orange;
-          color: $black;
           letter-spacing: 5px;
+          background-color: $purple;
           border-radius: 10px 10px 0 0;
         }
         .body{
           padding: 10px;
-          box-sizing: border-box;
           overflow: scroll;
-          max-height: 400px;
-          .row {
-            label {
-              width: 48%;
-              font-size: 12px;
-              letter-spacing: .1em;
-            }
-            label[for='description'] { width: 100%;}
-            input[type="text"], textarea {
+          height: 400px;
+          .row{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            input[type="text"], textarea{
+              font-family: $Lato;
+              margin: 0 15px;
+              border-radius: 5px;
+              outline: none;
+              border: none;
+              background-color: $lighttan;
+              color: darken($lighttan, 40);
               font-size: 16px;
+              line-height: 24px;
+              width: 100%;
+            }
+            input[type="text"] {
+              appearance: none;
+              padding: 5px 15px;
             }
           }
           .row#file { display: block;}
-
+          textarea {
+            resize: none;
+            height: 100px;
+            padding: 10px;
+          }
         }
         .footer{
           margin: 15px 50px;
           padding: 15px 10px;
           @include flexRow;
-          /*border-top: solid lighten($purple, 10) 2px;*/
-          input[type="submit"] {
+          border-top: solid lighten($purple, 10) 2px;
+          input[type='submit']{
             outline: none;
             border: none;
+            line-height: 48px;
+            border-radius: 5px;
+            padding: 5px 25px;
+            background: $blue;
+            color: $lighttan;
             margin: auto;
-
-            width: 90%;
-            padding: 10px 25px;
-            font-size: 18px;
-            font-weight: 400;
-            text-align: center;
-            background-color: $gray;
-            color: white;
+            font-size: 24px;
           }
           input[type="submit"]:hover {cursor: pointer;}
         }
@@ -191,55 +218,4 @@ body {
       }
     }
   }
-}
-.row {
-  width: 100%;
-  @include flexRow;
-  justify-content: space-between;
-  padding: 0 10px;
-  box-sizing: border-box;
-  font-family: $Lato;
-  label {
-    font-size: 16px;
-    letter-spacing: 0.2em;
-    text-align: left;
-    margin: 0 0 10px;
-    width: 100%;
-    color: $black;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
-  input[type="text"], textarea, select {
-    border: 0;
-    outline: none;
-    font-size: 24px;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    width: 100%;
-    color: rgba(0, 0, 0, 0.6);
-    padding: 12px 20px;
-    box-sizing: border-box;
-    margin: 0;
-  }
-
-  textarea {
-    resize: none;
-    height: 100px;
-    padding: 10px;
-    font-family: $Lato;
-  }
-  #zip {
-    width: 300px;
-  }
-  .filepond--drop-label { }
-  .filepond--drop-label label {  font-size: 16px;}
-}
-
-.error {
-  width: 80%;
-  margin: auto;
-  background-color: $orange;
-  padding: 20px;
-  font-size: 32px;
-  color: white;
 }

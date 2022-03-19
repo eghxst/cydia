@@ -46,28 +46,30 @@ router.post("/", function(req, res){
       }
 
       //After getting everything necessary moved to the /tmp location, move to proper location
-      //make directory for depictions screenshots
-      if (!fs.existsSync('../depictions/screenshots/'+fields.package)){
-          fs.mkdirSync('../depictions/screenshots/'+rfields.package, { recursive: true });
+      //Delete and re-make directory for depictions screenshots
+      if (fs.existsSync('../depictions/screenshots/'+fields.package)){
+          fs.rmSync('../depictions/screenshots/'+fields.package, { recursive: true });
       }
 
+      fs.mkdirSync('../depictions/screenshots/'+fields.package, { recursive: true });
       //take all files from sc folder and move to depictions screenshot dir
       fs.readdir('./tmp/sc/', (err, files) => {
         files.forEach(file => {
-           if   (path.extname(file) === '.png'||
-                path.extname(file) === '.jpg' ||
-                path.extname(file) === '.gif' ||
-                path.extname(file) === '.jpeg') {
+           if   (path.extname(file).toLowerCase() === '.png'||
+                path.extname(file).toLowerCase() === '.jpg' ||
+                path.extname(file).toLowerCase() === '.gif' ||
+                path.extname(file).toLowerCase() === '.jpeg') {
                  fs.rename('./tmp/sc/'+file, '../depictions/screenshots/'+fields.package+'/'+file, err => {
                      if (err) throw err;
                  });
            }
          })
-        //delete tmp folder, as we're done with it
-        fs.rmSync('./tmp', { recursive: true });
       })
 
     }
+
+    //delete tmp folder, as we're done with it
+    //fs.rmSync('./tmp', { recursive: true });
 
     //After moving necessary images, return JSON data with form data
     res.json({ fields, files });
