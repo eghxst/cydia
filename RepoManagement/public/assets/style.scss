@@ -85,6 +85,7 @@ body {
       text-align: center;
       background-color: $gray;
       color: white;
+      pointer-events: none;
     }
     .button:hover { cursor: pointer; }
   }
@@ -104,16 +105,6 @@ body {
       @include flexRow;
       justify-content: center;
       align-items: flex-start;
-      .fa-times-circle {
-        font-size: 56px;
-        float: right;
-        text-align: right;
-        margin: 0 20px;
-        color: $orange;
-      }
-      .fa-times-circle:hover {
-        cursor: pointer;
-      }
       h2 {
         font-size: 32px;
         color: $black;
@@ -123,7 +114,7 @@ body {
           font-size: 12px;
           letter-spacing: 0.2em;
           margin: 0 0 10px;
-          width: 100%;
+          width: 50%;
           color: $black;
           text-transform: uppercase;
           font-weight: 600;
@@ -147,6 +138,15 @@ body {
           color: $black;
           letter-spacing: 5px;
           border-radius: 10px 10px 0 0;
+          .fa-times-circle {
+            font-size: 32px;
+            float: right;
+            margin: 5px;
+            color: $black;
+          }
+          .fa-times-circle:hover {
+            cursor: pointer;
+          }
         }
         .body{
           padding: 10px;
@@ -230,8 +230,11 @@ body {
   }
   #zip {
     width: 300px;
+    label {
+      text-align: center;
+
+    }
   }
-  .filepond--drop-label { }
   .filepond--drop-label label {  font-size: 16px;}
 }
 
@@ -242,4 +245,8 @@ body {
   padding: 20px;
   font-size: 32px;
   color: white;
+}
+.filepond--panel-root { background-color: $gray;}
+.filepond--label-action {
+    text-decoration-color: $orange;
 }

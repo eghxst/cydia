@@ -25,28 +25,36 @@ router.post("/", function(req, res){
 
       let baseDir;
       for (const entry of Object.values(zip.entries())) {
-        //first extracted entry will always be top directory
-        baseDir = entry.name;
-        break;
+        //find directory that contains DEBIAN/control
+        if(entry.isDirectory){
+          //is a directory, start searching for DEBIAN/control
+
+          for(const e of Object.values(zip.entries())) {
+            if(e.name === entry.name + "DEBIAN/control") {
+              baseDir = entry.name;
+              break;
+            }
+          }
+        }
       }
 
-      zip.extract(null, './tmp', (err, count) => {
+      //if we've found a control file, great! Extract. Otherwise, end here
+      if(baseDir) {
+        zip.extract(null, './tmp', (err, count) => {
 
-          //By using this zip extraction method, there are sometimes extra folders
-          //  extracted. Remove all parent dirs except for 'sc' and the package folder
-          fs.readdir('./tmp/', (err, dirs) => {
-            dirs.forEach(dir => {
-              if(dir !== baseDir.replace('/', ''))
-                 fs.rmSync('./tmp/'+dir, { recursive: true });
-             })
-          })
-          //done extracting
-          zip.close();
-
-          //now to create deb file from extracted folder
-          var createDebs = childProcess.exec('./scripts/createdebs.bash');
-          res.end();
-      });
+            //By using this zip extraction method, there are sometimes extra folders
+            //  extracted. Remove all parent dirs except for the package folder
+            fs.readdir('./tmp/', (err, dirs) => {
+              dirs.forEach(dir => {
+                if(dir !== baseDir.replace('/', ''))
+                   fs.rmSync('./tmp/'+dir, { recursive: true });
+               })
+            })
+            //done extracting
+            zip.close();
+            res.end();
+        });
+      } else res.end(); //TODO return error message accessible in processDeb.js
     });
   });
 });

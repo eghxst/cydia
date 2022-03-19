@@ -17,11 +17,13 @@ router.post('/', function(req, res){
 
   fs.readdir('../depictions/screenshots/'+req.body.package, (err, files) => {
     //move all images from depictions screenshots to tmp sc folder
-    files.forEach(file => {
+    if(files) {
+      files.forEach(file => {
         fs.copyFile( '../depictions/screenshots/'+req.body.package+'/'+file, './tmp/sc/'+file, err => {
             if (err) throw err;
         });
       })
+    }
     res.send(files);
   })
 });

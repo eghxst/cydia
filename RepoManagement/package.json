@@ -11,6 +11,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "filepond": "^4.30.3",
+    "filepond-plugin-file-validate-type": "^1.2.6",
     "filepond-plugin-image-preview": "^4.6.10",
     "formidable": "^2.0.1",
     "node-stream-zip": "^1.15.0",

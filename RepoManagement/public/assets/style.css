@@ -66,7 +66,8 @@ body {
       font-weight: 400;
       text-align: center;
       background-color: #90A8C3;
-      color: white; }
+      color: white;
+      pointer-events: none; }
     #wrap .section .button:hover {
       cursor: pointer; }
   #wrap .popupWrap {
@@ -87,14 +88,6 @@ body {
       align-items: center;
       justify-content: center;
       align-items: flex-start; }
-      #wrap .popupWrap .popup .fa-times-circle {
-        font-size: 56px;
-        float: right;
-        text-align: right;
-        margin: 0 20px;
-        color: #FF715B; }
-      #wrap .popupWrap .popup .fa-times-circle:hover {
-        cursor: pointer; }
       #wrap .popupWrap .popup h2 {
         font-size: 32px;
         color: #312F2F; }
@@ -102,7 +95,7 @@ body {
         font-size: 12px;
         letter-spacing: 0.2em;
         margin: 0 0 10px;
-        width: 100%;
+        width: 50%;
         color: #312F2F;
         text-transform: uppercase;
         font-weight: 600; }
@@ -123,6 +116,13 @@ body {
           color: #312F2F;
           letter-spacing: 5px;
           border-radius: 10px 10px 0 0; }
+          #wrap .popupWrap .popup #formWrap form .title .fa-times-circle {
+            font-size: 32px;
+            float: right;
+            margin: 5px;
+            color: #312F2F; }
+          #wrap .popupWrap .popup #formWrap form .title .fa-times-circle:hover {
+            cursor: pointer; }
         #wrap .popupWrap .popup #formWrap form .body {
           padding: 10px;
           box-sizing: border-box;
@@ -197,6 +197,8 @@ body {
     font-family: "Lato", sans-serif; }
   .row #zip {
     width: 300px; }
+    .row #zip label {
+      text-align: center; }
   .row .filepond--drop-label label {
     font-size: 16px; }
 
@@ -207,5 +209,11 @@ body {
   padding: 20px;
   font-size: 32px;
   color: white; }
+
+.filepond--panel-root {
+  background-color: #90A8C3; }
+
+.filepond--label-action {
+  text-decoration-color: #FF715B; }
 
 /*# sourceMappingURL=style.css.map */
