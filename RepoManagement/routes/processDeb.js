@@ -19,7 +19,6 @@ router.post('/', function(req, res){
         }
     })
   } //otherwise, nothing has been extracted to tmp
-  //TODO change this check to an error check from zip.js
 
 
   //now to create deb file from extracted folder

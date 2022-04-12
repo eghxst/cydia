@@ -1,0 +1,9 @@
+<form method='post' action='/save' id='tweaksForm' enctype='multipart/form-data'>
+  <div class='title'>${TITLE}<i class="fas fa-times-circle" id='close'></i></div>
+  <div class='body'>
+    <p>Delete ${TODELETE} ${PACKAGE}? </p>${OPTIONS}
+  </div>
+  <div class='footer'>
+    <input type='submit' id='form-submit' value='Submit'>
+  </div>
+</form> <script> $('#close').click(function(e) { $('.popupWrap').hide(); })</script>

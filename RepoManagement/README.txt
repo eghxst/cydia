@@ -13,7 +13,7 @@ DIRECTORY STRUCTURE:
     -- screenshots
       ** All folders are named after their package
         ~(eg) com.ghxstdev.sodapop
-        ** Each folder holds the screenshots that will be displayed when viewing package in Package Manager
+        ** Each folder contains the screenshots that will be displayed when viewing package in Package Manager
   -- RepoManagement
     ** RepoMgmt Web App files
 

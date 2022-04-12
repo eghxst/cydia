@@ -7,7 +7,6 @@ $Lato: 'Lato', sans-serif;
 $blue: #64A6BD;
 $gray: #90A8C3;
 $black: #312F2F;
-$orange: #FF715B;
 $green: #5DFDCB;
 /*mix-ins*/
 @mixin flexRow {
@@ -30,27 +29,28 @@ body {
   background-color: $black;
 }
 #wrap {
-  background-color: $green;
-  max-width: 1000px;
+  background-color: $black;
+  width: 100%;
   margin: auto;
   @include flexRow;
   justify-content: center;
   h1 {
     font-size: 64px;
+    width: 100%;
     font-family: $Mohave;
     text-transform: uppercase;
     letter-spacing: 10px;
     font-weight: 400;
     padding: 0 100px;
     text-align: center;
-    color: $black;
+    color: $green;
     .big {
       font-size: 104px;
       width: 100%;
       display: block;
       font-weight: 800;
       letter-spacing: 20px;
-      border-bottom: solid $orange 3px;
+      border-bottom: solid $green 3px;
       padding: 0 40px;
       box-sizing: border-box;
     }
@@ -62,6 +62,7 @@ body {
     padding: 30px;
     background-color: white;
     box-shadow: 5px 5px 15px darken(white, 60);
+    position: relative;
     @include flexColumn;
     justify-content: space-between;
     h2 {
@@ -86,7 +87,8 @@ body {
       background-color: $gray;
       color: white;
       pointer-events: none;
-    }
+      margin-top: 50px;
+    } .button#deleteAllPkg { pointer-events: all; }
     .button:hover { cursor: pointer; }
   }
 
@@ -134,7 +136,7 @@ body {
           font-weight: 700;
           text-transform: uppercase;
           font-family: $Mohave;
-          background-color: $orange;
+          background-color: $green;
           color: $black;
           letter-spacing: 5px;
           border-radius: 10px 10px 0 0;
@@ -232,8 +234,20 @@ body {
     width: 300px;
     label {
       text-align: center;
-
     }
+    /*FILEPOND STYLE MODIFICATIONS*/
+    .filepond--file-action-button, .filepond--progress-indicator {
+      left: .8em;
+    }
+    .filepond--file-info {
+      margin-left: 2.3em;
+      margin-right: 0;
+      transform: none!important; // This overrides the transforming on file upload
+    }
+    .filepond--action-retry-item-processing, .filepond--file-status-sub{
+      display: none;
+    }
+    .filepond--file .filepond--file-status { margin-right: 0;}
   }
   .filepond--drop-label label {  font-size: 16px;}
 }
@@ -241,12 +255,21 @@ body {
 .error {
   width: 80%;
   margin: auto;
-  background-color: $orange;
+  background-color: $green;
   padding: 20px;
   font-size: 32px;
   color: white;
 }
 .filepond--panel-root { background-color: $gray;}
 .filepond--label-action {
-    text-decoration-color: $orange;
+    text-decoration-color: $green;
+}
+
+
+/*JQUERY UI STYLE MODIFICATIONS*/
+.ui-menu {
+  background-color: white;
+  .ui-menu-item {
+   color: $blue;
+ }
 }

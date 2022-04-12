@@ -54,7 +54,7 @@ router.post("/", function(req, res){
             zip.close();
             res.end();
         });
-      } else res.end(); //TODO return error message accessible in processDeb.js
+      } else res.status(406).json({error: "No path /DEBIAN/control in the zip you are uploading.\nInvalid Zip File"});
     });
   });
 });

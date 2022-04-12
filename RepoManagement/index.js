@@ -20,7 +20,7 @@ const upload = require('./routes/upload'),
       packages = require('./routes/packages'),
       readControl = require('./routes/readControl'),
       zip = require('./routes/zip'),
-      popup = require('./routes/popup'),
+      templates = require('./routes/templates'),
       versionSelect = require('./routes/versionSelect'),
       processDeb = require('./routes/processDeb');
 app.use('/upload', upload);
@@ -29,7 +29,7 @@ app.use('/currentScreenshots', currentScreenshots);
 app.use('/packages', packages);
 app.use('/readControl', readControl);
 app.use('/zip', zip);
-app.use('/popup', popup);
+app.use('/templates', templates);
 app.use('/versionSelect', versionSelect);
 app.use('/processDeb', processDeb);
 

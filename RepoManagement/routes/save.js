@@ -37,8 +37,8 @@ router.post("/", function(req, res){
       }
       //only one screenshot was uploaded
       else if(fields.filepond){
-
-        let fileData = fs.readFileSync(fileObj.filepath),
+        let fileObj = JSON.parse(fields.filepond).filepond,
+            fileData = fs.readFileSync(fileObj.filepath),
             filename = fileObj.originalFilename;
         fs.writeFile('./tmp/sc/'+filename,fileData, function (err) {
           if (err) throw err;
@@ -64,12 +64,10 @@ router.post("/", function(req, res){
                  });
            }
          })
+         //delete tmp folder, as we're done with it
+         fs.rmSync('./tmp', { recursive: true });
       })
-
     }
-
-    //delete tmp folder, as we're done with it
-    //fs.rmSync('./tmp', { recursive: true });
 
     //After moving necessary images, return JSON data with form data
     res.json({ fields, files });

@@ -10,8 +10,8 @@ body {
   background-color: #312F2F; }
 
 #wrap {
-  background-color: #5DFDCB;
-  max-width: 1000px;
+  background-color: #312F2F;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -20,20 +20,21 @@ body {
   justify-content: center; }
   #wrap h1 {
     font-size: 64px;
+    width: 100%;
     font-family: "Mohave", sans-serif;
     text-transform: uppercase;
     letter-spacing: 10px;
     font-weight: 400;
     padding: 0 100px;
     text-align: center;
-    color: #312F2F; }
+    color: #5DFDCB; }
     #wrap h1 .big {
       font-size: 104px;
       width: 100%;
       display: block;
       font-weight: 800;
       letter-spacing: 20px;
-      border-bottom: solid #FF715B 3px;
+      border-bottom: solid #5DFDCB 3px;
       padding: 0 40px;
       box-sizing: border-box; }
   #wrap .section {
@@ -43,6 +44,7 @@ body {
     padding: 30px;
     background-color: white;
     box-shadow: 5px 5px 15px #666666;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -67,7 +69,10 @@ body {
       text-align: center;
       background-color: #90A8C3;
       color: white;
-      pointer-events: none; }
+      pointer-events: none;
+      margin-top: 50px; }
+    #wrap .section .button#deleteAllPkg {
+      pointer-events: all; }
     #wrap .section .button:hover {
       cursor: pointer; }
   #wrap .popupWrap {
@@ -112,7 +117,7 @@ body {
           font-weight: 700;
           text-transform: uppercase;
           font-family: "Mohave", sans-serif;
-          background-color: #FF715B;
+          background-color: #5DFDCB;
           color: #312F2F;
           letter-spacing: 5px;
           border-radius: 10px 10px 0 0; }
@@ -196,16 +201,27 @@ body {
     padding: 10px;
     font-family: "Lato", sans-serif; }
   .row #zip {
-    width: 300px; }
+    width: 300px;
+    /*FILEPOND STYLE MODIFICATIONS*/ }
     .row #zip label {
       text-align: center; }
+    .row #zip .filepond--file-action-button, .row #zip .filepond--progress-indicator {
+      left: .8em; }
+    .row #zip .filepond--file-info {
+      margin-left: 2.3em;
+      margin-right: 0;
+      transform: none !important; }
+    .row #zip .filepond--action-retry-item-processing, .row #zip .filepond--file-status-sub {
+      display: none; }
+    .row #zip .filepond--file .filepond--file-status {
+      margin-right: 0; }
   .row .filepond--drop-label label {
     font-size: 16px; }
 
 .error {
   width: 80%;
   margin: auto;
-  background-color: #FF715B;
+  background-color: #5DFDCB;
   padding: 20px;
   font-size: 32px;
   color: white; }
@@ -214,6 +230,12 @@ body {
   background-color: #90A8C3; }
 
 .filepond--label-action {
-  text-decoration-color: #FF715B; }
+  text-decoration-color: #5DFDCB; }
+
+/*JQUERY UI STYLE MODIFICATIONS*/
+.ui-menu {
+  background-color: white; }
+  .ui-menu .ui-menu-item {
+    color: #64A6BD; }
 
 /*# sourceMappingURL=style.css.map */

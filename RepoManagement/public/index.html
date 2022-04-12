@@ -4,30 +4,39 @@
   <title>ghxstdev Repo Management</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT AWESOME -->
   <script src="https://kit.fontawesome.com/a062562745.js" crossorigin="anonymous"></script>
+
+  <!-- JQUERY INCLUDES -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-
-<!-- FILEPOND FOUND HERE: https://github.com/pqina/filepond -->
-
-<link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet" />
-<link
-    href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css"
+  <link
+    href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"
     rel="stylesheet"
-/>
-  <link rel="stylesheet" href="./assets/style.css">
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-<script src="https://unpkg.com/filepond/dist/filepond.js"></script>
-<script src="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.js"></script>
-<script src="https://unpkg.com/filepond-plugin-file-validate-type/dist/filepond-plugin-file-validate-type.js"></script>
+
+  <!-- FILEPOND: https://github.com/pqina/filepond -->
+
+  <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet" />
+  <link
+      href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css"
+      rel="stylesheet"
+  />
+  <link href="./assets/style.css" rel="stylesheet">
+  <script src="./assets/main.js"></script>
+
+  <script src="https://unpkg.com/filepond/dist/filepond.js"></script>
+  <script src="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.js"></script>
+  <script src="https://unpkg.com/filepond-plugin-file-validate-type/dist/filepond-plugin-file-validate-type.js"></script>
 
 
 </head>
-<body>
+<body onload="init()">
   <div id='wrap'>
     <div class='popupWrap'>
       <div class='popup'>
-
         <div id='formWrap'></div>
       </div>
     </div>
@@ -45,6 +54,7 @@
       <div class='row'>
         <label>Package</label>
         <input class='field' type='text'>
+
       </div>
       <a class='button'>Next</a>
     </div>
@@ -53,6 +63,7 @@
       <div class='row'>
         <label>Package</label>
         <input class='field' type='text'>
+
       </div>
       <a class='button'>Next</a>
     </div>
@@ -61,6 +72,7 @@
       <div class='row'>
         <label>Package</label>
         <input class='field' type='text'>
+
       </div>
       <a class='button'>Next</a>
     </div>
@@ -69,6 +81,7 @@
       <div class='row'>
         <label>Package</label>
         <input class='field' type='text'>
+
       </div>
       <a class='button'>Next</a>
     </div>
@@ -77,179 +90,23 @@
       <div class='row'>
         <label>Package</label>
         <input class='field' type='text'>
+
       </div>
       <a class='button'>Next</a>
     </div>
     <div class='section' id='deleteAllPkg'>
       <h2>Delete All Packages</h2>
-      <a class='button'>Next</a>
+      <a class='button' id='deleteAllPkg'>Next</a>
     </div>
     <div class='section' id='deleteAllVersion'>
       <h2>Delete All Versions</h2>
       <div class='row'>
         <label>Package</label>
         <input class='field' type='text'>
+
       </div>
       <a class='button'>Next</a>
     </div>
   </div>
-  <script>
-  $(document).ready(function(){
-    FilePond.registerPlugin(FilePondPluginFileValidateType);
-    FilePond.registerPlugin(FilePondPluginImagePreview);
-    //get zip from filepond upload
-    const zip = document.getElementById('zip')
-    const zippond = FilePond.create( zip );
-    zippond.setOptions({
-      server: "/zip",
-      acceptedFileTypes: ['application/zip'],
-      labelIdle: '<span class="filepond--label-action">.zip File</span>',
-      allowImagePreview: false,
-      onprocessfiles() {
-        //first, we need to make sure this zip file contains a control file
-        $.post('/processDeb', {}, function(data) {
-          if(data.exist) {
-            $('#zipNext').css('pointerEvents', 'auto');
-            $.get('/readControl', {}, function(data) {
-              //data is the data from readControl. JSON-parse this data
-              //so it can be passed to the popup script
-
-              //Solution found here
-              //https://stackoverflow.com/questions/1086404/string-to-object-in-js
-              var properties = data.data.split('\n');
-                var obj = {};
-                properties.forEach(function(property) {
-                    var tup = property.split(': ');
-                    if(obj[tup[0]] !== "" && tup[1])
-                      obj[tup[0]] = tup[1];
-              });
-              //some control files may not have a depends. It needs to be there regardless.
-              if(!'Depends' in obj)
-                obj.Depends = "";
-              $.post('/popup/newPkg', {obj}, function(text){
-                  $('#formWrap').html(text);
-                  const screenshots = document.getElementById('screenshots')
-                  const scpond = FilePond.create( screenshots );
-                  scpond.setOptions({
-                    server: "/upload",
-                    allowMultiple: true,
-                    allowImagePreview: true,
-                    acceptedFileTypes: ['image/*']
-                  });
-              });
-            })
-          } else {
-            alert('No path /DEBIAN/control in the zip you are uploading.\nInvalid Zip File');
-            zippond.removeFile({ revert: true });
-          }
-        } );
-      }
-    });
-  })
-
-  $('.field').on('input', function(e) {
-    let nextBtn = $(this).parent().parent().find('.button');
-    if($(this).val()) nextBtn.css('pointerEvents', 'auto');
-    else nextBtn.css('pointerEvents', 'none');
-  })
-  $('.button').click(function(e){
-    let parent = $(this).parent(),
-        id = parent.attr('id'),
-        value = parent.find('.row .field').val();
-    //for newPkg, we fill info from control file
-    if(id !== 'newPkg' && value && packageExists(value)) {
-    //Auto-fill information from database
-
-    //check if updating package or version
-
-    let obj;
-    if(id === 'updatePkg' || id === 'deletePkg' || id === 'deleteAllPkg') {
-      obj = {
-        Package: value,
-        Name: "Package name",
-        Author: "Author of Package",
-        Maintainer: "Maintainer of package",
-        Description: "Description of package",
-        Section: "package section",
-        Depends: "package depends"
-      }
-      //temporary solution. It should be outside of this if/else stmt
-      $.post('/popup/'+id, {obj}, function(data){
-          $('#formWrap').html(data);
-          const screenshots = document.getElementById('screenshots')
-          const scpond = FilePond.create( screenshots );
-          scpond.setOptions({
-            server: "/upload",
-            allowMultiple: true,
-            allowImagePreview: true,
-            acceptedFileTypes: ['image/*']
-          });
-          if(id === 'updatePkg') {
-            //If updating an already-existing package, get current screenshots
-            $.post('/currentScreenshots', {package: value}, function(data) {
-              //data is the data from currentScreenshots. Pass to filepond
-              data.forEach(file => { scpond.addFile('./tmp/sc/'+file); } );
-            })
-          }
-        });
-    } else {
-      $.get('/versionSelect', {}, function(data) {
-        if(id === 'newVersion') {
-          obj = {
-            Package: value,
-            MostRecent: "1.0",
-            Options: "",
-            Description: "",
-            VersionInput: "<label>Version Number*<input type='text' name='version'id='version' required></label>"
-          }
-        } else if (id === 'updateVersion' || id === 'deleteVersion'
-                  || id === 'deleteAllVersion') {
-          obj = {
-            Package: value,
-            MostRecent: "1.0",
-            Options: data,
-            Description: "Description of version",
-            VersionInput: ""
-          }
-        }
-
-
-        //temporary solution. This is firing before the $.get returns obj.
-        $.post('/popup/'+id, {obj}, function(data){
-            $('#formWrap').html(data);
-            const screenshots = document.getElementById('screenshots')
-            const scpond = FilePond.create( screenshots );
-            scpond.setOptions({
-              server: "/upload",
-              allowMultiple: true,
-              allowImagePreview: true,
-              acceptedFileTypes: ['image/*']
-            });
-          });
-      })
-    }
-    }
-    else if(id !== 'newPkg'){
-      $('#formWrap').html('<p class=\"error\">Package '+value+' Not Found</p>');
-    }
-    showPopup();
-  })
-
-  function showPopup() {
-    $('.popupWrap').show();
-    $('.field').val('')
-    $('.button').css('pointerEvents', 'none');
-  }
-  function packageExists(package) {
-    return true;
-  }
-  function updateVersionDesc() {
-    let version = document.getElementById('versionNum').value;
-    //value = get from database
-    let value = "Description For Version " + version;
-    document.getElementById('description').innerHTML = value;
-  }
-
-  </script>
 </body>
 </html>
