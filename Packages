@@ -58,10 +58,10 @@ Author: ghxstdev Repo
 Section: XenHTML
 Depends: com.junesiphone.xeninfo
 Filename: debs/HSPill.deb
-Size: 1028508
-MD5sum: 20abd1b88b6d4eae25df14cbe6c1f989
-SHA1: 3b981ae0992aaecd282363022cb4bd5277df2558
-SHA256: 99c0749b37990c260937c704bb72070690860c426696fb4ea1fc495a41d53d9c
+Size: 1028432
+MD5sum: dfc5f7f61066d2927e0149fab09ba584
+SHA1: 6996ab4b9b8fe10dfd2676f56de677f249bd2bed
+SHA256: f0982f3c4304a22e746fc55f467b393ac18a3cb533a99e2c09e3310814245f0f
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSPillPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hspillpack
 
@@ -98,6 +98,23 @@ SHA1: 90fb56e15564b48118169495999e49c75347a1bd
 SHA256: 5a5e8f22eda4be17073c07d91e99f7c9bac88a96a0fbcf9a9edc1a8731687eb9
 Icon: https://eghxst.github.io/cydia/imgs/repoicons/HSSplitPack.png
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.hssplitpack
+
+Package: com.ghxstdev.kai
+Name: Kai
+Version: 1.0
+Architecture: iphone-os-arm
+Description: Dark themed icons with a pop of color
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: Themes
+Depends: com.anemonetheming.anemone | com.spark.snowboard
+Filename: debs/Kai.deb
+Size: 2443388
+MD5sum: 7317dd10c556f91da98a6442b3714c52
+SHA1: c0970ea4f50c2715fbeab102d1b77718b8c5ddad
+SHA256: 4408a39fe11d8efb229ffd3cb2fe250962242cc78a0e56a8d94853f2bbed912b
+Icon: Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.kai Depends: com.anemonetheming.anemone | com.spark.snowboard
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.kai
 
 Package: com.ghxstdev.sodapop
 Name: Soda Pop
