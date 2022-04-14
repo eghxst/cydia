@@ -109,10 +109,10 @@ Author: ghxstdev Repo
 Section: Themes
 Depends: com.anemonetheming.anemone | com.spark.snowboard
 Filename: debs/Kai.deb
-Size: 2026444
-MD5sum: d6eddd3c304e20cf9d29f2078ad10aa8
-SHA1: 5146be701d292cb32f5e231367e01ea4ab46ea9c
-SHA256: 4152b2767a55c9c404e0059053fe690840316677f878448da54961856a013eb9
+Size: 2944608
+MD5sum: dce89eb9a29edfaebd6cae11d625cd5e
+SHA1: 6688ae768e6be611dece57d8dbcf9a46d3736a29
+SHA256: fed52c0190b0ab721cec3ebbe7edc3a8875952b4a40bd6fc3f0b448cf7dcbb54
 Icon: Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.kai Depends: com.anemonetheming.anemone | com.spark.snowboard
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.kai
 
