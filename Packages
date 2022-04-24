@@ -116,6 +116,23 @@ SHA256: 7e199b3f9f50f457d5e66b2a3ccc137dd43043301ac2f14184fa2ed42bb2a8d9
 Icon: Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.kai Depends: com.anemonetheming.anemone | com.spark.snowboard
 Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.kai
 
+Package: com.ghxstdev.kai
+Name: Kai
+Version: 1.2
+Architecture: iphone-os-arm
+Description: Dark themed icons with a pop of color V2
+Maintainer: eghxst
+Author: ghxstdev Repo
+Section: Themes
+Depends: com.anemonetheming.anemone | com.spark.snowboard
+Filename: debs/Kaiv2.deb
+Size: 3379116
+MD5sum: da48071b559d3a01d3b6c3afc9dfa94a
+SHA1: 241b5c55962e2763ddfb827ea0f6508465615229
+SHA256: 76f3a7c6952b04a7acaafc863f24b1e7b03433c63adada57864aa0b944c383ae
+Icon: Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.kai Depends: com.anemonetheming.anemone | com.spark.snowboard
+Depiction: https://eghxst.github.io/cydia/depictions/?p=com.ghxstdev.kai
+
 Package: com.ghxstdev.sodapop
 Name: Soda Pop
 Version: 1.0
